@@ -1,7 +1,12 @@
 body {
-    border: 10px solid red;
+    border: 1px dashed red;
+}
+.container{
+    background: gold;
 }
 
-.application {
-    background: green;
+
+
+.navbar-brand > img{
+    height: 50px;
 }
