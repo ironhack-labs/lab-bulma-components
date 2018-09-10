@@ -107,14 +107,12 @@ class NavBar extends React.Component {
             <span />
           </div>
         </div>
-
         <div id="navbarExampleTransparentExample" class="navbar-menu">
           <div class="navbar-start">
             <a class="navbar-item" href="https://bulma.io/">
               Home
             </a>
           </div>
-
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="field is-grouped">
