@@ -37,6 +37,15 @@ First let's get set up:
 $ npm install react react-dom
 ```
 
+In your `index.js`, have `ReactDOM` render just the `App` component:
+
+```jsx
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
+```
+
 ```
 starter-code/
 ├── dist/
@@ -58,7 +67,7 @@ To get Bulma, install the npm package:
 $ npm install bulma
 ```
 
-Now import the Bulma CSS in your `App.js`:
+Now import the Bulma CSS in your `index.js`:
 
 ```javascript
 import 'bulma/css/bulma.css';
