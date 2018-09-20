@@ -7,7 +7,13 @@
 Do you know [Bulma](https://bulma.io), a very nice alternative to Bootstrap as a CSS framework? We are going to create a simple website with Bulma and React!
 
 
-You can find the starter code in the starter code folder of this Github repo.
+
+## Requirements
+
+- Fork this repo
+- Clone this repo
+
+You can find the starter code in the starter code folder of this GitHub repo.
 
 
 ## Submission
@@ -20,47 +26,54 @@ You can find the starter code in the starter code folder of this Github repo.
   git push origin master
   ```
 
-- Navigate to your repo and [create a Pull Request](https://help.github.com/articles/creating-a-pull-request/)
+- Create Pull Request so your TAs can check up your work.
 
 
-## Installation 
+## Setup
 
-### Setup a basic project
-Commands to launch
-```sh
-$ npm install -g create-react-app # Install globally the `create-react-app` command
-$ create-react-app starter-code # Create a React project folder "starter-code"
-$ cd starter-code
-$ rm -f src/*
-$ touch src/index.js src/index.css # Create 2 files
+First let's get set up:
+
+1) Inside `starter-code/` run `npm install`.
+2) Create the folders you will need for the project: `dist/`, `public/` and `src/`.
+3) Create an `index.html` file inside of `public/`.
+4) Create `index.js` and `App.js` files inside the `src/` folder.
+5) Install the `react` and `react-dom` packages.
+
+```bash
+$ npm install react react-dom
 ```
 
-Your `src/index.js` file
-```javascript
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+In your `index.js`, have `ReactDOM` render just the `App` component:
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        {/* Your application code */}
-      </div>
-    );
-  }
-}
-
+```jsx
 ReactDOM.render(
   <App />,
   document.getElementById('root')
 );
 ```
 
+```
+starter-code/
+├── dist/
+├── package-lock.json
+├── package.json
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js
+│   └── index.js
+└── webpack.config.js
+```
+
+
 ### Bulma installation
+
+To get Bulma, install the npm package:
 ```
-$ npm install --save bulma
+$ npm install bulma
 ```
+
+Now import the Bulma CSS in your `index.js`:
 
 ```javascript
 import 'bulma/css/bulma.css';
@@ -69,16 +82,58 @@ import 'bulma/css/bulma.css';
 
 ## Instructions
 
-### Iteration 1 | `Button` Component
+### Iteration 1 | `Navbar` Component
 
-The goal is to create a component called `Button` that creates a `<button>` with the nice Bulma classes.
+Create a `Navbar` component, very simple, that displays a link to "Home", "Login" and "Signup" like in the following example:
+
+![](https://i.imgur.com/dMaNMeM.png)
+
+To help you, you can use the code from the [Bulma Transparent Navbar](https://bulma.io/documentation/components/navbar/#transparent-navbar).
+
+In the end, you will just need to write `Navbar` in your JSX to display your navbar.
+
+
+### Iteration 2 | `FormField` Component
+
+Now it's time to create a new component `FormField` we will use multiple times in the future.
+
+```jsx
+// JSX version
+<FormField label="Name" type="text" placeholder="e.g Alex Smith" />
+<FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+```
+
+```html
+<!-- What is rendered in the DOM -->
+<div class="field">
+  <label class="label">Name</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="e.g Alex Smith">
+  </div>
+</div>
+<div class="field">
+  <label class="label">Email</label>
+  <div class="control">
+    <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+  </div>
+</div>
+```
+
+What is visually rendered
+
+![](https://i.imgur.com/8sKyKxI.png)
+
+
+### Iteration 3 | `CoolButton` Component
+
+The goal is to create a component called `CoolButton` that creates a `<button>` with the nice Bulma classes.
 
 You will find the Bulma buttons documentation here: https://bulma.io/documentation/elements/button/
 
-```html
-<!-- JSX version -->
-<Button isSmall isDanger className="is-rounded my-class">Button 1</Button>
-<Button isSmall isSuccess>Button 2</Button>
+```jsx
+// JSX version
+<CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
+<CoolButton isSmall isSuccess>Button 2</CoolButton>
 ```
 ```html
 <!-- What is rendered in the DOM -->
@@ -90,10 +145,11 @@ What is visually rendered
 
 ![](https://i.imgur.com/qrfQG18.png)
 
- 
-Because there are many cases to code, focus on the following classes: `is-primary`, `is-success`, `is-danger`. 
+Because there are many cases to code, focus on the following classes: `is-primary`, `is-success`, `is-danger`.
 
 If you need any help, you can have a look how to take the content between an opening tag and a closing tag: [Children in JSX](https://reactjs.org/docs/jsx-in-depth.html#children-in-jsx)
+
+Change your `Navbar` component so it uses the `CoolButton` component for the "Login" and "Signup" buttons.
 
 #### Bonus
 
@@ -131,78 +187,33 @@ If you want, you can do all the cases by using the following object:
 ```
 
 
-### Iteration 2 | `Navbar` Component
-
-Create a `Navbar` component, very simple, that displays a link to "Home", "Login" and "Signup" like in the following example:
-
-![](https://i.imgur.com/dMaNMeM.png)
-
-For the "Login" and "Signup" button, you will have to reuse your `Button` React component.
-
-To help you, you can use the code from the [Bulma Transparent Navbar](https://bulma.io/documentation/components/navbar/#transparent-navbar).
-
-In the end, you will just need to write `Navbar` in your JSX to display your navbar.
-
-
-### Iteration 3 | `FormField` Component
-
-Now it's time to create a new component `FormField` we will use multiple times in the future.
-
-
-
-```html
-<!-- JSX version -->
-<FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-<FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
-```
-```html
-<!-- What is rendered in the DOM -->
-<div class="field">
-  <label class="label">Name</label>
-  <div class="control">
-    <input class="input" type="text" placeholder="e.g Alex Smith">
-  </div>
-</div>
-<div class="field">
-  <label class="label">Email</label>
-  <div class="control">
-    <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
-  </div>
-</div>
-```
-
-What is visually rendered
-
-![](https://i.imgur.com/8sKyKxI.png)
-
 ### Iteration 4 | A Signup Page
 
-<!-- TODO: make a screenshot of that page and overlay the different components -->
 
-Create a Signup page that contains:
-- `Navbar`
-- A form
-  - A name `FormField`
-  - An email `FormField`
-  - A password `FormField`
-  - A signup `Button`
+Create a `Signup` component that contains:
+- A `Navbar`
+- A form with
+  - A `FormField` for name
+  - An `FormField` for email
+  - A `FormField` for password
+  - A `CoolButton` for submitting the form
 
 
 ### Iteration 5 | Bonus
 
-Before contunuing, ask for feedback from one of your teachers, he will give you a feedback about what you've done.
+Before continuing, ask for feedback from one of your teachers, they will give you a feedback about what you've done.
 
 Then, you can:
 - Refactor your code
 - Create a `Container` component (for the class "container")
-- Create a `Message` component, like explained just after
+- Create a `Message` component (see the following explanation)
 
 ####  Message Component
 
 Now, we are going to create `Message` component. You can find the documentation on Bulma's website: https://bulma.io/documentation/components/message/
 
-```html
-<!-- JSX version -->
+```jsx
+// JSX version
 <Message isInfo title="Hello World">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>.
 </Message>
@@ -212,3 +223,4 @@ What is visually rendered
 
 ![](https://i.imgur.com/qmD2Nkb.png)
 
+Happy coding! :heart:
