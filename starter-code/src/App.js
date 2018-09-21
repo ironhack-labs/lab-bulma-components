@@ -32,23 +32,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p> */}
         <Navbar>
           <NavbarBrand>
             <NavbarItem>
               <img src="/images/bulma.png" alt="bulma" class="bulma-icon" />
-            </NavbarItem>
-            <NavbarItem isHidden="desktop">
-              <Icon className="fa fa-github" />
-            </NavbarItem>
-            <NavbarItem isHidden="desktop">
-              <Icon className="fa fa-twitter" style={{ color: "#55acee" }} />
             </NavbarItem>
           </NavbarBrand>
           <NavbarMenu onClick={this.onClickNav}>
@@ -56,15 +43,6 @@ class App extends Component {
               <NavbarItem href="#/">Home</NavbarItem>
             </NavbarStart>
             <NavbarEnd>
-              <NavbarItem
-                href="https://github.com/AlgusDark/bloomer"
-                isHidden="touch"
-              >
-                <Icon className="fa fa-github" />
-              </NavbarItem>
-              <NavbarItem href="https://twitter.com/AlgusDark" isHidden="touch">
-                <Icon className="fa fa-twitter" style={{ color: "#55acee" }} />
-              </NavbarItem>
               <NavbarItem>
                 <Field isGrouped>
                   <Control>
