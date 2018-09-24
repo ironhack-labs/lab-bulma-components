@@ -1,4 +1,5 @@
 import React from 'react';
+import CoolButton from '../UI/CoolButton/CoolButton';
 
 const navBar = (props) => {
     return (
@@ -25,16 +26,10 @@ const navBar = (props) => {
                     <div className="navbar-item">
                         <div className="field is-grouped">
                             <p className="control">
-                                <a className="button is-info"
-                                   href="#">
-                                     Login
-                                </a>
+                                <CoolButton isMedium isDanger>Login</CoolButton>
                             </p>
                             <p className="control">
-                                <a className="button is-primary"
-                                   href="#">
-                                    Signup
-                                </a>
+                                <CoolButton isMedium isSuccess>Signup</CoolButton>
                             </p>
                         </div>
                     </div>

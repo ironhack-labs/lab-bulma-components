@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e84edf35-0d9c-439b-80f5-42eeb09267ad" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/bulma-components/src/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bulma-components/src/FormField/FormField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bulma-components/src/components/FormField/FormField.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bulma-components/src/components/UI/CoolButton/CoolButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bulma-components/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/bulma-components/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bulma-components/src/FormField/FormField.js" beforeDir="false" afterPath="$PROJECT_DIR$/bulma-components/src/components/FormField/FormField.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bulma-components/src/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/bulma-components/src/components/Navbar/Navbar.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +24,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bulma-components/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="135">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -28,11 +33,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormField.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bulma-components/src/FormField/FormField.js">
+      <file leaf-file-name="Navbar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bulma-components/src/components/Navbar/Navbar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="93" selection-start-line="6" selection-start-column="93" selection-end-line="6" selection-end-column="93" />
+            <state relative-caret-position="420">
+              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormField.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bulma-components/src/components/FormField/FormField.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoolButton.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bulma-components/src/components/UI/CoolButton/CoolButton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormField.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bulma-components/src/components/FormField/FormField.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,9 +95,13 @@
         <option value="$PROJECT_DIR$/starter-code/src/index.js" />
         <option value="$PROJECT_DIR$/starter-code/src/Navbar/Navbar.js" />
         <option value="$PROJECT_DIR$/bulma-components/src/index.js" />
-        <option value="$PROJECT_DIR$/bulma-components/src/App.js" />
         <option value="$PROJECT_DIR$/bulma-components/src/Navbar/Navbar.js" />
         <option value="$PROJECT_DIR$/bulma-components/src/FormField/FormField.js" />
+        <option value="$PROJECT_DIR$/bulma-components/src/App.js" />
+        <option value="$PROJECT_DIR$/bulma-components/src/components/FormField/FormField.js" />
+        <option value="$PROJECT_DIR$/bulma-components/src/components/FormField/FormField.css" />
+        <option value="$PROJECT_DIR$/bulma-components/src/components/UI/CoolButton/CoolButton.js" />
+        <option value="$PROJECT_DIR$/bulma-components/src/components/Navbar/Navbar.js" />
       </list>
     </option>
   </component>
@@ -112,7 +154,23 @@
               <item name="lab-bulma-components" type="462c0819:PsiDirectoryNode" />
               <item name="bulma-components" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FormField" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab-bulma-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab-bulma-components" type="462c0819:PsiDirectoryNode" />
+              <item name="bulma-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Navbar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab-bulma-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab-bulma-components" type="462c0819:PsiDirectoryNode" />
+              <item name="bulma-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,6 +186,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bulma-components/src/components" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,12 +215,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537798900679</updated>
       <workItem from="1537798902502" duration="1326000" />
-      <workItem from="1537800281857" duration="1597000" />
+      <workItem from="1537800281857" duration="3757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2923000" />
+    <option name="totallyTimeSpent" value="5083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="921" extended-state="0" />
@@ -271,30 +334,47 @@
     <entry file="file://$PROJECT_DIR$/bulma-components/src/Navbar/Navbar.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bulma-components/src/Navbar/Navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-          <folding>
-            <element signature="e#129#666#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bulma-components/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bulma-components/src/FormField/FormField.js">
+    <entry file="file://$PROJECT_DIR$/bulma-components/src/components/FormField/FormField.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="93" selection-start-line="6" selection-start-column="93" selection-end-line="6" selection-end-column="93" />
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulma-components/src/components/FormField/FormField.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulma-components/src/components/UI/CoolButton/CoolButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulma-components/src/components/Navbar/Navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
