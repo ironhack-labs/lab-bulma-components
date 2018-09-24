@@ -1,0 +1,12 @@
+.form-wrapper, .sign-header {
+    max-width: 500px;
+    font-size: 1.4rem;
+    margin:0 auto;
+    margin-top: 30px;
+}
+
+.sign-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
