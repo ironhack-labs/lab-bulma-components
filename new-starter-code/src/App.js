@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import 'bulma/css/bulma.css';
 import Navbar from './Navbar';
-import Formfield from './Formfield';
+import FormField from './FormField';
+import CoolButton from './CoolButton';
 
 
 class App extends Component {
@@ -12,7 +13,11 @@ class App extends Component {
       <div className="App">
 
 <Navbar/>
-<Formfield/>
+<FormField content="Name" inputType = "text" holder = "e.g Alex Smith"/>
+<FormField content="Email" inputType = "email" holder = "e.g alexsmith@gmail.com"/>
+
+
+{/* <CoolButton/> */}
 
       </div>
     );

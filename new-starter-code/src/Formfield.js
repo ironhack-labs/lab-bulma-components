@@ -3,30 +3,26 @@ import logo from './logo.svg';
 import './App.css';
 import 'bulma/css/bulma.css';
 
-class Formfield extends Component{
+class FormField extends Component{
+  constructor(props){
+    super(props)
+    this.state={}
+  }
+
+
+
   render () {
     return (
-      
-      <form>
-
-    <div className="field">
-    <label className="label">Name</label>
-    <div className="control">
-      <input className="input" type="text" placeholder="e.g Alex Smith"/>
-    </div>
-  </div>
-
       <div className="field">
-    <label className="label">Email</label>
-    <div className="control">
-      <input className="input" type="email" placeholder="e.g. alexsmith@gmail.com"/>
-    </div>
+  <label className="label">{this.props.content}</label>
+  <div className="control">
+    <input className="input" type={this.props.inputType} placeholder={this.props.holder}/>
   </div>
+</div>
 
-    </form>
 
       )
   }
 }
 
-export default Formfield;
+export default FormField;

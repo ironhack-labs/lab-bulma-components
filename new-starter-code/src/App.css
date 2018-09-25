@@ -30,3 +30,9 @@
 .bulma1{
   height: 7vh;
 }
+
+.field{
+  width: 80vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}

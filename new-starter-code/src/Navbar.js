@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import "bulma/css/bulma.css";
+import CoolButton from './CoolButton';
 
 class Navbar extends Component {
   render() {
@@ -27,10 +28,11 @@ class Navbar extends Component {
         </div>
         <div className="navbar-end">
           <div className="navbar-item">
-            <button>Login</button>
+<CoolButton text="log in"/>
+
           </div>
           <div className="navbar-item">
-            <button>Signup</button>
+            <CoolButton text="sign up"/>
           </div>
         </div>
       </nav>
