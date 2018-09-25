@@ -22,32 +22,12 @@ class App extends Component {
         Home
       </a>
     </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="field is-grouped">
-          {/* <p class="control">
-            
-            <a class="button is-primary">
-              <span>Login</span>
-            </a>
-
-          </p>
-          <p class="control">
-            <a class="button is-success" href="#">
-              <span>Sign Up</span>
-            </a>
-          </p> */}
-        </div>
-      </div>
-    </div>
   </div>
 </nav>
-
+<div className="nav-button">
 <FormField/>
-
 <SignUp/>
-
+</div>
 
 </section>
     );
