@@ -27,8 +27,8 @@ class CoolButton extends Component {
 }
 const Child = () => (
   <div>
-    <FormField labelName="Name" type="text" placeHolder="Boba Fett"></FormField>
-    <FormField labelName="Email" type="email" placeHolder="BFett@imgoingin.com"></FormField>
+    <FormField labelName="Name" type="text" placeholder="Boba Fett"></FormField>
+    <FormField labelName="Email" type="email" placeholder="BFett@imgoingin.com"></FormField>
   </div>
   );
   
