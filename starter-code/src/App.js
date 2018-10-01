@@ -52,20 +52,34 @@ const FormField = props => {
     <div className="field">
       <label className="label">{props.label}</label>
       <div className="control">
-        <input className="input" type={props.type} placeholder={props.placeholder} />
+        <input
+          className="input"
+          type={props.type}
+          placeholder={props.placeholder}
+        />
       </div>
     </div>
   );
 };
 
+const CoolButton = (props) => {
+  return (
+  <button {props.className}>
+
+  </button>
+    )
+};
+
 export const App = () => (
   <div>
     <Navbar />
-    <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-    <FormField
-      label="Email"
-      type="email"
-      placeholder="e.g. alexsmith@gmail.com"
-    />
+    <div>
+      <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
+      <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com"/>
+    </div>
+    <div>
+    <CoolButton className="is-rounded my-class isSmall isDanger">Button 1</CoolButton>
+    <CoolButton className="isSmall isSuccess">Button 2</CoolButton>
+    </div>
   </div>
 );
