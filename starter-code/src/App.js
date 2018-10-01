@@ -3,6 +3,9 @@ export const App = () => {
   return (
     <div>
       <Navbar />
+      <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
+<FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+     
     </div>
   )
 }
@@ -55,10 +58,10 @@ const Navbar = () => {
     </nav>
   )
 }
-const formField = ({ name, type, placeholder }) => {
+const FormField = ({ label, type, placeholder }) => {
   return (
     <div className="field">
-      <label className="label">{name}</label>
+      <label className="label">{label}</label>
       <div className="control">
         <input className="input" type={type} placeholder={placeholder} />
       </div>
