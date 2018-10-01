@@ -1,4 +1,6 @@
 import React from "react";
+var classNames = require( 'classnames' );
+import 'bulma/css/bulma.css';
 
 const Navbar = () => {
   return (
@@ -19,75 +21,73 @@ const Navbar = () => {
         <a className="navbar-item" href="https://bulma.io/">
           Home
         </a>
-        <div className="navbar-item has-dropdown is-hoverable">
-          <a className="navbar-link" href="/documentation/overview/start/">
-            Docs
-          </a>
-          <div className="navbar-dropdown is-boxed">
-            <a className="navbar-item" href="/documentation/overview/start/">
-              Overview
-            </a>
-            <a className="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
-              Modifiers
-            </a>
-            <a className="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-              Columns
-            </a>
-            <a className="navbar-item" href="https://bulma.io/documentation/layout/container/">
-              Layout
-            </a>
-            <a className="navbar-item" href="https://bulma.io/documentation/form/general/">
-              Form
-            </a>
-            <hr className="navbar-divider"/>
-            <a className="navbar-item" href="https://bulma.io/documentation/elements/box/">
-              Elements
-            </a>
-            <a className="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
-              Components
-            </a>
-          </div>
-        </div>
       </div>
+    </div>
 
     <div className="navbar-end">
       <div className="navbar-item">
         <div className="field is-grouped">
-          <p className="control">
-            <a className="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
-              <span className="icon">
-                <i className="fab fa-twitter"></i>
-              </span>
-              <span>
-                Tweet
-              </span>
-            </a>
-          </p>
-          <p className="control">
-            <a className="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.7.1/bulma-0.7.1.zip">
-              <span className="icon">
-                <i className="fas fa-download"></i>
-              </span>
-              <span>Download</span>
-            </a>
-          </p>
+          <CoolButton isSmall isDanger className="is-rounded my-class" text="Login"></CoolButton>
+        </div>
+      </div>
+      <div className="navbar-item">
+        <div className="field is-grouped">
+         <CoolButton isSmall isSuccess text="Signup"></CoolButton>
         </div>
       </div>
     </div>
-  </div>
 </nav>
 
 
   )
 }
 
+const FormField = ({label, type, placeholder}) => {
+  return (
+  <div className="field">
+    <label className="label">{label}</label>
+    <div className="control">
+      <input className={label} type={type} placeholder={placeholder}/>
+    </div>
+  </div>
+  )
+};
+
+const CoolButton = props => {
+  const classes = classNames({
+    'is-small': props.isSmall,
+    'is-success': props.isSuccess,
+    'is-danger': props.isDanger
+  })
+  const text = props.text
+
+  return (
+    <button className={classes}>{text}</button>
+  )
+};
+
+const Signup = () => {
+  return (
+    <div>
+      <Navbar/>
+      <form>
+        <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
+        <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+        <FormField label="Password" type="password" placeholder="your password" />
+      </form>
+    </div>
+  )
+};
+
+
+
+
+
 export const App = () => {
   return (
-      <div>
-          <Navbar/>
-      </div>
+    <Signup/>
   )
-}
+};
 
 
 
