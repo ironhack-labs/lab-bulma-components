@@ -1,9 +1,10 @@
 import React from "react";
-import {NavItem} from "./navItem";
+import {NavLink} from "./navLink";
+import {NavButton} from "./navButton";
 
 export const NavBar = () => {
 	return (
-		<nav className="navbar is-transparent">
+		<nav className="navbar is-light">
 			<div className="navbar-brand">
 				<a className="navbar-item" href="https://bulma.io">
 					<img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28"/>
@@ -16,7 +17,16 @@ export const NavBar = () => {
 			</div>
 
 			<div id="navbarExampleTransparentExample" className="navbar-menu">
-				<NavItem classNavStart="navbar-start" classNavItem="navbar-item" url="/" textLink="Home" />
+				<NavLink classNavStart="navbar-start" classNavItem="navbar-item" url="/" textLink="Home" />
+
+				<div className="navbar-end">
+					<div className="navbar-item">
+						<div className="field is-grouped">
+							<NavButton classNavEnd="navbar-end" classNavItem="navbar-item" classControl="control" classField="field" btnClasses="button is-info" url="#" target="_blank" navBtnText="Login" />
+							<NavButton classNavEnd="navbar-end" classNavItem="navbar-item" classControl="control" classField="field" btnClasses="button is-primary" url="#" target="_blank" navBtnText="Download" />
+						</div>
+					</div>
+				</div>
 			</div>
 		</nav>
 	)
