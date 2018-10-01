@@ -44,7 +44,7 @@ const FormField = (props) => {
 const CoolButton = (props) => {
     return (
         <div>
-            <button class={props.className}>Button 1</button>
+            <button class="button is-rounded my-class is-danger is-small">Button 1</button>
             <button class="button is-small is-success">Button 2</button>
         </div>
     )
@@ -57,8 +57,7 @@ export const App = () => {
             <Navbar />
             <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
             <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
-            <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
-            <CoolButton isSmall isSuccess>Button 2</CoolButton>
+            <CoolButton />
         </div>
 
     )
