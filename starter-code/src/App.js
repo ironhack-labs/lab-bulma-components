@@ -3,10 +3,6 @@ export const App = () => {
   return (
     <div>
       <Navbar />
-      <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-      <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
-      <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
-      <CoolButton isSmall isSuccess>Button 2</CoolButton>
     </div>
   )
 }
@@ -67,5 +63,16 @@ const CoolButton = ({ children, className="",...rest }) => {
   console.log(className)
   return (
     <button className={className} >{children}</button>
+  )
+}
+const Signup = () => {
+  return (
+    <form>
+      <Navbar />
+      <FormField label="Name" type="text" placeholder="e.g John Rambo" />
+      <FormField label="Email" type="email" placeholder="e.g. john@rambo.com" />
+      <FormField label="Password" type="password" placeholder="************" />
+      <CoolButton isSuccess>Submit</CoolButton>
+    </form>
   )
 }
