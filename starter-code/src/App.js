@@ -2,7 +2,13 @@ import React from "react";
 export const App = () => {
   return (
     <div>
+      <Container>
+      <Signup></Signup>
       <Navbar />
+        <Message isInfo title="Hello World">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>.
+        </Message>
+      </Container>
     </div>
   )
 }
@@ -54,13 +60,10 @@ const FormField = ({ label, type, placeholder }) => {
 // To be able to use spread operator
 // https://stefan.magnuson.co/articles/frontend/using-es7-spread-operator-with-webpack/
 const CoolButton = ({ children, className="",...rest }) => { 
-  console.log(rest)
   let restObj = Object.keys(rest).map(p=>{
     return p.replace(/([A-Z])/,"-$1").toLowerCase()
   })
-  console.log(restObj)
   className+=" button "+restObj.join(" ")
-  console.log(className)
   return (
     <button className={className} >{children}</button>
   )
@@ -74,5 +77,25 @@ const Signup = () => {
       <FormField label="Password" type="password" placeholder="************" />
       <CoolButton isSuccess>Submit</CoolButton>
     </form>
+  )
+}
+const Container=({children})=>{
+  return (<div className="container">{children}</div>)
+}
+const Message=({children,title,...rest})=>{
+  let restObj = Object.keys(rest).map(p=>{
+    return p.replace(/([A-Z])/,"-$1").toLowerCase()
+  })
+  const className="message "+restObj.join(" ")
+  return(
+    <article className={className}>
+      <div className="message-header">
+        <p>{title}</p>
+        <button className="delete" aria-label="delete"></button>
+      </div>
+      <div className="message-body">
+        {children}
+      </div>
+    </article>
   )
 }
