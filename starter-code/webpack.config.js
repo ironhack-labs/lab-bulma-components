@@ -10,6 +10,9 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /(node_modules|bower_components)/,
         loader: 'babel-loader',
+        query:{
+          presets:['react','stage-2']
+        }
       },
       {
         test: /\.css$/,

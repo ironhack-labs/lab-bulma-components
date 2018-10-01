@@ -4,8 +4,9 @@ export const App = () => {
     <div>
       <Navbar />
       <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-<FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
-     
+      <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+      <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
+      <CoolButton isSmall isSuccess>Button 2</CoolButton>
     </div>
   )
 }
@@ -34,22 +35,8 @@ const Navbar = () => {
           <div className="navbar-item">
             <div className="field is-grouped">
               <p className="control">
-                <a className="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
-                  <span className="icon">
-                    <i className="fab fa-twitter"></i>
-                  </span>
-                  <span>
-                    Login
-                  </span>
-                </a>
-              </p>
-              <p className="control">
-                <a className="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.7.1/bulma-0.7.1.zip">
-                  <span className="icon">
-                    <i className="fas fa-download"></i>
-                  </span>
-                  <span>Signup</span>
-                </a>
+                <CoolButton isSmall isInfo>Login</CoolButton>
+                <CoolButton isSmall isSuccess>Signup</CoolButton>
               </p>
             </div>
           </div>
@@ -66,5 +53,19 @@ const FormField = ({ label, type, placeholder }) => {
         <input className="input" type={type} placeholder={placeholder} />
       </div>
     </div>
+  )
+}
+// To be able to use spread operator
+// https://stefan.magnuson.co/articles/frontend/using-es7-spread-operator-with-webpack/
+const CoolButton = ({ children, className="",...rest }) => { 
+  console.log(rest)
+  let restObj = Object.keys(rest).map(p=>{
+    return p.replace(/([A-Z])/,"-$1").toLowerCase()
+  })
+  console.log(restObj)
+  className+=" button "+restObj.join(" ")
+  console.log(className)
+  return (
+    <button className={className} >{children}</button>
   )
 }
