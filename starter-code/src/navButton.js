@@ -1,10 +1,10 @@
 import React from "react";
 
-export const NavButton = ({classControl, btnClasses, target, url, navBtnText}) => {
+export const NavButton = ({btnStyle, target, url, navBtnText}) => {
 
 	return (
-		<p className={classControl}>
-			<a className={btnClasses} target={target} href={url}>{navBtnText}</a>
+		<p className="control">
+			<a className={`button ${btnStyle}`} target="_blank" href="#">{navBtnText}</a>
 		</p>
 	)
 }

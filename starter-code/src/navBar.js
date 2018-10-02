@@ -22,8 +22,8 @@ export const NavBar = () => {
 				<div className="navbar-end">
 					<div className="navbar-item">
 						<div className="field is-grouped">
-							<NavButton classNavEnd="navbar-end" classNavItem="navbar-item" classControl="control" classField="field" btnClasses="button is-info" url="#" target="_blank" navBtnText="Login" />
-							<NavButton classNavEnd="navbar-end" classNavItem="navbar-item" classControl="control" classField="field" btnClasses="button is-primary" url="#" target="_blank" navBtnText="Download" />
+							<NavButton classNavEnd="navbar-end" btnStyle="is-info" navBtnText="Login" />
+							<NavButton classNavEnd="navbar-end" btnStyle="is-primary" navBtnText="Download" />
 						</div>
 					</div>
 				</div>
