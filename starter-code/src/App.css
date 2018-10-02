@@ -1,0 +1,6 @@
+.control{
+  text-align: center !important;
+}
+.control > input{
+  margin: 10px;
+}
