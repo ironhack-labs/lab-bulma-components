@@ -1,5 +1,4 @@
 import React from "react";
-import {NavLink} from "./navLink";
 import {NavButton} from "./navButton";
 
 export const NavBar = () => {
@@ -17,8 +16,9 @@ export const NavBar = () => {
 			</div>
 			
 			<div id="navbarExampleTransparentExample" className="navbar-menu">
-				<NavLink classNavStart="navbar-start" classNavItem="navbar-item" url="/" textLink="Home" />
-
+				<div className="navbar-start">
+					<a className="navbar-item" href="/">Home</a>
+				</div>
 				<div className="navbar-end">
 					<div className="navbar-item">
 						<div className="field is-grouped">
