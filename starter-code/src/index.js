@@ -6,5 +6,5 @@ import 'bulma/css/bulma.css';
 
 ReactDOM.render(<
     App />,
-    document.getElementById('body')
+    document.getElementById('root')
 );
