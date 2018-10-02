@@ -19,6 +19,7 @@ class  Field extends Component{
                 <input className="input" type="email" placeholder="e.g. alexsmith@gmail.com"/>
                  </div>
              </div>
+           <button className="button is-small is-success is-rounded ">Login</button>
 
 </div>
         )
