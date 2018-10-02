@@ -1,0 +1,9 @@
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+nav {
+	padding-left: 20px;
+	padding-right: 20px;
+}
