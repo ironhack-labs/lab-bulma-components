@@ -20,7 +20,7 @@ class Signup extends React.Component {
     return (
       <div>
         <CoolButton
-          className="button is-danger"
+          className="button is-link"
           buttonName="FormTest"
           onClick={this.isHidden.bind(this)}
         />

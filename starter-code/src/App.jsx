@@ -14,8 +14,8 @@ export const App = () => {
         label="Email"
         type="email"
         placeholder="e.g. alexsmith@gmail.com"
-      />{" "}
-      {/* <Signup/> */}{" "}
+      />
+      <Signup/>
     </section>
   );
 };
