@@ -1,6 +1,6 @@
 import React from "react";
 
-export const NavButton = ({btnStyle, target, url, navBtnText}) => {
+export const NavButton = ({btnStyle, navBtnText}) => {
 
 	return (
 		<p className="control">
