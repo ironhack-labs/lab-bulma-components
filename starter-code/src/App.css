@@ -1,0 +1,11 @@
+.botones{
+    margin-top:5%;
+}
+
+.botones>button{
+    margin:1%;
+}
+
+.campos{
+    width:30%;
+}
