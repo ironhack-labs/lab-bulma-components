@@ -16,7 +16,6 @@ export const NavBar = () => {
 				</div>
 			</div>
 			
-
 			<div id="navbarExampleTransparentExample" className="navbar-menu">
 				<NavLink classNavStart="navbar-start" classNavItem="navbar-item" url="/" textLink="Home" />
 
