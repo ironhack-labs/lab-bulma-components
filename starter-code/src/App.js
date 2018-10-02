@@ -42,14 +42,10 @@ const FormField = ({label, type, placeholder}) => {
 
 class CoolButton extends React.Component {
     render() {
-        // let btnClasses = [];
+        let classesInProps = Object.keys(this.props).map(e => buttonClasses[e]).join(" ")
         let {className} = this.props;
-        console.log(this.props)
-        let button = ' button';
-        // for(let i in classes){
-            // btnClasses.push(buttonClasses[i])
-        // }
-        return <button className={className + button}>{this.props.children}</button>
+        let classes = ` button + ${classesInProps}`;
+        return <button className={className + classes}>{this.props.children}</button>
     }
 }
 
@@ -78,14 +74,10 @@ export const App = () => {
                     <div className="navbar-item">
                         <div className="field is-grouped">
                             <p className="control">
-                                <a className="button is-info">
-                                    <span>Login</span>
-                                </a>
+                                <CoolButton isInfo>Login</CoolButton>
                             </p>
                             <p className="control">
-                                <a className="button is-primary">
-                                    <span>Signup</span>
-                                </a>
+                                <CoolButton isPrimary>Signup</CoolButton>
                             </p>
                         </div>
                     </div>
@@ -94,10 +86,10 @@ export const App = () => {
             <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
             <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
             <FormField label="Password" type="password" placeholder="Password" />
-            <CoolButton className="is-rounded">Submit</CoolButton>
+            <CoolButton className="is-rounded" isBlack>Submit</CoolButton>
             <br></br>
             <br></br>
-
+            <br></br>
             <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
             <CoolButton isSmall isSuccess>Button 2</CoolButton>
         </div>
