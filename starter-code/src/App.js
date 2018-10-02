@@ -7,10 +7,10 @@ import {CoolButton} from "./button.js";
 export const App = () => {
 
   let myclass= {
-        isRounded: "is-rounded",
-        isSmall: "is-small",
-        isDanger: "is-danger",
-        isSuccess: "is-success",
+        isRounded: "button is-rounded",
+        isSmall: "button is-small",
+        isDanger: "button is-danger",
+        isSuccess: "button is-success",
   }
   return (
       
@@ -18,8 +18,9 @@ export const App = () => {
       <Navbar  />
       <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
       <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
-      <CoolButton isSmall={myclass.isSmall} isDanger={myclass.isDanger} className="is-rounded my-class">Login</CoolButton>
-      <CoolButton isSmall={myclass.isSmall} isSuccess={myclass.isSmall}>Sign up</CoolButton>
+      <FormField label="Password" type="password" placeholder="e.g. ---------" />
+      <CoolButton isSmall isDanger className="is-rounded">Sign up</CoolButton>
+      <CoolButton isSmall isSuccess>Log in</CoolButton> 
     </div>
   )
 
