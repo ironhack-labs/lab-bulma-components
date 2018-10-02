@@ -5,7 +5,8 @@ import FormField from "./form";
 import Navbar from "./navbar";
 import Signup from "./signup";
 
-export const App = () => {
+class App extends React.Component {
+  render() {
   return (
     <section>
       <Navbar />
@@ -18,4 +19,7 @@ export const App = () => {
       <Signup/>
     </section>
   );
+  }
 };
+
+export default App;
