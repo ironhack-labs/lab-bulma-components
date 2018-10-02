@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import 'bulma/css/bulma.css';
 import  Navbar from './components/Navbar.jsx'
 import Field from   './components/Field.jsx'
+import Signup from './components/Signup.jsx'
+//import Buttons from './components/Buttons.jsx'
 
 class App extends Component{
     render(){
@@ -12,9 +14,7 @@ class App extends Component{
 
                <Field/>
 
-
-                <button className="button is-rounded my-class is-danger is-small">Button 1</button>
-                <button className="button is-small is-success is-rounded ">Button 2</button>
+                <Signup/>
 
 
             </div>
