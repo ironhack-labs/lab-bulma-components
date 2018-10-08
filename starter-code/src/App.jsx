@@ -25,11 +25,20 @@ const Navbar = () => {
 
 const FormField = (props) => {
   return (
-    <div>
+    <div class="container">
       <div class="field">
-        <label class="label">{props.label}</label>
+      <p class="control has-icons-left has-icons-right">
+      <label class="label">{props.label}</label>
+      <input class="input" type={props.type} placeholder={props.placeholder} />
+       
+        <span class="icon is-small is-left">
+      <i class="fas fa-envelope"></i>
+    </span>
+    <span class="icon is-small is-right">
+      <i class="fas fa-check"></i>
+    </span>
+  </p>
         <div class="control">
-          <input class="input" type={props.type} placeholder={props.placeholder} />
         </div>
       </div>
     </div>
@@ -37,38 +46,24 @@ const FormField = (props) => {
 }
 
 
-const CoolButton = (props) => {
-  const ButtonClass = {
-    isActive: 'is-active',
-    isBlack: 'is-black',
-    isCentered: 'is-centered',
-    isDanger: 'is-danger',
-    isDark: 'is-dark',
-    isFocused: 'is-focused',
-    isGrouped: 'is-grouped',
-    isHovered: 'is-hovered',
-    isInfo: 'is-info',
-    isInverted: 'is-inverted',
-    isLarge: 'is-large',
-    isLight: 'is-light',
-    isLink: 'is-link',
-    isLoading: 'is-loading',
-    isMedium: 'is-medium',
-    isOutlined: 'is-outlined',
-    isPrimary: 'is-primary',
-    isRight: 'is-right',
-    isRounded: 'is-rounded',
-    isSelected: 'is-selected',
-    isSmall: 'is-small',
-    isStatic: 'is-static',
-    isSuccess: 'is-success',
-    isText: 'is-text',
-    isWarning: 'is-warning',
-    isWhite: 'is-white',
-  }
+
+  const CoolButton = (props) => {
+    return (
+      <div>
+      <button className={props.className}>{props.label}</button>
+      </div>
+    
+      )
+}
+
+const Singup = () => {
   return (
     <div>
-    <button class={props.className}></button>
+      <h2>Sign Up</h2>
+      <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
+      <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+      <FormField  label="Password" class="input" type="password" placeholder="Password" />
+      <CoolButton label="SingUp" className="button is-small is-success" />
     </div>
   )
 }
@@ -79,8 +74,9 @@ export const App = () => {
       <Navbar />
       <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
       <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
-      <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
-      <CoolButton isSmall isSuccess>Button 2</CoolButton>
+      <CoolButton label="Button1" className="button is-rounded my-class is-danger is-small"/>
+      <CoolButton label="Button2" className="button is-small is-success"/>
+      <Singup/>
     </div>
   )
 }
