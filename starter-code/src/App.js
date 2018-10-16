@@ -7,6 +7,20 @@ import "./App.css";
 
 class App extends Component {
 
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+            data1 : {
+                title: "Hello World",
+                msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+                importantMsg: "Pellentesque risus mi",
+            }
+        }
+    }
+
+
+
     render() {
         return (
 <section>
@@ -38,7 +52,9 @@ class App extends Component {
  
     </div>
     <Signup />
-    <Message isInfo title="Hello World" />
+    <Message isInfo pack={this.state.data1}>
+     
+        </Message>
  </section>
         );
     }
