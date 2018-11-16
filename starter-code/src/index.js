@@ -1,6 +1,6 @@
  import React, { Component } from 'react'
  import ReactDOM from "react-dom"
- import Aff from "./App"
+ import App from "./App.js"
  import 'bulma/css/bulma.css';
 
 ReactDOM.render(
