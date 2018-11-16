@@ -25,29 +25,14 @@ class Navbar extends Component {
             <div className="navbar-item">
               <div className="field is-grouped">
                 <p className="control">
-
                   <CoolButton
                     buttonName='Login'
                     buttonType='button is-link' />
-
-                  {/*
-                  <a className="button is-link" >
-                    <span>Login</span>
-                  </a>
-                  */}
-
                 </p>
                 <p className="control">
-
                   <CoolButton
                     buttonName='Sign Up'
                     buttonType='button is-primary' />
-
-                  {/*
-                  <a className="button is-primary" href="">
-                    <span>Signup</span>
-                  </a>
-                  */}
                 </p>
               </div>
             </div>
