@@ -1,7 +1,7 @@
 import React from 'react';
 
-const CoolButton = ({className, name}) => (
-    <button className={className}>{name}</button>
+const CoolButton = ({className, buttonName}) => (
+    <button className={className}>{buttonName}</button>
 );
 
 export default CoolButton;
