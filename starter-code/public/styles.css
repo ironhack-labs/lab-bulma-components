@@ -1,0 +1,22 @@
+.centered{
+    margin: 5%;
+    box-sizing: border-box !important;
+    text-align: center;
+}
+
+form {
+    width: 50% !important;
+    margin: auto !important;
+    text-align: left;
+}
+
+.button-centered {
+    left: 220px;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+article {
+    width: 50% !important;
+    margin: auto !important;
+}
