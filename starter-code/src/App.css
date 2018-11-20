@@ -1,0 +1,12 @@
+body{
+    background: url(/flame.jpg);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;  
+    justify-content: center;
+    font-family: monospace
+}
