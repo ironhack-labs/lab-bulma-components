@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import FormField from './components/FormField';
+
 
 class App extends Component {
   render(){
@@ -20,36 +22,7 @@ class App extends Component {
             <div className="navbar-start">
               <a className="navbar-item" href="https://bulma.io/">
                 Home
-              </a>
-              <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link" href="https://bulma.io/documentation/overview/start/">
-                  Docs
-                </a>
-                <div className="navbar-dropdown is-boxed">
-                  <a className="navbar-item" href="https://bulma.io/documentation/overview/start/">
-                    Overview
-                  </a>
-                  <a className="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
-                    Modifiers
-                  </a>
-                  <a className="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-                    Columns
-                  </a>
-                  <a className="navbar-item" href="https://bulma.io/documentation/layout/container/">
-                    Layout
-                  </a>
-                  <a className="navbar-item" href="https://bulma.io/documentation/form/general/">
-                    Form
-                  </a>
-                  <hr className="navbar-divider" />
-                  <a className="navbar-item" href="https://bulma.io/documentation/elements/box/">
-                    Elements
-                  </a>
-                  <a className="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
-                    Components
-                  </a>
-                </div>
-              </div>
+              </a>              
             </div>
 
             <div className="navbar-end">
@@ -61,7 +34,7 @@ class App extends Component {
                         <i className="fab fa-twitter"></i>
                       </span>
                       <span>
-                        Tweet
+                        Login
                       </span>
                     </a>
                   </p>
@@ -70,7 +43,7 @@ class App extends Component {
                       <span className="icon">
                         <i className="fas fa-download"></i>
                       </span>
-                      <span>Download</span>
+                      <span>Signup</span>
                     </a>
                   </p>
                 </div>
@@ -78,6 +51,13 @@ class App extends Component {
             </div>
           </div>
         </nav>
+
+        <form>
+          <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
+          <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+        </form>
+
+        
       </div>
     );
   }
