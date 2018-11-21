@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "bulma": "^0.7.1",
+    "materialize-css": "^1.0.0-rc.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-materialize": "^2.4.8",
     "react-scripts": "1.1.4"
   },
   "scripts": {
