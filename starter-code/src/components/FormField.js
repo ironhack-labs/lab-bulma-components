@@ -1,20 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class Form extends Component{
-  render(){ 
-    return(      
+const FormField = ({label,type,placeholder}) => (     
       <div>
         <div className="field">
-          <label className="label">Name</label>
+          <label className="label">{label}</label>
           <div className="control">
-            <input className="input" type="text" placeholder="e.g Alex Smith"/>
+            <input className="input" type={type} placeholder={placeholder}/>
           </div>
         </div>
       </div>
-      
+);
 
-    );
-  }
-}
-
-export default Form;
+export default FormField;
