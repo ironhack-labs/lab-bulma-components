@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const CoolButton = ({className,text,isSmall,isDanger,isSuccess}) => (
-
-    <a className={className}> {text} </a>
-);
-
+class CoolButton extends Component{    
+    render(){
+        return(            
+            <a className={this.props.className}> {this.props.children}</a>
+        );
+    }
+}
 
 export default CoolButton;

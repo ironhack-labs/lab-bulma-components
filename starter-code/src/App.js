@@ -15,8 +15,8 @@ class App extends Component {
         </div>
         <br />
         <div>
-          <CoolButton isSmall isDanger className="button is-rounded my-class" text="Button 1" />
-          <CoolButton isSmall isSuccess className="button" text="Button 2" />
+          <CoolButton isSmall isDanger className="button is-rounded my-class" >Button 1</CoolButton>
+          <CoolButton isSmall isSuccess className="button">Button 2</CoolButton>
         </div>
         
       </div>
