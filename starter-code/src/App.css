@@ -1,0 +1,17 @@
+section{
+  margin: 0 50px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.message{
+  width: 50%;
+  margin-top: 20px
+}
+
+.button{
+  margin-top: 20px
+}
