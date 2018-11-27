@@ -1,0 +1,12 @@
+nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.center-c {
+  margin: 0 auto;
+  width: 80%;
+}
