@@ -47,7 +47,7 @@ class CoolButton extends Component{
     let classes = this.props.className ? this.props.className.split(' ') : [];
 
     // convert additional classes
-    for (const [key, value] of Object.entries(this.props)){
+    for (let key of Object.keys(this.props)){
       if(key === "className" || key === "children"){
         continue;
       }
@@ -62,9 +62,7 @@ class CoolButton extends Component{
 
     classes.push("button");
     return (
-      <span className="CoolButton">
         <button className={classes.join(' ')}>{this.props.children}</button>
-      </span>
     )
   }
 }
