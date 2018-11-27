@@ -1,0 +1,16 @@
+nav {
+    height: 2em;
+    padding: 10px;
+}
+
+.navbar-brand{
+    width: 15%;
+}
+
+.navbar-end{
+    padding: 10px;
+}
+
+.navbar-item {
+    padding: 10px;
+}
