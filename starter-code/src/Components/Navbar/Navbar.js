@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
+import Button from "../Button/Button";
 
 
-
-class Navbar extends Component {
+class Navbar extends React.Component {
   render() {
     return (
     
@@ -31,12 +31,12 @@ class Navbar extends Component {
    <div class="navbar-end">
      <div class="navbar-item">
        <div class="buttons">
-         <a class="button is-primary">
-           <strong>Sign up</strong>
-         </a>
-         <a class="button is-light">
+         <Button className="button is-primary">
+           Sign up
+         </Button>
+         <Button className="button is-light">
            Log in
-         </a>
+         </Button>
        </div>
      </div>
    </div>
