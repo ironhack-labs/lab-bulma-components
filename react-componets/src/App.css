@@ -1,0 +1,26 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+}
+.navBar button {
+    /* background-color: red; */
+    margin-top: 3vh;
+    height: 4vh;
+    width: 4vw;
+    font-size: 1.5vh;
+    font-weight: 600;
+    border-radius: 15%;
+}
+.navBar button:first-child {
+    background-color: lightblue;
+}
+.navBar button:last-child {
+    background-color: lightgreen;
+}
+
+.theForm{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center
+}
