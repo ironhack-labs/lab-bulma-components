@@ -44,11 +44,9 @@ class CoolButton extends Component {
             })
         })
         return (
-
             <div>
-                <button class={map + this.props.className}>{this.props.name}</button>
+                <button className={map + this.props.className}>{this.props.name}</button>
             </div>
-
         )
     }
 }
