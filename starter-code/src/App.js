@@ -14,6 +14,7 @@ class App extends Component {
           type="email"
           placeholder="e.g. alexsmith@gmail.com"
         />
+       
       </React.Fragment>
     );
   }
