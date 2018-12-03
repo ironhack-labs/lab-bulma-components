@@ -1,5 +1,5 @@
 import React from 'react'
-
+import CoolButton from '../CoolButton'
 const Navbar = () => (
   <nav className="navbar is-transparent" role="navigation" aria-label="main navigation">
   <div className="navbar-brand">
@@ -50,12 +50,8 @@ const Navbar = () => (
     <div className="navbar-end">
       <div className="navbar-item">
         <div className="buttons">
-          <a className="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a className="button is-light">
-            Log in
-          </a>
+          <CoolButton isSmall isDanger className="is-rounded my-class">Login</CoolButton>
+          <CoolButton isSmall isSuccess>Sign Up</CoolButton>
         </div>
       </div>
     </div>
