@@ -36,6 +36,17 @@ class Navbar extends React.Component {
             <div className="navbar-end">
               <div className="navbar-item">
                 <div className="field is-grouped">
+                <p className="control">
+                    <a
+                      className="button is-primary"
+                      href="https://github.com/jgthms/bulma/releases/download/0.7.2/bulma-0.7.2.zip"
+                    >
+                      <span className="icon">
+                        <i className="fas fa-download" />
+                      </span>
+                      <span>Signup</span>
+                    </a>
+                  </p>
                   <p className="control">
                     <a
                       className="bd-tw-button button"
@@ -51,17 +62,7 @@ class Navbar extends React.Component {
                       <span>Login</span>
                     </a>
                   </p>
-                  <p className="control">
-                    <a
-                      className="button is-primary"
-                      href="https://github.com/jgthms/bulma/releases/download/0.7.2/bulma-0.7.2.zip"
-                    >
-                      <span className="icon">
-                        <i className="fas fa-download" />
-                      </span>
-                      <span>Signup</span>
-                    </a>
-                  </p>
+                 
                 </div>
               </div>
             </div>
