@@ -2,7 +2,7 @@ import React from "react";
 
 import Navbar from './components/NavBar';
 import FormField from './components/FormField';
-import 'bulma/css/bulma.css';
+// import 'bulma/css/bulma.css';
 import '../public/styles/styles.css';
 
 class App extends React.Component {
