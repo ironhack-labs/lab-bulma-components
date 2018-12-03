@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: lightgrey;
+}
+
+.nav-left{
+    display: flex;
+    
+    
+}
+
+.nav-left h1{
+    margin-right: 2rem;
+}
+
+.nav-right a{
+    margin-right: 2rem;
+}
