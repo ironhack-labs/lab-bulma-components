@@ -34,7 +34,7 @@ class Nav extends React.Component {
       <div className="navbar-item">
         <div className="field is-grouped">
           <p className="control">
-            <a >
+            <a>
               <span className="icon">
                
               </span>
