@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import  Navbar from "./components/navbar.js"
+import  Navbar from "./components/navbar.js";
+import  FormField from "./components/formField.js";
 
 
 
@@ -10,6 +11,7 @@ class App extends Component {
       <div>
         
         <Navbar/>
+        <FormField/>
        
       </div>
     );
