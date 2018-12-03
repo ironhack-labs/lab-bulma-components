@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import NavBar from "./components/navBar/navBar.jsx"
 import FormField from "./components/formField/formField.jsx"
-// import Header from "./components/header/header.jsx"
 // import Section from "./components/section/section.jsx"
 
 class App extends Component {

@@ -5,10 +5,10 @@ import React, { Component } from "react";
 class FormField extends Component {
   render() {
     return (
-        <div className="field">
-        <label className="label">{this.props.label}</label>
-        <div className="control">
-          <input className="input" type={this.props.Type} placeholder={this.props.placeholder} />
+        <div class="field">
+        <label class="label">{this.props.name}</label>
+        <div class="control">
+          <input class="input" type={this.props.type} placeholder={this.props.placeholder} />
         </div>
       </div>
     );
