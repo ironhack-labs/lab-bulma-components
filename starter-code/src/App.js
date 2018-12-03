@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import  Navbar from "./components/navbar.js";
 import  FormField from "./components/formField.js";
+import  CoolButton from "./components/coolButton.js";
 
 
 
@@ -12,6 +13,7 @@ class App extends Component {
         
         <Navbar/>
         <FormField/>
+        <CoolButton/>
        
       </div>
     );
