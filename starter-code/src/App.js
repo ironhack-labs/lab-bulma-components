@@ -1,6 +1,9 @@
 import React, { Component } from "react";
-import Nav from "./components/nav/nav.js"
-import "./components/nav/nav.css"
+import Nav from "./components/nav/nav.js";
+import "./components/nav/nav.css";
+
+import FormField from "./components/formField/formField.js"
+
 
 
 class App extends Component {
@@ -9,6 +12,7 @@ class App extends Component {
             <div className="App">
 
                 <Nav></Nav>
+                <FormField></FormField>
             </div>
         );
     }
