@@ -1,19 +1,13 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import Nav from "../src/components/navbar/nav.js";
-import Form from "../src/components/form/form.js";
-import CoolBtn from "../src/components/btn/btn.js";
-
-
+import Signup from "../src/components/signup/signup.js";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Nav />
-        <Form />
-        <CoolBtn />
-       </div>
+        <Signup />
+      </div>
     );
   }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./nav.css";
-import CoolBtn from "../btn/btn.js"
+import CoolBtn from "../btn/btn.js";
 class Nav extends React.Component {
   constructor() {
     super();
@@ -8,14 +8,14 @@ class Nav extends React.Component {
   render() {
     return (
       <div className="Nav">
-        <nav className="navbar is-transparent">
+        <nav className="navbar is-dark">
           <div className="navbar-brand">
             <a className="navbar-item" href="https://bulma.io">
               {" "}
               <img
-                src="https://bulma.io/images/bulma-logo.png"
+                src="https://png2.kisspng.com/20180629/arq/kisspng-white-house-press-secretary-logo-trademark-jiu-5b35b5c2da6a78.6673986015302465948946.png"
                 alt="Bulma: a modern CSS framework based on Flexbox"
-                width="112"
+                width="30"
                 height="28"
               />
             </a>
@@ -43,9 +43,7 @@ class Nav extends React.Component {
                     <CoolBtn>Login</CoolBtn>
                   </a>
                 </p>
-                <p className="control">
-               
-                </p>
+                <p className="control" />
               </div>
             </div>
           </div>

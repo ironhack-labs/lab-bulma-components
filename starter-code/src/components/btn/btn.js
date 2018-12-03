@@ -6,8 +6,8 @@ class CoolBtn extends React.Component {
   }
   render() {
     return (
-      <div>
-        <button class="button is-rounded my-class is-danger is-small">
+      <div className="btnStyle">
+        <button class="button is-rounded my-class is-danger is-small separacionBtn">
           Login
         </button>
         <button class="button is-small is-success">Signup</button>

@@ -1,0 +1,29 @@
+body {
+  background-image: url(https://i.imgur.com/1KG8cCl.jpg);
+  height: 1000px;
+}
+
+.formDad {
+  margin-bottom: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
+.colorLabel {
+  color: white;
+  font-size: 28px;
+}
+
+.btnStyle {
+  display: flex;
+  justify-content: center;
+}
+
+.separacionBtn {
+  margin-right: 20px;
+}
