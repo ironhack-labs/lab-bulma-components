@@ -1,6 +1,7 @@
 
 import React, { Component } from "react";
 import "./navBar.css";
+import CoolButton from "../CoolButton/coolButton"
 
 class NavBar extends Component {
 
@@ -27,21 +28,17 @@ class NavBar extends Component {
                         <div className="navbar-end">
                             <div className="navbar-item">
                                 <div className="buttons">
-                                    <a className="button is-primary">
-                                        <strong>Sign up</strong>
-                                    </a>
-                                    <a className="button is-light">
-                                        Log in
-                                    </a>
+                                    <CoolButton isSmall isDanger className="is-rounded my-class" name="LogIn"></CoolButton>
+                                    <CoolButton isSmall isSuccess name="SignUp"></CoolButton>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                </nav>
+            </nav>
 
-                )
-            }
-        }
-        
+        )
+    }
+}
+
 export default NavBar;
