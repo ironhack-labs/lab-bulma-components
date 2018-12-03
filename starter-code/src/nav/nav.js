@@ -1,4 +1,6 @@
 import React from "react";
+import CoolButton from "../coolbutton/coolButton.js"
+
 class Nav extends React.Component {
     constructor() {
         super()
@@ -28,16 +30,10 @@ class Nav extends React.Component {
                         <div className="navbar-item">
                             <div className="field is-grouped">
                                 <p className="control">
-                                    <a className="button is-info data-social-network">
-                                        <span>
-                                            Login
-              </span>
-                                    </a>
+                                    <CoolButton className="button is-primary" name="Log In" />
+                                    <CoolButton className="button is-info" name="Sign Up"/>
                                 </p>
                                 <p className="control">
-                                    <a className="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.7.2/bulma-0.7.2.zip">
-                                        <span>Signup</span>
-                                    </a>
                                 </p>
                             </div>
                         </div>
