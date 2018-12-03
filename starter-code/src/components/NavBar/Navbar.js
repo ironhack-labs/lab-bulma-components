@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import CoolButton from "../CoolButton/CoolButton";
 
 class Navbar extends Component {
   render() {
@@ -41,11 +42,9 @@ class Navbar extends Component {
     <div className="navbar-end">
       <div className="navbar-item">
         <div className="buttons">
-          <a className="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a className="button is-light">
-            Log in
+         
+          <a>
+            <CoolButton>Log in</CoolButton> 
           </a>
         </div>
       </div>
