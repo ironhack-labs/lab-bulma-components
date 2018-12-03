@@ -1,7 +1,6 @@
-import React, {
-    Component
-} from "react"
- class NavBar extends Component{
+import React from "react"
+import CoolButton from './CoolButoon'
+ class NavBar extends React.Component{
      render() {
         return (
             <nav className="navbar" role="navigation" aria-label="main navigation">
@@ -18,12 +17,8 @@ import React, {
               < div className = "navbar-end" >
                 <div className = "navbar-item" >
                   <div className = "buttons" >
-                    <a className = "button is-primary">
-                      <strong>Sign up</strong>
-                    </a>
-                    <a className = "button is-light">
-                      Log in
-                    </a>
+                    <CoolButton className = "button is-danger" > Sign up </CoolButton>
+                    <CoolButton className = "button is-light">Log in</CoolButton>
                   </div>
                 </div>
               </div>

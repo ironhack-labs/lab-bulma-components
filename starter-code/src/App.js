@@ -4,6 +4,7 @@ import React, {
 
 import Navbar from "./components/navBar.js";
 import FormField from "./components/FormField.js";
+
 import 'bulma/css/bulma.css';
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
             <div>
                 <Navbar/>
                 <FormField/>
+                
             </div>
         );
     }
