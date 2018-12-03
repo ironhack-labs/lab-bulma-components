@@ -1,0 +1,11 @@
+.logo{
+  width:150px;
+  height: 40px;
+}
+
+.is-transparent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
