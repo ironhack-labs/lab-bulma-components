@@ -39,7 +39,7 @@ export default class CoolButton extends Component {
 
         this.modifiedClass = 'button ' + Object.keys(this.props).map(prop => {
             return prop = this.classNames[prop]
-        }).concat(this.props.className).join(' ')
+        }).join(' ')
 
     }
 
