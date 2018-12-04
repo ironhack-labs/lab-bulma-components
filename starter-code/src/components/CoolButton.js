@@ -33,11 +33,13 @@ class CoolButton extends React.Component {
       isWhite: 'is-white',
     }
     this.clases = 'button '+ Object.keys(this.props).map((element)=>{return this.className[element]}).concat(this.props.className).join(' ');
+    
   }
   render() {
-    console.log(this.clases)
+    
     return (
       <div className="btn-cont">
+      
         <button className={this.clases}>{this.props.children}</button>
       </div>
     );
