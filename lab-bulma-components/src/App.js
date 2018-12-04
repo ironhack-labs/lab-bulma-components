@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './NavBar';
 import FormField from './FormField';
+import State from './State';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
        </div>
         </header>
         
+        <State />
       </div>
       
     );

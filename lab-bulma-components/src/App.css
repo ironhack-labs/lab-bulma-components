@@ -87,3 +87,15 @@
   width: 200px;
   padding: 10px;
 }
+
+.state-changer{
+  background-color:  #282c34;
+  margin-top: -300px;
+  /* margin-top: 100px; */
+  /* display: flex; */
+  /* margin-right: 45%; */
+  /* display: flex;
+  align-content: center;
+  justify-content: center; */
+  color: white;
+}

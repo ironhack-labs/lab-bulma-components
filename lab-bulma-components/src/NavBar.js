@@ -4,15 +4,7 @@ import './App.css';
 
 class NavBar extends Component {
 
-  state = { 
-    message:'Not Ross'
-  } 
 
-  changeState = () => {
-
-    this.setState({message:'Ross!'})
-  }
-  
   render(){
    
    return (
@@ -20,7 +12,7 @@ class NavBar extends Component {
   <nav className="nav-bar-component">
       <div className='nav-bar-to-the-left'>
      
-      <button onClick={this.changeState}>change</button>
+      
       <img src='favicon.ico' className="App-name-logo"/>
       <a href="#">Bulma</a>
       </div>
@@ -28,9 +20,10 @@ class NavBar extends Component {
       <button>Login</button>
       <button>Sign up</button>
       </div>
-      {this.state.message}
+      
+
   </nav>
-      </div>
+  </div>
   )
   }
 }
