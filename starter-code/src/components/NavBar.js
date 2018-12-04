@@ -1,4 +1,5 @@
 import React from "react";
+import CoolButton from './CoolButton';
 
 export default class NavBar extends React.Component{
   render(){
@@ -27,24 +28,8 @@ export default class NavBar extends React.Component{
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="field is-grouped">
-          <p class="control">
-            <a class="bd-tw-button button">
-              <span class="icon">
-                <i class="fab fa-twitter"></i>
-              </span>
-              <span>
-                Login
-              </span>
-            </a>
-          </p>
-          <p class="control">
-            <a class="button is-primary">
-              <span class="icon">
-                <i class="fas fa-download"></i>
-              </span>
-              <span>Signup</span>
-            </a>
-          </p>
+        <CoolButton class="button is-small is-success" name="Login" />
+        <CoolButton class="button is-rounded my-class is-danger is-small" name="Login" />
         </div>
       </div>
     </div>
