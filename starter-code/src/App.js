@@ -1,12 +1,11 @@
-import React, { Component } from "react";
-import Signup from "../src/signup/signup"
- class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <Signup></Signup>
-            </div>
-        );
-    }
+import React, { Component } from 'react'    
+import Signup from './components/signup/signup';
+ export default class App extends Component {
+  render() {
+     return (
+      <div>
+        <Signup/>
+      </div>
+    )
+  }
 }
- export default App; 
