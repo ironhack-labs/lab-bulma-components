@@ -1,15 +1,13 @@
 import React from "react";
-import "./formfield.css";
+import FormFieldElement from './FormFieldElement'
 
 class FormField extends React.Component{
     render(){
         return(
-            <div class="field">
-  <label class="label">{this.props.label}</label>
-  <div class="control">
-    <input class="input" type={this.props.type} placeholder={this.props.placeholder}/>
-  </div>
-</div>
+            <div className="field">
+                <FormFieldElement label="Name" type="text" placeholder="e.g Alex Smith" />
+                <FormFieldElement label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+            </div>
 
      
         )

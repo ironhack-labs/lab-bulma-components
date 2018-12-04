@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Components/Navbar/navbar.js'
-import FormField from './Components/FormField/formfield.js'
+import FormField from './Components/FormField/FormField.js'
+import CoolButton from './Components/ CoolButton/CoolButton'
 
 class App extends React.Component {
 
@@ -8,9 +9,9 @@ render(){
 
     return (
         <div className="App">
-        <Navbar />
-        <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-        <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+            <Navbar />
+            <FormField />
+            <CoolButton />
         </div>
         
     );
