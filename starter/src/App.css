@@ -1,0 +1,37 @@
+body{
+  padding: 25px 60px;
+
+}
+
+nav{
+  display:flex;
+  justify-content: space-between;
+}
+
+nav img{
+  width: 20%;
+}
+
+nav li{
+  list-style-type: none;
+  border:1px solid white;
+  padding:10px;
+  border-radius: 7px;
+}
+
+.Second-Last {
+  background-color: #276cda;
+  color:white;
+}
+
+.Last{
+  background-color: #00d1b2;
+  color:white;
+}
+
+input{
+  width:50%;
+}
+
+
+
