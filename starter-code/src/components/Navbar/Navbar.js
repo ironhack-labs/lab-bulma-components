@@ -17,7 +17,7 @@ class Navbar extends Component {
           <div class="navbar-item">
             <div class="field is-grouped">
               <p class="control">
-                <a class="bd-tw-button button" target="_blank" href="#">
+                <a class="is-success button" target="_blank" href="#">
                   <span>Login</span>
                 </a>
               </p>
