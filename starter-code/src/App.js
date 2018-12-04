@@ -5,6 +5,12 @@ import Navbar from "./components/Navbar/Navbar.js";
 
 import "./components/FormField/FormField.js"
 import FormField from "./components/FormField/FormField.js";
+
+import "./components/CoolButton/CoolButton.js"
+import CoolButton from "./components/CoolButton/CoolButton.js";
+
+import "./components/Signup/Signup.js"
+import Signup from "./components/Signup/Signup.js";
 // import "./components/Section/Section.js"
 
 class App extends React.Component {
@@ -14,6 +20,9 @@ class App extends React.Component {
            <div>
                <Navbar/>
                <FormField />
+               <CoolButton />
+               <Signup />
+
            </div>
 
 

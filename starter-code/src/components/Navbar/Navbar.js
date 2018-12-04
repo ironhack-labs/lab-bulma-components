@@ -27,10 +27,10 @@ class Navbar extends React.Component {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
-              <a className="button is-primary">
+              <a class="button is-rounded my-class is-danger is-small">
                 <strong>Sign up</strong>
               </a>
-              <a className="button is-light">
+              <a class="button is-small is-success">
                 Log in
               </a>
             </div>
