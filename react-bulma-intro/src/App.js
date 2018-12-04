@@ -6,7 +6,18 @@ import CoolButton from './CoolButton';
 import Message from './Message'
 
 class App extends Component {
-  state = {'testing':'hi'}
+  // state = {
+
+  //   clickCount: 0,
+  //   backColor: 'yellow'
+  // }
+
+  // clickHandler = () => {
+  //   this.setState({
+  //     clickCount: this.state.clickCount + 1
+  //   })
+
+  // }
 
   render() {
     return <div className="App">
@@ -27,9 +38,9 @@ class App extends Component {
         
             </div>
         
-      <div className="App-header">
+      {/* <div className="App-header">
         <Message />
-        </div>
+        </div> */}
         
       </div>;
   }
