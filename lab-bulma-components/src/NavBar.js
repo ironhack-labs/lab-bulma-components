@@ -5,21 +5,21 @@ import './App.css';
 class NavBar extends Component {
 
   state = { 
-    message:'ypypyp'
+    message:'Not Ross'
   } 
 
   changeState = () => {
 
-    this.setState({message:'sup!'})
+    this.setState({message:'Ross!'})
   }
-
+  
   render(){
    
    return (
     <div>
   <nav className="nav-bar-component">
       <div className='nav-bar-to-the-left'>
-      {this.state.message}
+     
       <button onClick={this.changeState}>change</button>
       <img src='favicon.ico' className="App-name-logo"/>
       <a href="#">Bulma</a>
@@ -28,7 +28,7 @@ class NavBar extends Component {
       <button>Login</button>
       <button>Sign up</button>
       </div>
-
+      {this.state.message}
   </nav>
       </div>
   )
