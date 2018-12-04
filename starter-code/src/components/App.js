@@ -1,16 +1,13 @@
 import React, { Component } from "react";
-import NavBar from "./Navbar/Navbar"
-import FormField from "./FormField/FormField"
-import CoolButton from "./CoolButton/CoolButton"
+import SignUp from "./SignUp/SignUp"
+
 
 
 class App extends Component {
   render() {
     return (
       <div>
-      <NavBar />
-      <FormField />
-      <CoolButton />
+      <SignUp />
       </div>
       
     );
