@@ -5,6 +5,7 @@ import FormField from "./FormField";
 import Message from "./Message";
 
 export default class Signup extends Component {
+  
   render() {
     return (
       <div className="App">
@@ -27,10 +28,12 @@ export default class Signup extends Component {
           />
           <CoolButton isLink>Submit</CoolButton>
         </div>
-        <div className="container"> <Message isInfo isSmall title="Hello World">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<strong>Pellentesque risus mi</strong>.
-</Message></div>
-       
+        <div className="container">
+          <Message isInfo isSmall title="Hello World">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <strong>Pellentesque risus mi</strong>.
+          </Message>
+        </div>
       </div>
     );
   }
