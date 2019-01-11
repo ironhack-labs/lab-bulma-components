@@ -1,18 +1,20 @@
 import React, { Component } from "react";
 import CoolButton from "../CoolButton";
+import Signup from "../Signup";
 import classNames from 'classnames/bind'
 
 let cx = classNames.bind({isActive:"is-active"});
 
 
 export default class NavMenu extends Component {
+
   render() {
     let className = cx("navbar-menu",this.props)
 
     return (
       <div id="navbarExampleTransparentExample" className={className}>
       <div className="navbar-start">
-        <a className="navbar-item" href="https://bulma.io/">
+        <a className="navbar-item" href="/">
           Home
         </a>
       </div>
@@ -30,6 +32,7 @@ export default class NavMenu extends Component {
         </div>
       </div>
     </div>
+    
     );
   }
 }

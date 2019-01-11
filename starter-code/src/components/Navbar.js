@@ -18,7 +18,7 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar is-transparent">
         <div className="navbar-brand">
-          <a className="navbar-item" href="https://bulma.io">
+          <a className="navbar-item" href="/">
             <img
               src="https://bulma.io/images/bulma-logo.png"
               alt="Bulma: a modern CSS framework based on Flexbox"
