@@ -1,7 +1,19 @@
 import React, { Component } from "react";
-import CoolButton from "./CoolButton"
+import NavMenu from "./navbar/NavMenu";
 
 export default class Navbar extends Component {
+  constructor() {
+    super();
+    this.state = { showMenu: true, showCross: true };
+  }
+
+  onClick = () => {
+    this.setState({
+      showMenu: !this.state.showMenu,
+      showCross : !this.state.showCross
+    });
+  };
+
   render() {
     return (
       <nav className="navbar is-transparent">
@@ -14,36 +26,36 @@ export default class Navbar extends Component {
               height="28"
             />
           </a>
-          <div
-            className="navbar-burger burger"
-            data-target="navbarExampleTransparentExample"
+        </div>
+
+        {/* toggle is-active class for show the side menu and cross simbol in mobile */}
+        {this.state.showCross ? (
+          <a
+            role="button"
+            className="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            onClick={this.onClick}
           >
-            <span />
-            <span />
-            <span />
-          </div>
-        </div>
-
-        <div id="navbarExampleTransparentExample" className="navbar-menu">
-          <div className="navbar-start">
-            <a className="navbar-item" href="https://bulma.io/">
-              Home
-            </a>
-          </div>
-
-          <div className="navbar-end">
-            <div className="navbar-item">
-              <div className="field is-grouped">
-              <p className="control">
-                <CoolButton isInfo>Login</CoolButton>
-                </p>
-                <p className="control">
-                <CoolButton isPrimary>Signup</CoolButton>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
+          </a>
+        ) : (
+          <a
+            role="button"
+            className="navbar-burger is-active"
+            aria-label="menu"
+            aria-expanded="false"
+            onClick={this.onClick}
+          >
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
+          </a>
+        )}
+           {/* toggle menu view */}
+        {this.state.showMenu ? <NavMenu /> : <NavMenu isActive />}
       </nav>
     );
   }
