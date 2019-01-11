@@ -33,14 +33,14 @@ const classes = {
 const inputprops = [
   { name: "Name", type: "text", placeholder: "e.g Alex Smith" },
   {
-    name: "email",
+    name: "Email",
     type: "email",
     placeholder: "e.g. alexsmith@gmail.com"
   },
   {
-      name:"LELE",
-      type:"text",
-      placeholder:"holi"
+      name:"Password",
+      type:"password",
+      placeholder:"password"
   }
 ];
 
