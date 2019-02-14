@@ -1,0 +1,18 @@
+span {
+  color: white;
+}
+
+h6 {
+  font-size: 3vw;
+  text-align: center;
+}
+
+.main {
+  margin: 5% 10%;
+}
+
+article {
+  width: 30vw;
+  float: right;
+  margin-bottom: 10%;
+}
