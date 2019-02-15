@@ -1,0 +1,11 @@
+.messagebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.message{
+    width: 400px;
+    border: 1px solid #209CED;
+}
