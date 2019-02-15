@@ -1,15 +1,15 @@
-import React from "react";
-import Navbar from "./Navbar.js"
-import SignUp from "./SignUp"
+import React from "react"
+import Navbar from "./Navbar"
+import Signup from "./Signup"
+import Message from "./Message"
 
 
 function App() {
- return (
- <div>
-  <Navbar />
-  <SignUp />
-  </div>
- );
+return <div>
+<Navbar />
+<Signup />
+<Message />
+</div>
 }
 
-export default App
+export default App;
