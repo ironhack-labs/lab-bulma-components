@@ -29,13 +29,6 @@ class Navbar extends Component {
           </a>
         </div>
 
-        <CoolButton isSmall isPrimary className="is-rounded my-class">
-          Sign Up
-        </CoolButton>
-        <CoolButton isSmall isSuccess className="is-rounded my-class">
-          Login
-        </CoolButton>
-
         <div id="navbarBasicExample" className="navbar-menu">
           <div className="navbar-start">
             <a className="navbar-item">Home</a>
@@ -44,6 +37,12 @@ class Navbar extends Component {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons" />
+              <CoolButton isSmall isPrimary className="is-rounded my-class">
+                Sign Up
+              </CoolButton>
+              <CoolButton isSmall isSuccess className="is-rounded my-class">
+                Login
+              </CoolButton>
             </div>
           </div>
         </div>
