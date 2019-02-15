@@ -1,0 +1,18 @@
+
+.nav {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid black
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  justify-content: space-around;
+  align-self: baseline;
+  margin-top: 1%;
+}
