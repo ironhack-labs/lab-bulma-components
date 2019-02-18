@@ -8,7 +8,9 @@ class CoolButton extends Component {
   render() {
  
     return (
+      <div class="field">
         <button className={this.props.className}>{this.props.value}</button>
+        </div>
     );
   }
 }

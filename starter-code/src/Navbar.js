@@ -26,9 +26,6 @@ class Navbar extends Component {
               <div class="field is-grouped">
                 <p class="control">
                   <a className="button is-rounded my-class is-small is-danger" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
-                    <span class="icon">
-                      <i class="fab fa-twitter"></i>
-                    </span>
                     <span>
                       Login
                     </span>
@@ -36,9 +33,6 @@ class Navbar extends Component {
                 </p>
                 <p class="control">
                   <a className="button is-small is-success" href="https://github.com/jgthms/bulma/releases/download/0.7.4/bulma-0.7.4.zip">
-                    <span class="icon">
-                      <i class="fas fa-download"></i>
-                    </span>
                     <span>Signup</span>
                   </a>
                 </p>
