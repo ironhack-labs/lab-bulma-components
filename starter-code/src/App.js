@@ -1,20 +1,22 @@
 import React, {Component} from "react";
 import "./App.css";
-import NavBar from "./Navbar.js"
-import FormField from "./Formfield.js"
-import CoolButton from "./Coolbutton.js"
+import NavBar from "./Navbar"
+import FormField from "./Formfield"
+import CoolButton from "./Coolbutton"
+import SignUp from "./Signup";
+import Message from "./Message";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <NavBar />
-
-      <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-      <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
-
-      <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
-      <CoolButton isSmall isSuccess>Button 2</CoolButton>
+      
+      <SignUp />
+      <Message title="Hello World">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        <strong>Que te peines!!!!</strong>.
+      </Message>  
+      
       </div>
     );
   }
