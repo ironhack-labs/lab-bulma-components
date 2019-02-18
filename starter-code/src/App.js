@@ -5,7 +5,7 @@ import "bulma/css/bulma.css";
 
 import Navbar from "./Navbar.js";
 import FormField from "./formField.js";
-import CoolButton from "./coolButton.js";
+import SignUp from "./signUp.js";
 
 class App extends Component {
   render() {
@@ -18,6 +18,7 @@ class App extends Component {
           type="email"
           placeholder="e.g. alexsmith@gmail.com"
         />
+        <SignUp />
       </div>
     );
   }
