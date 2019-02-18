@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar.js";
-import FormField from "./formField.js";
-import CoolButton from "./coolButton.js";
+import FormField from "./FormField.js";
+import CoolButton from "./CoolButton.js";
 
 class SignUp extends Component {
   render() {
@@ -12,7 +12,10 @@ class SignUp extends Component {
     return (
       <div>
         <Navbar />
-        <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
+        <FormField 
+          label="Name" 
+          type="text" 
+          placeholder="e.g Alex Smith" />
         <FormField
           label="Email"
           type="email"
@@ -23,7 +26,9 @@ class SignUp extends Component {
           type="password"
           placeholder="Pick a strong password PLZ"
         />
-        <CoolButton className="button is-small is-primary" ><span>Submit</span></CoolButton>
+        <CoolButton className="button is-small is-primary" >
+          <span>Submit</span>
+        </CoolButton>
       </div>
     );
   }

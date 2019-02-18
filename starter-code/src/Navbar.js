@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import CoolButton from "./coolButton.js";
+import CoolButton from "./CoolButton.js";
 
 
 class Navbar extends Component {

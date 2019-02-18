@@ -4,8 +4,8 @@ import React, { Component } from "react";
 import "bulma/css/bulma.css";
 
 import Navbar from "./Navbar.js";
-import FormField from "./formField.js";
-import SignUp from "./signUp.js";
+import FormField from "./FormField.js";
+import SignUp from "./SignUp.js";
 
 class App extends Component {
   render() {
