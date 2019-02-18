@@ -2,22 +2,20 @@ import React, { Component } from "react";
 
 class FormField extends Component {
   render() {
+
+    console.log(this.props);
+
+    // <User firstName="Pablo" />
+    //
+    // this.props= { firstName: "Pablo" }
+
+    const { label, type, placeholder } = this.props;
     return (
       <div>
         <div className="field">
-          <label className="label">Name</label>
+          <label className="label">{label}</label>
           <div className="control">
-            <input className="input" type="text" placeholder="e.g Alex Smith" />
-          </div>
-        </div>
-        <div className="field">
-          <label className="label">Email</label>
-          <div className="control">
-            <input
-              className="input"
-              type="email"
-              placeholder="e.g. alexsmith@gmail.com"
-            />
+            <input label={label} type={type} placeholder={placeholder} />
           </div>
         </div>
       </div>
