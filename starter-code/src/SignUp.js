@@ -36,7 +36,7 @@ class SignUp extends React.Component {
 								placeholder="e.g your password"
 							/>
 
-							<CoolButton isSuccess className="is-rounded">
+							<CoolButton isSuccess isOutlined className="is-rounded">
 								Submit
 							</CoolButton>
 						</form>
