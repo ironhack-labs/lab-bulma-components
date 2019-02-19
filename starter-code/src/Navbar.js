@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import CoolButton from "./CoolButton.js";
 
-
 class Navbar extends Component {
   render() {
     return (
@@ -23,12 +22,15 @@ class Navbar extends Component {
               Home
             </a>
           </div>
-
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="field is-grouped">
-                <CoolButton className="button is-rounded my-class is-danger is-small"><span>Login</span></CoolButton>      
-                <CoolButton  className="button is-small is-success" ><span>Signup</span></CoolButton>      
+                <CoolButton className="button is-rounded my-class is-danger is-small">
+                  <span>Login</span>
+                </CoolButton>
+                <CoolButton className="button is-small is-success">
+                  <span>Signup</span>
+                </CoolButton>
               </div>
             </div>
           </div>
