@@ -1,11 +1,11 @@
 import React from "react";
-class BulmaNavBar extends React.Component {
+class Navbar extends React.Component {
 	render() {
 		return (
 			<div>
-				<nav class="navbar has-background-light">
-					<div class="navbar-brand">
-						<a class="navbar-item" href="https://bulma.io">
+				<nav className="navbar has-background-light">
+					<div className="navbar-brand">
+						<a className="navbar-item" href="https://bulma.io">
 							<img
 								src="https://bulma.io/images/bulma-logo.png"
 								alt="Bulma: a modern CSS framework based on Flexbox"
@@ -14,7 +14,7 @@ class BulmaNavBar extends React.Component {
 							/>
 						</a>
 						<div
-							class="navbar-burger burger"
+							className="navbar-burger burger"
 							data-target="navbarExampleTransparentExample"
 						>
 							<span />
@@ -23,27 +23,27 @@ class BulmaNavBar extends React.Component {
 						</div>
 					</div>
 
-					<div id="navbarExampleTransparentExample" class="navbar-menu">
-						<div class="navbar-start">
-							<a class="navbar-item" href="https://bulma.io/">
+					<div id="navbarExampleTransparentExample" className="navbar-menu">
+						<div className="navbar-start">
+							<a className="navbar-item" href="https://bulma.io/">
 								Home
 							</a>
 						</div>
 
-						<div class="navbar-end">
-							<div class="navbar-item">
-								<div class="field is-grouped">
-									<p class="control">
+						<div className="navbar-end">
+							<div className="navbar-item">
+								<div className="field is-grouped">
+									<p className="control">
 										<a
-											class="bd-tw-button button is-info"
+											className="bd-tw-button button is-info"
 											target="_blank"
 											href="#0"
 										>
 											<span>Login</span>
 										</a>
 									</p>
-									<p class="control">
-										<a class="button is-primary" href="#0">
+									<p className="control">
+										<a className="button is-primary" href="#0">
 											<span>Sign-Up</span>
 										</a>
 									</p>
@@ -56,4 +56,4 @@ class BulmaNavBar extends React.Component {
 		);
 	}
 }
-export default BulmaNavBar;
+export default Navbar;
