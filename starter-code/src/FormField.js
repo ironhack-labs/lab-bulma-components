@@ -9,13 +9,7 @@ class FormField extends Component {
     return (
       <div>
         <div class="class">
-          <label class={label}>Name</label>
-          <div class="control">
-            <input class="input" type={type} placeholder={placeholder} />
-          </div>
-        </div>
-        <div class="field">
-          <label class={label}>Email</label>
+          <label class="label">{label}</label>
           <div class="control">
             <input class="input" type={type} placeholder={placeholder} />
           </div>
