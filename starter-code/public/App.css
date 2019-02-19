@@ -1,0 +1,22 @@
+.message {
+  width: 300px;
+  height: 150px;
+  margin: 50px;
+}
+
+.form {
+  padding-left: 50px;
+
+}
+.input {
+  width: 40%
+}
+
+.is-success {
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.is-danger {
+  margin-top: 15px;
+  border-radius: 100px;
+}
