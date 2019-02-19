@@ -30,37 +30,32 @@ const elements = {
   isWhite: "is-white"
 };
 
-class CoolButton extends Component {
+class Message extends Component {
   render() {
-    console.log(this.props);
-    console.log(elements.isSuccess);
-    const { isSmall, isDanger, isSuccess, isDark } = this.props;
+    const { title, isInfo } = this.props;
     let { className } = this.props;
+    console.log(this.props.title);
 
     if (!className) {
-      className = "button";
+      className = "message";
     } else {
-      className = "button " + className;
+      className = "message " + className;
     }
 
-    if (isSuccess) {
-      className += " " + elements.isSuccess;
+    if (isInfo) {
+      className += " " + elements.isInfo;
     }
 
-    if (isDanger) {
-      className += " " + elements.isDanger;
-    }
-
-    if (isSmall) {
-      className += " " + elements.isSmall;
-    }
-
-    if (isDark) {
-      className += " " + elements.isDark;
-    }
-
-    return <button className={className}>{this.props.children}</button>;
+    return (
+      <article className={className}>
+        <div class="message-header">
+          <p>{title}</p>
+          <button class="delete" aria-label="delete" />
+        </div>
+        <div class="message-body">{this.props.children}</div>
+      </article>
+    );
   }
 }
 
-export default CoolButton;
+export default Message;

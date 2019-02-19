@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import CoolButton from "./CoolButton.js";
 import "bulma/css/bulma.css";
 
 class Navbar extends Component {
@@ -36,7 +37,8 @@ class Navbar extends Component {
               <div className="navbar-item">
                 <div className="field is-grouped">
                   <p className="control">
-                    <a
+                    <CoolButton
+                      isDark
                       className="bd-tw-button button"
                       data-social-network="Twitter"
                       data-social-action="tweet"
@@ -48,7 +50,7 @@ class Navbar extends Component {
                         <i className="fab fa-twitter" />
                       </span>
                       <span>Tweet</span>
-                    </a>
+                    </CoolButton>
                   </p>
                   <p className="control">
                     <a
