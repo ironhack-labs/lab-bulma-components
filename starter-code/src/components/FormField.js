@@ -6,11 +6,9 @@ export default class FormField extends Component {
     super(props)
   }
 
-  
   render() {
     const { label, type, placeholder } = this.props
-    return (
-     
+    return (    
         <div className="column is-6 ">
           <div className="field">
             <label className="label">{label}</label>
@@ -18,9 +16,7 @@ export default class FormField extends Component {
                 <input className="input" type={type} placeholder={placeholder}></input>
               </div>
           </div>
-        </div>
-   
+        </div>   
     );
   }
-
 }
