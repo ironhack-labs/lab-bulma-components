@@ -1,21 +1,30 @@
 import React, { Component } from 'react';
 
 const bulmaMessageClasses = {
-  isInfo : 'is-info'
+  isInfo : 'is-info',
+  isLink : 'is-link',
+  isPrimary : 'is-primary'
 }
 
 export default class Message extends Component {
 
+  constructor(props){
+    super(props),
+    console.log(bulmaMessageClasses[Object.keys(props)[0]])
+
+    this.classArticle = bulmaMessageClasses[Object.keys(props)[0]]
+  }
+
   render() {
     return (
       <div className="column is-6 ">
-        <article class="message is-info">
-          <div class="message-header">
-            <p>Info</p>
-            <button class="delete" aria-label="delete"></button>
+        <article className={"message " + this.classArticle}>
+          <div className="message-header">
+            <p>{this.props.title || 'Should write prop title!'} </p>
+            <button className="delete" aria-label="delete"></button>
           </div>
-          <div class="message-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+          <div className="message-body">
+            {this.props.children}
           </div>
         </article>
       </div>

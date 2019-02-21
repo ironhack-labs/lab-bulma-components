@@ -2,12 +2,9 @@ import React, { Component } from 'react';
 import CoolButton from './CoolButton'
 import './FormField.css';
 
-
 export default class FormField extends Component {
-
   render() {
     return (
-  
       <div className="column is-6 ">
         <div className="field">
           <label className="label">Name</label>

@@ -5,7 +5,6 @@ import Container from './Container'
 import Message from './Message'
 import './SignUp.css';
 
-
 export default class Signup extends Component {
 
   render() {
@@ -14,7 +13,10 @@ export default class Signup extends Component {
         <Navbar />
           <Container>
             <FormField />
-            <Message />
+            <Message isInfo title="Hello world">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              <strong>Pellentesque risus mi</strong>.
+            </ Message>
           </ Container>
       </ React.Fragment>
     );

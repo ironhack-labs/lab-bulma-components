@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import './Navbar.css';
 import CoolButton from './CoolButton'
 
-
 export default class Navbar extends Component {
-
   render() {
     return (
     <nav className="navbar is-transparent">
