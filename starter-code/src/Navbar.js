@@ -1,6 +1,6 @@
 import React from "react";
 
-export class Navbar extends React.Component {
+export default class Navbar extends React.Component {
   render() {
     return (
       <div className="navbar is-transparent">
@@ -30,18 +30,12 @@ export class Navbar extends React.Component {
             <div className="navbar-item">
               <div className="field is-grouped">
                 <p className="control">
-                  <a
-                    className="button is-secondary"
-                    href="#"
-                  >
+                  <a className="button is-secondary" href="#">
                     <span>Login</span>
                   </a>
                 </p>
                 <p className="control">
-                  <a
-                    className="button is-primary"
-                    href="#"
-                  >
+                  <a className="button is-primary" href="#">
                     <span>Signup</span>
                   </a>
                 </p>
