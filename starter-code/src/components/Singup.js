@@ -14,7 +14,7 @@ export default class SingUp extends Component {
           <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
           <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
           <FormField label="Password" type="password"/>
-          <CoolButton className="button is-rounded my-class is-small is-danger"name="submit"></CoolButton>
+          <CoolButton className="button is-rounded my-class is-small is-danger">submit</CoolButton>
         </form>
       </div>
     )

@@ -7,11 +7,8 @@ export default class CoolButton extends Component {
   }
 
   render() {
-    const { className, name } = this.props;
-    return (
-    <div>
-      <button className={className}>{name}</button>
-    </div>
+    return (  
+      <button className={"ml-2 " + this.props.className}>{this.props.children}</button>
     )
   }
 }
