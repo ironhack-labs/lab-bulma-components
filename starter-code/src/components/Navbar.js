@@ -7,7 +7,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar is-transparent">
+    <nav className="navbar is-transparent">
 
       <div className="navbar-brand">
         <a className="navbar-item" href="https://bulma.io">
@@ -45,7 +45,6 @@ export default class Navbar extends Component {
               <a className="navbar-item" href="https://bulma.io/documentation/form/general/">
                 Form
               </a>
-
               <a className="navbar-item" href="https://bulma.io/documentation/elements/box/">
                 Elements
               </a>
@@ -59,8 +58,8 @@ export default class Navbar extends Component {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="field is-grouped">
-            <CoolButton isLink marginButton>Login</CoolButton>
-            <CoolButton isPrimary marginButton>Sign Up</CoolButton>
+              <CoolButton isLink marginButton>Login</CoolButton>
+              <CoolButton isPrimary marginButton>Sign Up</CoolButton>
             </div>
           </div>
         </div>
