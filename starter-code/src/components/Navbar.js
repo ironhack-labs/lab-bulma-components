@@ -2,12 +2,9 @@ import React, { Component } from 'react';
 
 export default class Navbar extends Component {
 
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
+      <div>
       <nav className="navbar is-transparent">
       <div className="navbar-brand">
         <a className="navbar-item" href="https://bulma.io">
@@ -76,6 +73,7 @@ export default class Navbar extends Component {
         </div>
       </div>
     </nav>
+    </div>
     )
   }
 }
