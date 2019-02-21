@@ -7,7 +7,10 @@ export default class CoolButton extends Component {
 
   render(){
     return(
-      <button className="button is-rounded my-Name is-danger is-small"></button>
+      <div>
+        <button className="button is-rounded my-Name is-danger is-small">Button 1</button>
+        <button className="button is-small is-success">Button 2</button>
+      </div>
     );
   }
 }
