@@ -1,0 +1,51 @@
+.logo {
+    height: 200px;
+}
+
+.logo-image {
+    height: 50px;
+    margin-right: 15px;
+}
+
+.navbar {
+    background: lightcoral;
+}
+
+.nav-button {
+    margin: 0 15px;
+    color: black;
+}
+
+.navbar-width {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.home-button {
+    margin: 5px 0;
+}
+
+.form {
+    width: 50%;
+    margin: 150px auto;
+    border: 3px red solid;
+    border-radius: 5px;
+}
+
+.form-field {
+    
+    padding: 30px;
+}
+
+.form-field-button {
+    margin: 20px;
+    text-align: center;
+}
+
+.button-send {
+    margin: 0 auto;
+}
