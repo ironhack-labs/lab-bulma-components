@@ -1,5 +1,6 @@
 import React from "react"; 
 import Navbar from "./Navbar";
+import FormField from "./FormField";
 
 class App extends React.Component { 
   render() {
@@ -7,6 +8,7 @@ class App extends React.Component {
     return ( 
       <div className="App">
         <Navbar></Navbar>
+        <FormField></FormField>
 
       </div>
     );
