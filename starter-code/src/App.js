@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import SingUp from './components/Singup';
+import SignUp from './components/Signup';
 
 export default class App extends Component {
 
   render() {
     return (
       <div>
-       <SingUp />
+       <SignUp />
       </div>
     )
   }

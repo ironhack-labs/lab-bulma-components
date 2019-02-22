@@ -23,12 +23,8 @@ export default class Navbar extends Component {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="field is-grouped">
-              <p>
-              <CoolButton className="button is-rounded my-class is-danger is-small">Login</CoolButton>
-              </p>
-              <p>
-              <CoolButton className="button is-small is-success">Register</CoolButton>
-              </p>
+            <CoolButton isSmall isDanger className="is-rounded my-class">Login</CoolButton>
+            <CoolButton isSmall isSuccess>Signup</CoolButton>
             </div>
           </div>
         </div>
