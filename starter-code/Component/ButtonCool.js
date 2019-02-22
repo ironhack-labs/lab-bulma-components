@@ -12,7 +12,7 @@ class ButtonCool extends Component {
     return (
       <div>
 
-        <Button type={this.props.style} shape="round"size={size}>CoolBotton</Button>
+        <Button type={this.props.style} shape="round" size={size}>CoolBotton</Button>
 
       </div>
 

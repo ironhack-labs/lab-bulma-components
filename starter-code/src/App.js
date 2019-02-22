@@ -39,11 +39,11 @@ class App extends Component{
     return(
       <div>
         <Row>
-          <Col span={3} > <div className="conLeft"> mmm</div>  </Col>
+          <Col span={3} > <div className="conLeft"> </div>  </Col>
           <Col span={18}>
             <Navbar/>
           </Col>
-          <Col span={3} > <div className="conLeft"> mmm</div>  </Col>
+          <Col span={3} > <div className="conLeft"> </div>  </Col>
         </Row>
         <Row>
           <Col span={8}> </Col>
@@ -53,10 +53,10 @@ class App extends Component{
           <Col span={8}> </Col>
         </Row>
         <Row>
-          <Col span={9}>
+          <Col span={7}>
           </Col>
-          <Col span={4}>
-            <Button type="primary" onClick={this.changeState}  >Create button</Button>
+          <Col span={8}>
+            <Button type="primary" onClick={this.changeState}  >Create button</Button> <br/><br/>
             <Button type="primary" onClick={this.changeForm}  >Change type button</Button>
 
 
@@ -67,7 +67,7 @@ class App extends Component{
               style ={styles}
               />:''}
           </Col>
-          <Col span={9}>
+          <Col span={7}>
           </Col>
         </Row>
       </div>
