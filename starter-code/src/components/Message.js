@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
-
-const classesMessage = {
-  isInfo : 'is-info',
-  isLink : 'is-link',
-  isPrimary : 'is-primary'
-}
+import constants from '../../constants';
 
 export default class Message extends Component {
   
-
   constructor(props) {
     super(props),
-    this.classMessage = classesMessage[Object.keys(props)[0]]
+    this.classMessage = Object.keys(props).map(prop => constants.classesList[prop]).join(' ')   
   }
 
   render () {
