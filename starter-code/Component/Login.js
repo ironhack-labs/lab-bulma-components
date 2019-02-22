@@ -16,7 +16,7 @@ class NormalLoginForm extends Component {
 
   render() {
     const { getFieldDecorator } = this.props.form;
-    console.log('getFieldDecorator---->',getFieldDecorator)
+    // console.log('getFieldDecorator---->',getFieldDecorator)
     return (
       <Form onSubmit={this.handleSubmit} className="login-form">
         <Form.Item>

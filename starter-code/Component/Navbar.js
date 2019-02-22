@@ -41,8 +41,6 @@ class Navbar extends Component{
           <Menu.Item key="signup" >
             <Button type="primary">SignUp</Button>
           </Menu.Item>
-
-
         </Menu>
 
     );
