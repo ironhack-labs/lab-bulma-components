@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar';
+import Signup from './screens/Signup';
 
-export default class App extends Component {
-
-  render() {
-    return(
-       <Navbar />
-    );
-  }
+const App = () => {
+  return (
+    <div className="App">
+      <Signup />
+    </div>
+  );
 }
+
+export default App;
