@@ -11,7 +11,7 @@ export default class CoolButton extends Component {
 
   render(){
     return(
-        <button className={"button " + this.props.className + this.state.modifiers}>{this.props.children}</button>
+        <button className={"button " + this.props.className + " " + this.state.modifiers}>{this.props.children}</button>
     );
   }
 }

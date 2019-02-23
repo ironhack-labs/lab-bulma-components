@@ -9,7 +9,7 @@ export default class Message extends Component {
 
   render(){
     return(
-      <article className={"message" +  this.modifier}>
+      <article className={"message " +  this.modifier}>
         <div className="message-header">
           <p>{this.props.title}</p>
           <button className="delete" aria-label="delete" />
