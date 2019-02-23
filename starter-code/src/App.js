@@ -3,6 +3,7 @@ import Navbar from "./Navbar.js";
 import FormField from "./FormField.js";
 import CoolButton from "./CoolButton.js";
 import SignUp from "./SignUp.js";
+import Message from "./Message.js";
 
 class App extends Component {
   render() {
@@ -22,8 +23,11 @@ class App extends Component {
         <CoolButton isSmall isSuccess>
           Button 2
         </CoolButton>
-
         <SignUp />
+        <Message isInfo title="Hello World">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <strong>Pellentesque risus mi</strong>.
+        </Message>
       </div>
     );
   }
