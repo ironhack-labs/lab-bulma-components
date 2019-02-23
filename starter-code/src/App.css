@@ -1,0 +1,65 @@
+.logo{
+  margin: 20px;
+  width: 50px;
+}
+
+.login-button{
+  position: absolute;
+  top: 60px;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav Button{
+  margin-top: 30px
+}
+
+.nav a{
+  margin-top: 20px
+}
+
+.anticon-close-circle {
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s;
+  font-size: 12px;
+}
+.anticon-close-circle:hover {
+  color: #999;
+}
+.anticon-close-circle:active {
+  color: #666;
+}
+
+#inputs{
+  width: 400px;
+  margin: 5% 0% 10% 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+  border: 0.2rem solid gray;
+  border-radius: 4px;
+}
+
+#inner-input{
+  width: 300px;
+  padding-left: 80px;
+  margin: 10px;
+}
+
+#hardcoded-style{
+  margin-top: 20px;
+}
+
+.buttons{
+  width: 230px;
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: space-around
+}
