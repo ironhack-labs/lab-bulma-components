@@ -4,14 +4,18 @@ import "bulma/css/bulma.css";
 
 export default class FormField extends React.Component {
   render() {
+    
+    const { type, label, placeholder } = this.props;
+
     return (
       <div className="field">
-        <label className="label">{this.props.label}</label>
+        <label className="label">{label}</label>
+
         <div className="control">
           <input
-            type={this.props.type}
+            type={type}
             className="input"
-            placeholder={this.props.placeholder}
+            placeholder={placeholder}
           />
         </div>
       </div>

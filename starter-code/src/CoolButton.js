@@ -1,20 +1,21 @@
-import React from 'react';
+import React from "react";
 
 export default class CoolButton extends React.Component {
-    render() {
-        return (
-            <div>
-                <button> </button>
-            </div>
-        )
-    }
+
+  render() {
+    // ce tableau contient la liste des classes bulma dont nous avons besoin
+    let classNames = ["button"];
+    if ("isSmall" in this.props) {classNames.push("is-small")};
+    if ("isDanger" in this.props) {classNames.push("is-danger")};
+    if ("isSuccess" in this.props) {classNames.push("is-success")};
+    // on concatène les éléments du tableau sous forme de string et on ajoute un espace entre les éléments
+    const classNamesString = classNames.join(" ");
+
+    return (
+      <div>
+        <button className={classNamesString}> {this.props.children} </button>
+      </div>
+    );
+  }
 }
 
-
-
-// // JSX version
-// <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
-// <CoolButton isSmall isSuccess>Button 2</CoolButton>
-// // <!-- What is rendered in the DOM -->
-// <button class="button is-rounded my-class is-danger is-small">Button 1</button>
-// <button class="button is-small is-success">Button 2</button>
