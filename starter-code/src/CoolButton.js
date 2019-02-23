@@ -1,19 +1,22 @@
 import React from "react";
 
 class CoolButton extends React.Component {
-    render() {
+  render() {
 
-        console.log('props=', this.props);
-        const {primary, success, danger} = this.props;
+    let classes = ["button"];
+      if("isSmall" in this.props){
+        classes.push("is-small")
+      }
+      if("isDanger" in this.props){
+        classes.push("is-danger")
+      }
+      if("isSuccess" in this.props){
+        classes.push("is-success")
+      }
 
-        return (
-            <div className="CoolButton">
-            {/* <button class="button is-small is-success">Button 2</button> */}
 
-
-            </div>
-            );
+    return <button className={classes.join(" ")}>{this.props.children}</button>;
   }
-};
+}
 
 export default CoolButton;
