@@ -2,7 +2,13 @@ import React, { Component } from "react";
 
 class Message extends Component {
   render() {
-    const { title, isPrimary, isInfo } = this.props;
+    const { title, isPrimary, isInfo, messageText } = this.props;
+
+    // Autres méthode
+    // let compo = ['message'];
+    // tab.push('is-info');
+    // const classes = tab.join(" ");
+
     let compo = "message";
     if (isPrimary) {
       compo += " is-danger";
@@ -15,7 +21,7 @@ class Message extends Component {
           <p>{title}</p>
           <button className="delete" aria-label="delete" />
         </div>
-        <div className="message-body">{this.props.children}</div>
+        <div className="message-body">{messageText}</div>
       </article>
     );
   }

@@ -15,7 +15,7 @@ class SignUp extends Component {
           placeholder="e.g alexsmith@gmail.com"
         />
         <FormField label="Password" type="password" placeholder="******" />
-        <CoolButton isPrimary>Submit</CoolButton>
+        <CoolButton isPrimary text="submit" />
       </div>
     );
   }

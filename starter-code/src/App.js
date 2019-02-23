@@ -17,17 +17,16 @@ class App extends Component {
           placeholder="e.g alexsmith@gmail.com"
         /> */}
 
-        <CoolButton isSmall isDanger className="is-rounded">
-          Button 1
-        </CoolButton>
-        <CoolButton isSmall isSuccess>
-          Button 2
-        </CoolButton>
+        <CoolButton isSmall isDanger className="is-rounded" text="Button1" />
+        <CoolButton isSmall isSuccess text="Button2" />
+
         <SignUp />
-        <Message isInfo title="Hello World">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          <strong>Pellentesque risus mi</strong>.
-        </Message>
+
+        <Message
+          isInfo
+          title="Hello World"
+          messageText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque risus mi."
+        />
       </div>
     );
   }

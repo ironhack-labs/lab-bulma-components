@@ -8,7 +8,8 @@ class CoolButton extends Component {
       isSuccess,
       isSmall,
       isPrimary,
-      isInfo
+      isInfo,
+      text
     } = this.props;
 
     let compoCSS = "button " + className;
@@ -25,7 +26,7 @@ class CoolButton extends Component {
     } else if (isInfo) {
       compoCSS += " is-info";
     }
-    return <button className={compoCSS}>{this.props.children}</button>;
+    return <button className={compoCSS}>{text}</button>;
   }
 }
 
