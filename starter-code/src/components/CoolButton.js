@@ -2,24 +2,19 @@ import React from "react";
 
 class CoolButton extends React.Component {
   render() {
-
-    console.log("props=", this.props);
-    const { title1, title2 } = this.props;
+    // ce tableau contient la liste des classes bulma dont nous avons besoin
+    let classNames = ["button"];
+    if ("isSmall" in this.props) {classNames.push("is-small");}
+    if ("isDanger" in this.props) {classNames.push("is-danger");}
+    if ("isSuccess" in this.props) {classNames.push("is-success");    }
+    // on concatène les éléments du tableau sous forme de string et on ajoute un espace entre les éléments
+    const classNamesString = classNames.join(" ");
 
     return (
       <div>
-          <br></br>
-        <button className="button is-rounded my-class is-danger is-small">
-          {title1}
-        </button>
-
-        <button className="button is-small is-success">
-          {title2}
-        </button>
+        <button className={classNamesString}> {this.props.children} </button>
       </div>
     );
   }
 }
-
-
 export default CoolButton;

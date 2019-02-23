@@ -31,7 +31,8 @@ class Navbar extends React.Component {
 
           <div className="navbar-end">
             <div className="navbar-item">
-              <CoolButton title1="Login" title2="Sign up" />
+              <CoolButton isSmall isDanger className="is-rounded my-class">Login</CoolButton>
+              <CoolButton isSmall isSuccess> Sign up </CoolButton>
             </div>
           </div>
         </nav>
