@@ -1,0 +1,66 @@
+.Header {
+  border-bottom: 3px solid #cfad58 !important;
+  height: 10vh;
+}
+
+.Content {
+  background-color: #fff4d9;
+  height: 80vh;
+}
+
+.Footer {
+  background-color: #3a6e82 !important;
+  color: #FFF !important;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Footer p {
+  margin: auto 5vw auto;
+}
+
+/* Content */
+
+h1 {
+  margin: 5vh auto !important;
+  text-align: center;
+  color: #cf6d58 !important;
+}
+
+/* Fixing color scheme of components to my liking */
+.ant-layout-header {
+  background-color: #8fb3c1 !important;
+}
+
+.ant-menu {
+  background-color: #8fb3c1 !important;
+  color: #FFF !important;
+  /* border-bottom: 1px solid #CCC !important; */
+}
+
+.ant-menu-item-selected {
+  color: #000 !important;
+  border-bottom: 2px solid #000 !important;
+}
+
+.ant-menu-item-active {
+  color: #444 !important;
+  border-bottom: 2px solid #444 !important;
+}
+
+/* Fixing width of login forms */
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  max-width: 300px !important;
+}
+
+.btn-submit {
+  width: 300px !important;
+}
