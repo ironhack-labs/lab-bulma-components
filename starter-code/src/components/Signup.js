@@ -1,8 +1,8 @@
 import React from "react";
 
-import Navbar from "./components/Navbar.js";
-import FormField from "./components/FormField.js";
-import CoolButton from "./components/CoolButton.js";
+import Navbar from "./Navbar.js";
+import FormField from "./FormField.js";
+import CoolButton from "./CoolButton.js";
 
 class Signup extends React.Component {
   render() {
