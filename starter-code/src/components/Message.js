@@ -4,9 +4,14 @@ class Message extends React.Component {
   render() {
     const { title } = this.props;
 
+    let classNames = ["message"];
+    if ("isInfo" in this.props) {classNames.push("is-info");}
+    const classNamesString = classNames.join(" ");
+
+
     return (
       <div>
-        <article className="message">
+        <article className={classNamesString}>
           <div className="message-header">
             <p>{title}</p>
             <button class="delete" aria-label="delete" />

@@ -14,17 +14,14 @@ class App extends React.Component {
     return (
       <div>
         <Signup />
-<br />
-        <Message  title="Hello World">
+        <br />
+        <Message isInfo title="Hello World">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
           <strong>Pellentesque risus mi</strong>.
         </Message>
-
       </div>
     );
   }
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
-
-//isInfo
