@@ -1,7 +1,7 @@
 import React, {Component} from "react"
 import "../src/App.css"
 import Nav from "./nav"
-import Forma from "./form"
+import FormField from "./form"
 import Message from "./message"
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
             <div className="App">
                 <h1>hola</h1>
                 <Nav />
-                <Forma />
+                <FormField />
                 <Message  title="titulo" body="cuerpo"/>
             </div>
         )
