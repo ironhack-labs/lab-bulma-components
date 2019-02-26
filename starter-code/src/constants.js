@@ -26,3 +26,7 @@ const availableStatus = {
   isWarning: 'is-warning',
   isWhite: 'is-white',
 }
+
+export default {
+  availableStatus: availableStatus
+}

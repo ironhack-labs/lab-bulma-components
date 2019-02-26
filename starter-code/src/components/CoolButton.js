@@ -5,11 +5,13 @@ export default class CoolButton extends Component {
 
   constructor(props) {
     super(props)
+    console.log(Object.keys(props));
     this.state = {
       modifiers: Object.keys(props)
         .map(prop => constants.availableStatus[prop] || '')
         .join(' ')
     }
+  
   }
 
   render() {

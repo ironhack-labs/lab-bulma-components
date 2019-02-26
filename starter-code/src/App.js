@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar';
-import Form from './components/Form'
-import CoolButton from './components/CoolButton'
+import Form from './components/Form';
+import CoolButton from './components/CoolButton';
 
 export default class App extends Component {
   render() {
@@ -15,7 +15,8 @@ export default class App extends Component {
               <Form label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
               <div className="field">
                 <p className="control">
-                  <CoolButton isSmall isSuccess>Register</CoolButton>
+                  <CoolButton isSmall isSuccess>LogIn</CoolButton>
+                  <CoolButton isSmall isDanger className="is-rounded my-class">Register</CoolButton>
                 </p>
               </div>
             </form>
