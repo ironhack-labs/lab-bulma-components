@@ -12,4 +12,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+.navbar{
+  display: flex; 
+}
+.navbar-end{
+  align-content: flex-end;
+}
+nav button{
+  background-color: blue;
+}

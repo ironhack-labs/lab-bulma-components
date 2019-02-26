@@ -7,46 +7,37 @@ class Nav extends Component{
 
             <nav className="navbar is-transparent">
   <div className="navbar-brand">
-    <p className="navbar-item" href="https://bulma.io">
+    <a className="navbar-item" href="https://bulma.io">
       <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28"/>
-    </p>
+    </a>
+  </div>
 
   <div id="navbarExampleTransparentExample" className="navbar-menu">
     <div className="navbar-start">
-      <p className="navbar-item" >
+      <a className="navbar-item" href="https://bulma.io/">
         Home
-      </p>
+      </a>
+      </div>
     <div className="navbar-end">
       <div className="navbar-item">
         <div className="field is-grouped">
           <p className="control">
-            <a className="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="/">
+            <a className="bd-tw-button button" href="/">
               <span>
-                Log in
+                Log In
               </span>
             </a>
           </p>
-        </div>
-      </div>
-    </div>
-    <div className="navbar-end">
-      <div className="navbar-item">
-        <div className="field is-grouped">
           <p className="control">
-            <a className="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="/">
-              <span>
-                Sign up
-              </span>
+            <a className="button is-primary" href="/">
+              <span>Sign up</span>
             </a>
           </p>
         </div>
       </div>
     </div>
   </div>
-  </div>
-  </div>
-
-  </nav>
+</nav>
                 
 
         </div>
