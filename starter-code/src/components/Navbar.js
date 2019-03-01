@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
+import CoolButton from './CoolButton';
 
 
 export default class Navbar extends Component {
-
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return(
@@ -61,22 +58,10 @@ export default class Navbar extends Component {
             <div className="navbar-item">
               <div className="field is-grouped">
                 <p className="control">
-                  <a className="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
-                    <span className="icon">
-                      <i className="fab fa-twitter"></i>
-                    </span>
-                    <span>
-                      Tweet
-                    </span>
-                  </a>
+                  <CoolButton isSmall isDanger className="is-rounded my-class">Login</CoolButton>
                 </p>
                 <p className="control">
-                  <a className="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.7.4/bulma-0.7.4.zip">
-                    <span className="icon">
-                      <i className="fas fa-download"></i>
-                    </span>
-                    <span>Download</span>
-                  </a>
+                  <CoolButton isSmall isSuccess>SignUp</CoolButton>
                 </p>
               </div>
             </div>
