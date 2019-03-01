@@ -1,8 +1,7 @@
 import React from 'react';
-import Navbar from './Navbar.js';
-import FormField from './FormField.js';
-
-
+import SignUp from './SignUp';
+import Navbar from './Navbar';
+import Container from './Container';
 
 class App extends React.Component {
     render () {
@@ -10,12 +9,14 @@ class App extends React.Component {
         return (
             <div className="App">
                 <Navbar />
-                <FormField label="Name" type="text" />    
+                <Container>
+                    <SignUp />
+                </Container>
+
             </div>
         );
     }
 }
-
 
 
 export default App;
