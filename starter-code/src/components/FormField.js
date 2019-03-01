@@ -12,7 +12,7 @@ export default class FormField extends Component {
         <div className="field" style={{width: '35rem'}}>
           <label className="label">{this.props.label}</label>
           <div className="control">
-            <input className="input" type={this.props.type} placeholder={this.props.placeholder}/>
+            <input className="input has-margin-bottom-20" type={this.props.type} placeholder={this.props.placeholder}/>
           </div>
         </div>
       </div>
