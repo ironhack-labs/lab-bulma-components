@@ -1,0 +1,11 @@
+.signup {
+    margin-top: 3em;
+    width: 60%;
+    justify-self: center;
+}
+
+
+.navbar {
+    display: fixed;
+    top: 0px;
+}
