@@ -13,8 +13,6 @@ Do you know [Bulma](https://bulma.io), a very nice alternative to Bootstrap as a
 - Fork this repo
 - Clone this repo
 
-You can find the starter code in the starter code folder of this GitHub repo.
-
 
 ## Submission
 
