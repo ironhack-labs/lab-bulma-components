@@ -53,16 +53,21 @@ ReactDOM.render(
 ```
 
 ```
-starter-code/
-├── dist/
 ├── package-lock.json
 ├── package.json
+├── .gitignore
 ├── public/
-│   └── index.html
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
 ├── src/
+│   ├── App.css
 │   ├── App.js
-│   └── index.js
-└── webpack.config.js
+│   ├── App.test.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   └── serviceWorker.js
 ```
 
 
