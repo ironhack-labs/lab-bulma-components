@@ -33,25 +33,11 @@ You can find the starter code in the starter code folder of this GitHub repo.
 
 First let's get set up:
 
-1) Inside `starter-code/` run `npm install`.
-2) Create the folders you will need for the project: `dist/`, `public/` and `src/`.
-3) Create an `index.html` file inside of `public/`.
-4) Create `index.js` and `App.js` files inside the `src/` folder.
-5) Install the `react` and `react-dom` packages.
+Run `create-react-app lab-bulma-react || my-app-name`
+`cd lab-bulma-react || my-app-name`
+`npm start`
 
-```bash
-$ npm install react react-dom
-```
-
-In your `index.js`, have `ReactDOM` render just the `App` component:
-
-```jsx
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
-```
-
+The strcuture of the files should be similiar to the following:
 ```
 ├── package-lock.json
 ├── package.json
@@ -69,7 +55,14 @@ ReactDOM.render(
 │   ├── logo.svg
 │   └── serviceWorker.js
 ```
+In your `index.js`, have `ReactDOM` render just the `App` component:
 
+```jsx
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
+```
 
 ### Bulma installation
 
