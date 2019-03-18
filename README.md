@@ -33,9 +33,12 @@ You can find the starter code in the starter code folder of this GitHub repo.
 
 First let's get set up:
 
-Run `create-react-app lab-bulma-react || my-app-name`
-`cd lab-bulma-react || my-app-name`
-`npm start`
+Run 
+```
+create-react-app lab-bulma-react || my-app-name
+cd lab-bulma-react || my-app-name
+npm start
+```
 
 The strcuture of the files should be similiar to the following:
 ```
