@@ -2,7 +2,6 @@ import React from "react";
 
 function NavBar(props) {
   return (
-
     <nav className="navbar is-transparent">
       <div className="navbar-brand">
         <a className="navbar-item" href="https://bulma.io">
@@ -25,7 +24,7 @@ function NavBar(props) {
           <div className="navbar-item">
             <div className="field is-grouped">
               <p className="control">
-                <a className="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&hashtags=bulmaio&url=http://localhost:4000&via=jgthms">
+                <a className="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href=" ">
                   <span className="icon">
                     <i className="fab fa-twitter" />
                   </span>
@@ -35,7 +34,7 @@ function NavBar(props) {
                 </a>
               </p>
               <p className="control">
-                <a className="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.7.4/bulma-0.7.4.zip">
+                <a className="button is-primary" href=" ">
                   <span className="icon">
                     <i className="fas fa-download" />
                   </span>
