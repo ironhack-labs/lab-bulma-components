@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import 'bulma/css/bulma.css';
+//import 'bulma/css/bulma.css';
 
 const CoolButton = (props) => {
   return(
 
-   <button className={props.className}>{props.children}</button>
+   <a className={props.className}>{props.children}</a>
 
   )}
 

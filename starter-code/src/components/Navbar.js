@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import CoolButton from "./CoolButton"
+
 
 const NavBar = () => {
 return(
@@ -23,21 +25,10 @@ return(
       <div className="navbar-item">
         <div className="field is-grouped">
           <p className="control">
-            <a className="button is-primary" href="">
-              <span className="icon">
-                <i className="fas fa-download" />
-              </span>
-              <span>Login</span>
-            </a>
-           </p>
-         
+            <CoolButton className="button is-info">Login</CoolButton>
+           </p>    
           <p className="control">
-            <a className="button is-primary" href="">
-              <span className="icon">
-                <i className="fas fa-download" />
-              </span>
-              <span>Signup</span>
-            </a>
+            <CoolButton className="button is-primary">Signup</CoolButton>
           </p>
         </div>
       </div>
