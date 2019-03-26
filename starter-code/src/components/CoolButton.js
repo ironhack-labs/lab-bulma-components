@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 
 const CoolButton = (props) => {
   return(
-
-   <a className={props.className}>{props.children}</a>
-
+    <div>
+      <a className={props.className}>{props.children}</a>
+    </div>
   )}
 
 export default CoolButton;
