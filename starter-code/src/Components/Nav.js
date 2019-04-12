@@ -23,8 +23,8 @@ class Nav extends Component {
         <Navbar type="-end">
           <Navbar type={"-item"}>
             <Buttons>
-              <Button color="button is-light" name="Sing up" />
-              <Button color="button is-primary" name="Log in" />
+              <Button isPrimary isRounded name="Sing up" />
+              <Button isBlack isRounded name="Log in" />
             </Buttons>
           </Navbar>
         </Navbar>
