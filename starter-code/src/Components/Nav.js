@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar.js";
 import NavItem from "./NavItem.js";
-import Button from "./Button.js";
+import CoolButton from "./CoolButton.js";
 import Buttons from "./Buttons.js";
 
 class Nav extends Component {
@@ -23,8 +23,8 @@ class Nav extends Component {
         <Navbar type="-end">
           <Navbar type={"-item"}>
             <Buttons>
-              <Button isPrimary isRounded name="Sing up" />
-              <Button isBlack isRounded name="Log in" />
+              <CoolButton isBlue name="Login" />
+              <CoolButton isPrimary name="Sing up" />
             </Buttons>
           </Navbar>
         </Navbar>

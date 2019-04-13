@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-class Button extends Component{
+class CoolButton extends Component{
 
     enums = {
         isActive: 'is-active',
@@ -30,6 +30,7 @@ class Button extends Component{
         isText: 'is-text',
         isWarning: 'is-warning',
         isWhite: 'is-white',
+        isBlue: 'is-blue'
       }
 
       handleClasses = () => {
@@ -53,4 +54,4 @@ class Button extends Component{
     }
 }
 
-export default Button;
+export default CoolButton;

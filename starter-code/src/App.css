@@ -1,0 +1,18 @@
+.container-form{
+   width: 720px;
+   padding-top: 20px;
+}
+.is-blue{
+   background-color: #55acee;
+   color: #fff;
+   border-color:transparent;
+}
+.is-blue:hover{
+   background-color: #4397d6;
+   color: #fff;
+   border-color:transparent;
+}
+
+.is-gray{
+   background: #F5F5F5;
+}
