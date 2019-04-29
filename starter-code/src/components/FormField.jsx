@@ -5,9 +5,9 @@ export default class FormField extends Component {
     return (
         <div>
             <div className="field">
-                <label classnName="label">{this.props.label}</label>
+                <label className="label">{this.props.label}</label>
                 <div className="control">
-                    <input className="input" type="text" placeholder={this.props.placeholder} />
+                    <input className="input" type={this.props.type} placeholder={this.props.placeholder} />
                 </div>
             </div>
         </div>

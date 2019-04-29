@@ -1,0 +1,18 @@
+.messageBox {
+    width: 30vw;
+}
+
+.signup {
+    width: 40vw;
+}
+
+.signup > div {
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-around;
+}

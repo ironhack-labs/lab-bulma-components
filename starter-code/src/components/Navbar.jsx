@@ -17,16 +17,8 @@ class Navbar extends React.Component {
                             <span aria-hidden="true"></span>
                         </a>
                     </div>
-                    <div class="navbar-end">
-                        <div class="navbar-item">
-                            {/* <div class="buttons">
-                            <a class="button is-primary">
-                                <strong>Sign up</strong>
-                            </a>
-                            <a class="button is-light">
-                                Log in
-                            </a>
-                            </div> */}
+                    <div className="navbar-end">
+                        <div className="navbar-item">
                             <CoolButton isSmall isDanger className="is-rounded my-class">Login</CoolButton>
                             <CoolButton isSmall isSuccess>Signup</CoolButton>
                         </div>
