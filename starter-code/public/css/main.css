@@ -1,0 +1,7 @@
+.sl-container {
+  display: flex;
+
+.navbar-end {
+  display: flex;
+  flex-direction: row;
+}
