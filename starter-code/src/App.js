@@ -1,11 +1,11 @@
 import React from "react";
-import BulmaNav from "./BulmaNav.jsx";
+import Navbar from "./Navbar";
 
 class App extends React.Component {
   render() {
     return (
       <div id="app-container">
-      <BulmaNav />
+      <Navbar />
       </div>
     );
   }
