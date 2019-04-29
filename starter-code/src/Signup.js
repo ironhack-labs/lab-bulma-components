@@ -2,11 +2,8 @@ import React, { Component } from "react";
 import Barra from "./components/Navbar";
 import Form from "./components/Form";
 import CoolButton from "./components/CoolButton";
-import "./App.css";
 
-import Signup from "./Signup.js";
-
-class App extends Component {
+class Signup extends Component {
   render() {
     return (
       <div>
@@ -17,13 +14,15 @@ class App extends Component {
           type="email"
           placeholder="e.g. alexsmith@gmail.com"
         />
-        <CoolButton isSmall isDanger className="is-rounded my-class" nombre="boton 1" />
-        <CoolButton isSmall isSuccess nombre="boton 2" />
-        
-        <Signup />
+        <Form
+          label="password"
+          type="Number"
+          placeholder="password"
+        />
+        <CoolButton isSmall isDanger className="is-rounded my-class" nombre="Submit" />
       </div>
     );
   }
 }
 
-export default App;
+export default Signup;

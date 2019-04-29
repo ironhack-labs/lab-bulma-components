@@ -1,42 +1,16 @@
+import React, { Component } from "react";
 
-import React from 'react';
-
-import {Nav, NavLeft, NavItem, NavCenter,NavRight, Container,Tab, Tabs, TabList,TabLink, HeroBody, HeroFooter, Title , Hero, HeroHeader, Icon } from 'bloomer'
-
-
-
-
-export default function Form() {
+export default class Form extends Component {
+  render() {
     return (
-
-
-
-
-<Hero isColor='info' isSize='medium'>     
-
-<HeroBody>
-    <Container hasTextAlign='centered'>
-        <Title>Title</Title>
-    </Container>
-</HeroBody>
-
-
-<HeroFooter>
-    <Tabs isBoxed isFullWidth>
-        <Container>
-            <TabList>
-                <Tab isActive><TabLink>Overview</TabLink></Tab>
-                <Tab><TabLink>Grid</TabLink></Tab>
-                <Tab><TabLink>Element</TabLink></Tab>
-                <Tab><TabLink>Components</TabLink></Tab>
-                <Tab><TabLink>Layout</TabLink></Tab>
-            </TabList>
-        </Container>
-    </Tabs>
-</HeroFooter>
-</Hero>
-
-    )}
-
-
-
+      <div className="field">
+        <label className="label">{this.props.label}</label>
+        <input
+          className="input"
+          type={this.props.type}
+          placeholder={this.props.placeholder}
+        />
+      </div>
+    );
+  }
+}
