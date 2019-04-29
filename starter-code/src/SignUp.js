@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from "./Button.js";
 import FormField from './FormField.js';
+import Container from './Container.js';
+import CoolButton from './CoolButton';
 
 const Navbar = () =>{
 
@@ -30,10 +32,12 @@ const Navbar = () =>{
                 </div>
             </div>
         </nav>
-        
-        <FormField name="Name" placeholder="Type in your name" type="text"/>
-        <FormField name="Email" placeholder="Enter your email professorcti@gmail.com" type="email"/>
-        
+        <Container>
+            <FormField name="Name" placeholder="Type in your name" type="text"/>
+            <FormField name="Email" placeholder="Enter your email professorcti@gmail.com" type="email"/>
+            <CoolButton isSmall isDanger isRounded className="is-rounded my-class">Send Form</CoolButton>
+        </Container>
+
         </div>
     )
 }
