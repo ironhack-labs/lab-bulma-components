@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class CoolButton extends Component {
+export default class Message extends Component {
   render() {
     let classes = {
       isActive: 'is-active',
@@ -30,7 +30,7 @@ export default class CoolButton extends Component {
       isWarning: 'is-warning',
       isWhite: 'is-white',
     };
-    let classNameToAdd = "button ";
+    let classNameToAdd = "message ";
     
     for(let theClass in classes){
       if(this.props.hasOwnProperty(theClass)){
@@ -40,8 +40,17 @@ export default class CoolButton extends Component {
     if(this.props.className){
       classNameToAdd += this.props.className;
     }
+
     return (
-        <button className={classNameToAdd}>{this.props.children}</button>
+      <article className={classNameToAdd}>
+        <div className="message-header">
+          <p>{this.props.title}</p>
+          <button className="delete" aria-label="delete"></button>
+        </div>
+        <div className="message-body">
+          {this.props.children}
+        </div>
+      </article>
     )
   }
 }
