@@ -1,0 +1,30 @@
+.logo {
+  max-width: 300px;
+  max-height: 60px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  margin: 0 10px;
+}
+
+.link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: grey;
+}
