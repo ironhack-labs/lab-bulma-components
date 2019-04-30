@@ -14,35 +14,22 @@ export default class Nav extends Component {
     }
   }
 
-  onclickFunctionL = () => {
-    if(this.state.displayLogin === "none")
+  onclickFunction(val) {
+    if(this.state[val] === "none")
     {
       this.setState({
-        displayLogin: "block"
+        [val]: "block"
       })
     } else {
       this.setState({
-        displayLogin: "none"
-      })
-    }
-  }
-
-  onclickFunctionS = () => {
-    if(this.state.displaySignup === "none")
-    {
-      this.setState({
-        displaySignup: "block"
-      })
-    } else {
-      this.setState({
-        displaySignup: "none"
+        [val]: "none"
       })
     }
   }
 
   render() {
     return (
-      <div>
+      <React.Fragment>
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="https://bulma.io">
@@ -60,7 +47,7 @@ export default class Nav extends Component {
           <div className="navbar-item">
             <div className="buttons">
               <div className="sl-container">
-              <CoolButton type="is-danger" name="Signup" func={this.onclickFunctionS}/>
+              <CoolButton type="is-danger" name="Signup" func={() => this.onclickFunction("displaySignup")}/>
               <div style={{ display: this.state.displaySignup }}>
                 <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
                 <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
@@ -69,7 +56,7 @@ export default class Nav extends Component {
               </div>
               <div className="sl-container">
               </div>
-              <CoolButton type="is-success" name="Login" func={this.onclickFunctionL}/>
+              <CoolButton type="is-success" name="Login" func={() => this.onclickFunction("displayLogin")}/>
               <div style={{ display: this.state.displayLogin }}>
                 <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
                 <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
@@ -79,30 +66,7 @@ export default class Nav extends Component {
           </div>
         </div>
       </nav>
-    </div>
+    </React.Fragment>
     );
   }
 }
-
-
-
-
-
-
-//       <div>
-//         <nav>
-//           <a href="#home"></a>
-//           <div>
-//             <button  onClick={this.onclickFunction}>login</button>
-//             <div style={{ display: this.state.display }}>
-//             <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-//             <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
-//           </div>
-            
-//             <button>signup</button>
-//           </div>
-//         </nav>
-//       </div>
-//     )
-//   }
-// }
