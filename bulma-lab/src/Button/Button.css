@@ -1,0 +1,9 @@
+.Btns {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  margin: 50px auto;
+}
