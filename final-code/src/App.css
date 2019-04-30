@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: left;
+  color: black;
 }
 
 .App-logo {
@@ -16,11 +17,16 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.field {
+  width: 40%;
+  margin: 50px;
 }
 
 @keyframes App-logo-spin {
@@ -30,4 +36,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  background-color: grey;
 }
