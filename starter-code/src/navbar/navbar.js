@@ -1,5 +1,6 @@
 import React from 'react'
 import './navbar.css'
+import CoolButton from '../Coolbutton/CoolButton'
 
 export default function navbar (props) {
   return (
@@ -10,17 +11,13 @@ export default function navbar (props) {
           className='logo'
           src='../images/bulma-banner.png'
         />
-        <a class='link' href='/home'>
+        <a className='link' href='/home'>
           Home
         </a>
       </div>
       <div className='container2'>
-        <a class='button is-info' href='/login'>
-          Login
-        </a>
-        <a class='button is-primary' href='/singup'>
-          Singup
-        </a>
+        <CoolButton className='button is-info' button='login' />
+        <CoolButton className='button is-primary' button='singup' />
       </div>
     </div>
   )
