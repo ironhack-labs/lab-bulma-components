@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './navbar/navbar'
 import Formfield from './Formfield/Formfield'
 import CoolButton from './Coolbutton/CoolButton'
+import Message from './Message/Message'
 
 function App () {
   return (
@@ -15,6 +16,11 @@ function App () {
       <Formfield type='text' label='password' placeholder='enter a password' />
 
       <CoolButton className='button is-success' button='Submit' />
+
+      <Message title='Hello World!'>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <strong>Pellentesque risus mi</strong>
+      </Message>
     </div>
   )
 }
