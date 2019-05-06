@@ -1,7 +1,6 @@
 import React from 'react';
 
-const Navbar = () => {
-    return(
+const Navbar = () => (
         <nav className="navbar is-transparent">
   <div className="navbar-brand">
     <a className="navbar-item" href="https://bulma.io">
@@ -75,8 +74,6 @@ const Navbar = () => {
     </div>
   </div>
 </nav>
-
-    ) 
-}
+    );
 
 export default Navbar;
