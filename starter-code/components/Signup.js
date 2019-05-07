@@ -16,11 +16,7 @@ function Signup() {
       <FormField label="Password" type="password" placeholder="password" />
 
       <CoolButton className="button is-rounded is-danger">Submit</CoolButton>
-      {/*     <CoolButton isSmall isSuccess>
-        Button 2
-      </CoolButton> */}
-      {/*  <h1> Hello Ironhackers! </h1> */}
-    </div>
+     </div>
   );
 }
 
