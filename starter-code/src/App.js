@@ -1,10 +1,9 @@
 import React from "react";
-import "../styles.css";
 
 function App() {
   return (
     <div>
-      Prueba
+      <h1>Prueba React</h1>
     </div>
   );
 }
