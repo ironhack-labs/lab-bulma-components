@@ -1,4 +1,5 @@
 import React from "react";
+import CoolButton from "./CoolButton";
 
 const Navbar = () => (
   <nav className="navbar is-transparent">
@@ -32,14 +33,14 @@ const Navbar = () => (
         <div className="navbar-item">
           <div className="field is-grouped">
             <p className="control">
-              <a className="button is-info" href="#">
-                <span>Login</span>
-              </a>
+              <CoolButton isInfo>
+                Login
+              </CoolButton>
             </p>
             <p className="control">
-              <a className="button is-primary" href="#">
-                <span>Signup</span>
-              </a>
+              <CoolButton isPrimary>
+                Signup
+              </CoolButton>
             </p>
           </div>
         </div>
