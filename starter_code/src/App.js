@@ -1,14 +1,18 @@
-import React from 'react';
-import './App.css';
-import 'bulma/css/bulma.css';
+import React from "react";
+import "./App.css";
+import "bulma/css/bulma.css";
 import Navbar from "./Navbar";
 import Formfield from "./Formfield";
+import Coolbutton from "./Coolbutton";
+import Signup from "./Signup";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Formfield/>
+      <Formfield />
+      <Coolbutton />
+      <Signup />
     </div>
   );
 }
