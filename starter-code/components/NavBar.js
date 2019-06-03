@@ -2,7 +2,9 @@ import React from "react"
 const NavBar = () => {
   return (
     <nav>
+
       <div>
+        <img src="https://bulma.io/images/bulma-logo.png" />
         <a href="/">Home</a>
       </div>
       <div>

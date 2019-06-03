@@ -14,7 +14,6 @@ render () {
   return (
     <div className="App">
       <NavBar />
-      <h1>bulma App</h1>
 
       <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
       <FormField

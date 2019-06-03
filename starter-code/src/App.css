@@ -1,6 +1,13 @@
+#root {
+  margin-left: 40px;
+}
+
 nav {
   display: flex;
   justify-content: space-between
+}
+nav div img{
+  width: 100px;
 }
 nav a {
   display: inline-block;
