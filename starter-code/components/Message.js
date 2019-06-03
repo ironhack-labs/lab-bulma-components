@@ -1,7 +1,7 @@
 import React from 'react'
-import _ from 'lodash'
 
-const CoolButton = props => {
+
+const Message = props => {
   const obj= {
     isActive: 'is-active',
     isBlack: 'is-black',
@@ -31,9 +31,7 @@ const CoolButton = props => {
     isWhite: 'is-white',
   }
 
-
-  const getClasses = (classList,obj) =>{
-    return classList.map(cName => { 
+  const getClasses = (classList,obj) => classList.map(cName => { 
       for (const key in obj) {
         if(cName === key){
           return(obj[key])
@@ -41,18 +39,19 @@ const CoolButton = props => {
       }		
     })
   
-  }
+  
 
-  const buttonClassList = `button ${getClasses(_.keys(props), obj).join(' ')}`
-  //console.log(_.keys(props))
-  //console.log(buttonClassList)
+  const msgClassList = `message ${getClasses(_.keys(props), obj).join(' ')}`
+  const {title,children} =props
   return(
-
-    <button className={buttonClassList}>
-      {props.children}
-    </button>
+    <article className={msgClassList}>
+      <div className="message-header">
+        <p>{title}</p>
+        <button className="delete" aria-label="delete"></button>
+    </div>
+    <div className="message-body"> {children} </div>
+  </article>
   )
 }
 
-export default CoolButton
-
+export default Message
