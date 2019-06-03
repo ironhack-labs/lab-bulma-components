@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
-import Navbar from './components/Navbar/Navbar';
-import FormField from './components/FormField/FormField'
-
+import Navbar from '../components/Navbar/Navbar';
+import FormField from '../components/FormField/FormField'
+import CoolButton from '../components/CoolButton/CoolButton'
 import './App.css'
 
 class App extends Component {
@@ -21,6 +21,7 @@ class App extends Component {
           type="email" 
           placeholder="e.g. alexsmith@gmail.com" 
         />
+        <CoolButton isActive isMedium isSuccess>Send</CoolButton>
     </form>
     </div>
     )

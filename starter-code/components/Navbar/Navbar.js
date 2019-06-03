@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import CoolButton from '../CoolButton/CoolButton'
 
 
 const Navbar = () =>{
@@ -39,15 +40,13 @@ const Navbar = () =>{
           Home
         </a>
     </div>
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-info">
-            Log in
-          </a>
-          <a class="button is-primary">
-           Sign up
-          </a>
+    <div className="navbar-end">
+      <div className="navbar-item">
+        <div className="buttons">
+         
+          <CoolButton  isInfo isMedium> Log in</CoolButton>
+      
+          <CoolButton  isPrimary isMedium> Sign up</CoolButton>
         </div>
       </div>
     </div>
