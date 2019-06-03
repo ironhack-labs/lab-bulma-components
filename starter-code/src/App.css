@@ -24,3 +24,19 @@ nav a {
 
 
 }
+.field{
+font-size: 1.2em;
+}
+
+
+.label{
+  font-size: 1.2em;
+}
+.control{
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+}
+.control input {
+   padding:5px;
+}
