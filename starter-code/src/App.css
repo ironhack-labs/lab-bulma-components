@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  justify-content: space-between
+}
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  margin: 5px;
+  color: rgba(34, 33, 33, 0.63)
+}
+
+.signUp {
+  background: aquamarine;
+  border-radius: 11px;
+    color: whitesmoke;
+
+  
+}
+.login {
+  background: blue;
+  border-radius: 11px;
+    color: whitesmoke;
+
+
+}
