@@ -1,0 +1,12 @@
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+.navigation {
+  background-color: black;
+}
+.container-all .hero{
+  color: white;
+  background-color: rgb(7, 7, 38)
+}
