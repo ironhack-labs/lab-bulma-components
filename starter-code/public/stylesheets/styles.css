@@ -1,0 +1,41 @@
+.navbar {
+  border: 1px solid rgba(0, 209, 178, 0.7);
+  border-width: 5px;
+  padding: 5px;
+}
+
+.formfield {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  text-align: center;
+  border: 1px solid rgba(31, 155, 237, 0.7);
+  border-radius: 15px;
+  border-width: 5px;
+  padding: 50px;
+  background-color: rgba(31, 155, 237, 0.3);
+}
+
+.formfield:hover {
+  background-color: rgba(31, 155, 237, 0.6);
+}
+
+.formfield div {
+  margin-top: 10px;
+}
+
+.formfield button {
+  margin-top: 10px;
+  width: 100px;
+}
+
+.buton {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  right: 0;
+  top: 250px;
+  margin-right: 50px;
+}
