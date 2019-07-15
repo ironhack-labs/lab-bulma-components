@@ -16,6 +16,8 @@
   border-width: 5px;
   padding: 50px;
   background-color: rgba(31, 155, 237, 0.3);
+  /* transition: all 5s; */
+  animation: appear 5s;
 }
 
 .formfield:hover {
@@ -39,3 +41,16 @@
   top: 250px;
   margin-right: 50px;
 }
+
+
+@keyframes appear {
+    from {
+        margin: 500px
+    }
+
+    to {
+        margin: 0px;
+        margin-top: 100px;
+    }
+}
+
