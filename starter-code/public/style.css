@@ -1,0 +1,20 @@
+.body{
+    display: flex;
+
+}
+.navbar {
+    border-width: 5px;
+    padding: 5px;
+  }
+
+.mesage{
+    margin-top: 10%;
+    width: 35%;
+
+}
+.singup{
+    margin-top: 20%;
+    width: 300%;
+    margin-top: 70%;
+   
+}
