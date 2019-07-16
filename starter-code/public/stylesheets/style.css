@@ -1,0 +1,32 @@
+body {
+  background-color: lightgray;
+  height: 100vh;
+}
+
+.field {
+  width: 300px;
+}
+
+.signClass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px;
+}
+
+.moveLeft {
+  justify-content: flex-start;
+}
+
+.navbar {
+  border-bottom: 1px;
+}
+
+.moveLeft a {
+  margin: 20px 0;
+}
+
+.message {
+  width: 400px;
+  margin: 100px;
+}
