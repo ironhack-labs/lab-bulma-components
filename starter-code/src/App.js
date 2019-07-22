@@ -4,6 +4,7 @@ import Header from './components/Header'
 import FormField from './components/FormField'
 import CoolButton from './components/CoolButton'
 import Signup from './components/Signup'
+import Message from './components/Message'
 
 class App extends Component {
 
@@ -12,6 +13,17 @@ class App extends Component {
     const signup = (
       <Signup />
     )
+
+    const message = (
+      <div>
+        <Message isInfo title="Hello World">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>.
+        </Message>
+        <Message title="Hello World">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>.
+        </Message>
+      </div>
+  )
 
     // const header = (
     //   <Header />
@@ -37,6 +49,7 @@ class App extends Component {
         {forms}
         {buttons} */}
         {signup}
+        {message}
       </div>
     );
     return (

@@ -1,3 +1,11 @@
 .signup-div {
   width: 80%;
 }
+
+.message-header-info {
+  background-color: #369BEE !important;
+}
+
+.message-info {
+  border: 1px solid #369BEE !important;
+}
