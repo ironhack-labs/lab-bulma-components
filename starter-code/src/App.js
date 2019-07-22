@@ -1,14 +1,20 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 // import Navbar from './components/navbar';
 // import FormField from './components/formField';
 // import CoolButton from './components/coolButton';
 import SignUp from './components/signUp'
+import Container from './components/container';
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <SignUp />
+      <Fragment>
+        <SignUp />
+        <div className="message">
+          <Container />
+        </div>
+      </Fragment>
     );
   }
 }
