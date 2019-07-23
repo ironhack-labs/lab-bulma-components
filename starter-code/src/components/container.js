@@ -1,9 +1,15 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import Message from './message';
+import SignUp from './/signUp'
 
 const Container = () => {
   return ( 
-      <Message />
+    <Fragment >
+      <SignUp />
+      <div className="message">
+        <Message />
+      </div>
+    </Fragment>
     )
 };
 
