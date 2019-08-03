@@ -200,9 +200,7 @@ Create a `Signup` component that contains:
 
 ### Iteration 5 | Bonus
 
-Before continuing, ask for feedback from one of your teachers, they will give you a feedback about what you've done.
-
-Then, you can:
+Now, you can:
 - Refactor your code
 - Create a `Container` component (for the class "container")
 - Create a `Message` component (see the following explanation)
