@@ -9,9 +9,9 @@ class Main extends Component {
 
   coolButton = () => {
     let str = this.props.className;
-    // console.log(str);
+
     str += ' button';
-    // console.log(str);
+
     if(this.props.isSmall){
      str += ' is-small';
     }
