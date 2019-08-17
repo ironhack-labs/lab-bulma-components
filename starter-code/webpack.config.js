@@ -3,7 +3,7 @@ const webpack = require("webpack");
 const bundlePath = path.resolve(__dirname, "dist/");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index.jsx",
   module: {
     rules: [
       {
@@ -24,8 +24,8 @@ module.exports = {
   },
   devServer: {
     contentBase: path.join(__dirname,'public'),
-    port: 3000,
-    publicPath: "http://localhost:3000/dist",
+    port: 3001,
+    publicPath: "http://localhost:3001/dist",
     hot: true
   },
   plugins: [ new webpack.HotModuleReplacementPlugin() ],
