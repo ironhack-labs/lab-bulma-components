@@ -1,18 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import Navbar from './components/navbar';
 
-function App() {
+class App extends React.Component {
 
-  return (
+  render() {
 
-    <div className="App">
+    return (
 
+      <div className="App" >
 
+      <Navbar 
+        
+      />
+    
+      </div>
 
-    </div>
+    );
 
-  );
+  }
+
 
 }
 
