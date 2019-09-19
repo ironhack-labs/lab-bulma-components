@@ -17,12 +17,6 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
-      <Navbar />
-      <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-      <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
-      <CoolButton  className='is-rounded  my-class is-danger is-small'>Button 1</CoolButton>
-      <CoolButton  className='is-small is-success'>Button 2</CoolButton>
-
 
       <div className="theSignUpPage">
       <h1>Sign Up</h1>

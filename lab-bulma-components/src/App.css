@@ -32,7 +32,8 @@
 }
 
 .messageDiv {
-  margin: 40px 580px;
+  max-width: 400px;
+  margin: 40px auto;
 }
 @keyframes App-logo-spin {
   from {
