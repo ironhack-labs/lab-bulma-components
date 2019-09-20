@@ -2,7 +2,7 @@ import React from 'react';
 // import './App.css';
 import Navbar from './components/navbar';
 import FormField from './components/form';
-import Button from './components/button';
+import CoolButton from './components/coolbutton';
 
 
 class App extends React.Component {
@@ -18,7 +18,7 @@ class App extends React.Component {
         {/* Same component is reusable but we can provide it different values */}
         <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
         <FormField label="Email" type="email" placeholder="e.g Alex@yahoo.com" />
-        <Button />
+        {/* <CoolButton /> */}
 
       </div>
 
