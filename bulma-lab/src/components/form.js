@@ -5,6 +5,7 @@ export default class FormField extends React.Component {
     render() {
 
         return (
+            
             <div className="field">
 
                 <label className="label"> {this.props.label} </label>
@@ -16,8 +17,6 @@ export default class FormField extends React.Component {
                 </div>
 
             </div>
-            
-            // <FormField label={this.props.nameLabel} type="text" placeholder={this.props.placeholder} />
 
         )
 
