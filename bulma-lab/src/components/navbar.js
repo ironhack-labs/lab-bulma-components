@@ -63,7 +63,7 @@ export default class Navbar extends React.Component {
                                     </a> */}
 
                                     <CoolButton styles = 'button is-primary' buttonName = 'Sign Up' />
-                                    <CoolButton styles = 'button is-light' buttonName = 'Log in' />
+                                    <CoolButton styles = 'button is-light'   buttonName = 'Log in' />
                                 
                                 </div>
                             </div>

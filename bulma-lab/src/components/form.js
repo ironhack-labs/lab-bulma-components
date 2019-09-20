@@ -23,9 +23,3 @@ export default class FormField extends React.Component {
     }
 
 }
-
-// Can do this here or above when declaring className
-// export default Navbar;
-// TODO: prop
-// The prop will be where we pass in information to the component 
-//                 <h3>Welcome, {this.props.theUsername}</h3>

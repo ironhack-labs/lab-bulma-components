@@ -1,9 +1,9 @@
 import React from 'react';
 // import './App.css';
+
 import Navbar from './components/navbar';
 import FormField from './components/form';
-import CoolButton from './components/coolbutton';
-
+import Signup from './components/signup';
 
 class App extends React.Component {
 
@@ -13,12 +13,14 @@ class App extends React.Component {
 
       <div className="App" >
 
-        <Navbar />
-
-        {/* Same component is reusable but we can provide it different values */}
+        {/* Iteration 1-3 */}
+        
+         {/* <Navbar />
         <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-        <FormField label="Email" type="email" placeholder="e.g Alex@yahoo.com" />
-        {/* <CoolButton /> */}
+        <FormField label="Email" type="email" placeholder="e.g Alex@yahoo.com" />  */}
+        
+        {/* Iteration 4 */}
+        <Signup />
 
       </div>
 
