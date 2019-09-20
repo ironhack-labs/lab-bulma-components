@@ -4,6 +4,7 @@ import React from 'react';
 import Navbar from './components/navbar';
 import FormField from './components/form';
 import Signup from './components/signup';
+import Message from './components/message'
 
 class App extends React.Component {
 
@@ -21,6 +22,9 @@ class App extends React.Component {
         
         {/* Iteration 4 */}
         <Signup />
+      <br/>
+        <Message />
+
 
       </div>
 

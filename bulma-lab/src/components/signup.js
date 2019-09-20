@@ -16,7 +16,7 @@ export default class Signup extends React.Component {
                 <Navbar />
                 <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
                 <FormField label="Email" type="email" placeholder="e.g Alex@yahoo.com" />
-                <FormField label="Email" type="password" placeholder="Secure Password" />
+                <FormField label="Password" type="password" placeholder="Secure Password" />
                 <CoolButton styles = 'button is-success' buttonName = 'Submit' />
 
             </div>
