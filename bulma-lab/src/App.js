@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
 
-import NavBar from './components/NavBar'
+import NavBar from './components/NavBar';
 import FormField from './components/FormField';
-import CoolButton from './components/CoolButton'
-import Signup from './components/Signup'
+import CoolButton from './components/CoolButton';
+import Signup from './components/Signup';
+import Container from './components/Container';
+import Message from './components/Message'
+
 
 class App extends React.Component {
  
@@ -28,7 +31,7 @@ class App extends React.Component {
         
       </Signup>
 
-
+      <Message />
 
 
       {/* BELOW IS WITH INDIVIDUAL COMPONENTS */}
@@ -42,6 +45,8 @@ class App extends React.Component {
 
       <CoolButton class="button is-small is-danger is-rounded">Button 1</CoolButton>
       <CoolButton class="button is-small is-success">Button 2</CoolButton> */}
+
+
 
       </div>
     );

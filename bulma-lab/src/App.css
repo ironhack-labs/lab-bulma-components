@@ -8,6 +8,10 @@
   pointer-events: none;
 }
 
+h1 {
+  margin: 20px 0 0 20px
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -30,4 +34,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.field {
+  width: 500px;
+  margin: 10px 0 10px 30px
+}
+
+
+.button {
+  margin: 10px 0 0 20px
+}
+
+.message {
+  width: 500px;
+  margin: 20px 0 0 20px
 }

@@ -79,6 +79,8 @@ class Signup extends React.Component{
     <FormField label="Password" type="password" placeholder="password" />
 
     <CoolButton class="button is-primary is-success" href="#">Submit</CoolButton>
+    {/* Or you can pass in the prop on the coolbutton like this --
+    CoolButton isDanger isSmall */}
 
 
 
