@@ -2,6 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Form from './component/Form';
+import CoolButton from './component/CoolButton';
 
 function App() {
   return (
@@ -54,7 +55,7 @@ function App() {
   </div>
 </nav>
 
-{/* tengo que llamar el formulario */}
+{/* i have to call the form because this is what we are going to render */}
 
 <div className='newForm'>
   <Form label="Name" type="text" placeholder="e.g Alex Smith" />
@@ -63,8 +64,11 @@ function App() {
 
 
 
-
-
+<CoolButton isSmall={true} isDanger={true} isOutlined />
+      {/* if you just put the prop name its the same as saying = {true} */}
+      {/* so these 2 lines do the same thing */}
+      <CoolButton isRounded isDark isLarge />
+      
 
 
 
