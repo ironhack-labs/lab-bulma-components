@@ -1,5 +1,5 @@
 import React from 'react';
-// import './App.css';
+import './App.css';
 
 import Navbar from './components/navbar';
 import FormField from './components/form';

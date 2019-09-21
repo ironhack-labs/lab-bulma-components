@@ -6,7 +6,8 @@ export default class Message extends React.Component {
 
         return (
 
-            <div>
+             //   TODO : How to add inline style
+            <div style = {{width : "30em"}}>
 
                 <article class="message is-info ">
                 

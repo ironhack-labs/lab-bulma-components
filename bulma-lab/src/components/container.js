@@ -9,7 +9,6 @@ class Container extends React.Component {
 
     return (
 
-    //   TODO : If I wantto change width
       <div>
 
         <Message />
