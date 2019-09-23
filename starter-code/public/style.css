@@ -1,0 +1,8 @@
+.field{
+    width : 250px;
+}
+.is-rounded{
+  border-radius: 12px;
+  color:rgb(204, 76, 76);
+
+}
