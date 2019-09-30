@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
 export default class Navbar extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
   }
   render() {
     return (
-<nav className="navbar is-transparent">
+      <nav className="navbar is-transparent">
         <div className="navbar-brand">
           <a className="navbar-item" href="https://bulma.io">
             <img
@@ -51,7 +51,7 @@ export default class Navbar extends Component {
                     className="button is-primary"
                     href="https://github.com/jgthms/bulma/releases/download/0.7.5/bulma-0.7.5.zip"
                   >
-                    <span>SignUp</span>
+                    <span>Signup</span>
                   </a>
                 </p>
               </div>
@@ -59,7 +59,6 @@ export default class Navbar extends Component {
           </div>
         </div>
       </nav>
-
-    )
+    );
   }
 }
