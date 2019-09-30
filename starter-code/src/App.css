@@ -20,3 +20,11 @@
 .App-link {
   color: #09d3ac;
 }
+
+.button {
+  background-color: #54ACEF;
+}
+
+.button span {
+  color: white;
+}
