@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "bulma/css/bulma.css";
 import Navbar from "./Navbar";
 import FormField from "./FormField";
+import CoolButton from "./CoolButton";
 
 class App extends Component {
   render() {
@@ -9,7 +10,17 @@ class App extends Component {
       <div className="App">
         <Navbar></Navbar>
         <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-        <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+        <FormField
+          label="Email"
+          type="email"
+          placeholder="e.g. alexsmith@gmail.com"
+        />
+        <CoolButton isSmall isDanger className="is-rounded my-class">
+          Button 1
+        </CoolButton>
+        <CoolButton isSmall isSuccess>
+          Button 2
+        </CoolButton>
       </div>
     );
   }
