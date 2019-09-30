@@ -1,0 +1,27 @@
+body {
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app > .container {
+  width: 100%;
+}
+
+.buttons-container {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-actions {
+  text-align: right;
+}
+
+.google-button {
+  margin-right: 1rem;
+}
