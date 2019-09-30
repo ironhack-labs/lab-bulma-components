@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Container from "./Container"
 
 const lookup = {
     isActive: 'is-active',
@@ -30,15 +31,15 @@ const lookup = {
 }
 
 function classString(coolButton) {
-    return `button ${Object.keys(coolButton.props).map(c => lookup[c]).filter(e => e).join(' ')} ${coolButton.className}`
+    return `button ${Object.keys(coolButton.props).map(c => lookup[c]).filter(e => e).join(' ') || ''} ${coolButton.className}`
 }
 
 class CoolButton extends Component {
     render() {
         return (
-            <div>
-                <button className={classString(this)}>{this.props.label}</button>
-            </div >
+            <Container>
+                <button className={classString(this)}>{this.props.children}</button>
+            </Container >
         );
     }
 }

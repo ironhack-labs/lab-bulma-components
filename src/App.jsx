@@ -1,7 +1,10 @@
 import React from 'react'
 import ReactDOM from "react-dom";
 import Signup from './Signup'
+class App extends React.Component {
+    render() {
+        return <Signup />
+    }
+}
 
-ReactDOM.render( <Signup /> ,
-    document.getElementById('root')
-);
+export default App 
