@@ -108,13 +108,13 @@ Now it's time to create a new component `FormField` we will use multiple times i
 <div class="field">
   <label class="label">Name</label>
   <div class="control">
-    <input class="input" type="text" placeholder="e.g Alex Smith">
+    <input class="input" type="text" placeholder="e.g Alex Smith" />
   </div>
 </div>
 <div class="field">
   <label class="label">Email</label>
   <div class="control">
-    <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+    <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" />
   </div>
 </div>
 ```
