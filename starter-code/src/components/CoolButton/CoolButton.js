@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import checkStyles from "./bulmaStyles"
+import checkStyles from "../../utils/bulmaStyles"
 
 export default class CoolButton extends Component {
   render() {
