@@ -18,6 +18,10 @@ body {
   justify-content: space-around;
 }
 
+.forms-container {
+  margin-bottom: 2rem !important; /* Override Bulma styles */
+}
+
 .form-actions {
   text-align: right;
 }
