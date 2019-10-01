@@ -1,0 +1,10 @@
+.Signup form {
+  padding: 20px;
+  margin-top: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+  .Signup form > div { margin-top: 20px }
+  .Signup .actions { text-align: right }
+
+
