@@ -17,6 +17,11 @@ class Signup extends Component {
           type="email"
           placeholder="e.g. alexsmith@gmail.com"
         />
+            <FormField
+          label="Password"
+          type="password"
+          placeholder="Your password"
+        />
         <CoolButtonGreen name="Submit"></CoolButtonGreen>
         
       </div>
