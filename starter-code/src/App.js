@@ -1,8 +1,8 @@
 import React from "react";
-
 import Form from "./Form";
 import Button from "./Button";
 import Nav from "./Nav";
+import Signup from "./Signup";
 
 function App() {
   return (
@@ -14,6 +14,9 @@ function App() {
       </div>
       <Button className="button is-rounded  is-danger is-small" >Button1</Button>
       <Button className="button is-success is-small" >Button2</Button>
+
+      <h1>Iteration 4:</h1>
+      <Signup />
     </div>
   );
 }
