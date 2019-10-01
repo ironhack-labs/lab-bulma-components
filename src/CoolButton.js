@@ -28,43 +28,27 @@ const buttonClasses = {
   isWarning: "is-warning",
   isWhite: "is-white",
   myClass: "my-class",
-  Button: "button",
+  Button: "button"
 };
 
-//   filtered_keys = () => {
-//     let key,
-//       keys = [];
-//     let propKeys = Object.keys(this.props);
-//     for (key in this.buttonClasses) {
-//       for (let i in propKeys) {
-//         if (key === propKeys[i]) {
-//           keys.push(this.buttonClasses.key);
-//         }
-//       }
-//     }
-//     return keys;
-//   };
-
-// compare = (a, b) =>
-//   JSON.stringify(Object.keys(a).sort()) ===
-//   JSON.stringify(Object.keys(b).sort());
-
 function classString(buttonClass) {
-  let key, bulmaProps = [];
+  let key,
+    bulmaProps = [];
   for (key of Object.keys(buttonClass.props)) {
-      console.log(key);
     if (buttonClasses[key]) {
       bulmaProps.push(buttonClasses[key]);
     }
   }
-  console.log(bulmaProps);
   return bulmaProps.join(" ");
 }
 
 class CoolButton extends Component {
-    render() {
-    console.log(classString(this));
-    return <a className={classString(this)} href={this.props.href}>{this.props.children}</a>;
+  render() {
+    return (
+      <a className={classString(this)} href={this.props.href}>
+        {this.props.children}
+      </a>
+    );
   }
 }
 
