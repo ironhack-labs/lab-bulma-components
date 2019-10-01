@@ -37,9 +37,7 @@ export default function getClass(props) {
     if(valueAux) typeSelected.push(valueAux);
   })
   
-  const classSTR = (props.className) ?
-              props.className + ' ' + typeSelected.join(' ') : 
-              typeSelected.join(' ');
-
-  return classSTR;
+  return (props.className) ?
+  props.className + ' ' + typeSelected.join(' ') : 
+  typeSelected.join(' ');
 }
