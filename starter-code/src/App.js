@@ -6,6 +6,8 @@ import CoolButton from "./components/coolbutton";
 import Message from "./components/message";
 import Signup from "./components/signup";
 
+//https://www.agiliq.com/blog/2018/05/understanding-react-state-and-props/#understanding-reactjs-props
+
 class App extends Component {
 
 
