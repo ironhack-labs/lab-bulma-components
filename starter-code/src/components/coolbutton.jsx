@@ -40,15 +40,15 @@ class CoolButton extends Component {
 
     this.state={myclass:"button "};
     if (this.props.className)
-      this.state={myclass:this.state.myclass+this.props.className};
+      this.setState=({myclass:this.state.myclass+this.props.className});
     if (this.props.isDanger)
-      this.state={myclass:this.state.myclass+" is-danger"};
+      this.setState=({myclass:this.state.myclass+" is-danger"});
     if (this.props.isSuccess)
-      this.state={myclass:this.state.myclass+" is-success"};
+      this.setState=({myclass:this.state.myclass+" is-success"});
     if (this.props.isSmall )
-      this.state={myclass:this.state.myclass+" is-small"};
+      this.setState=({myclass:this.state.myclass+" is-small"});
     if (this.props.isPrimary )
-      this.state={myclass:this.state.myclass+" is-primary"};
+      this.setState=({myclass:this.state.myclass+" is-primary"});
   
   }
 
