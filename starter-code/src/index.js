@@ -4,9 +4,9 @@ import ReactDOM from "react-dom"
 import 'bulma/css/bulma.css';
 
 import App from './App';
-import Navbar from './Navbar';
+import Signup from './Signup';
 
 ReactDOM.render(
-    <Navbar />,
+    <App />,
     document.getElementById('root')
 )
