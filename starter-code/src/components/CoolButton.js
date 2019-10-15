@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 
-const CoolButton = ({ isSmall, isDanger, className, isSuccess, children}) => {
+const CoolButton = ({ isSmall, isDanger, className, isSuccess, children, isInfo, isPrimary, isRounded}) => {
   let classNameB = "button ";
   if(isSmall) classNameB += "is-small ";
   if(isDanger) classNameB += "is-danger ";
-  if(className) classNameB += "is-rounded my-class ";
+  if(className) classNameB += "my-class ";
   if(isSuccess) classNameB += "is-success ";
-  console.log(classNameB)
+  if(isInfo) classNameB += "is-info ";
+  if(isRounded) classNameB += "is-rounded";
+  if(isPrimary) classNameB += "is-primary ";
+  
   return (
     <a class={classNameB}>{children} </a>
   );
