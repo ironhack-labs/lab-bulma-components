@@ -1,0 +1,19 @@
+
+
+.signupBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formField {
+  padding: 10px;
+}
+
+.messageBox {
+ padding-top: 20px;
+ display: flex;
+ justify-content: center;
+}
+
+
