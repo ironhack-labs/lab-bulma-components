@@ -1,4 +1,16 @@
-.signup-container {
+.app-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    border: solid 15px #71dbae;
     display: flex;
-    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+
+
+.message-container {
+    display: flex;
+    width: 250px;
+    position: relative;
 }
