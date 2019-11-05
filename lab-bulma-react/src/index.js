@@ -6,10 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import 'bulma/css/bulma.css';
 
 
-
-
-
-
+/**/ 
 
 //To render just the App component
 ReactDOM.render(<App />, document.getElementById('root'));
