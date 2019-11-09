@@ -1,0 +1,28 @@
+.nav-buttons {
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+.form-field {
+  margin: 25px auto;
+  width: 25%;
+}
+
+.App-Main-Text {
+  margin: 50px auto;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 20%;
+}
+
+.cool-button {
+  padding: 5px;
+  margin-top: 50px;
+  margin-left: 200px;
+  font-weight: 700;
+}
+
+.message-custom {
+  width: 30%;
+  margin: 20px auto;
+}
