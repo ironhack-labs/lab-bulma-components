@@ -27,22 +27,21 @@ class Navbar extends Component {
                     <div class="navbar-end">
                         <div class="navbar-item">
                             <div class="field is-grouped">
-                                <p class="control">
-                                    <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io">
-                                        <span class="icon">
-                                            <i class="fab fa-twitter"></i>
-                                        </span>
-                                        <span>
-                                            Tweet
-                                        </span>
-                                    </a>
-                                </p>
-                                <p class="control">
-                                    <span class="icon">
-                                        <i class="fas fa-download"></i>
+                                
+                            <p class="control">
+                                <a class="bd-tw-button button">
+                                    <span>
+                                        Login
                                     </span>
-                                    <span>Download</span>
-                                </p>
+                                </a>
+                            </p>
+
+                            <p class="control">
+                                <a class="button is-primary">
+                                    <span>Signup</span>
+                                </a>
+                            </p>
+                                
                             </div>
                         </div>
                     </div>
