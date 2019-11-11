@@ -1,0 +1,45 @@
+.container{
+    border: 1px solid  #3585bb;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.header{
+    color: white;
+    background-color: #3585bb;
+    padding: 10px 0px 10px 15px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header button{
+    padding: 10px;
+    border-radius: 50px;
+    margin: 0;
+    border: none;
+    background-color: #1e567c;
+    margin-right: 15px;
+    color: white;
+    font-size: 1em;
+}
+
+.header h1{
+    display: inline;
+    margin: 0;
+    font-size: 2em;
+}
+
+.head-p{
+    background-color: #2a83be3b;
+    text-align: left;
+    padding: 10px 10px 10px 15px;
+}
+
+.new-header{
+    border: none;
+    border-left: 3px solid  #3585bb
+}

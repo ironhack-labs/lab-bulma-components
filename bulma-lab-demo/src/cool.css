@@ -1,0 +1,39 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    text-align: center;
+    background-color: black;
+    padding: 10px 30px;
+    font-size: 2.5em;
+    color: white;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.is-small{
+    font-size: 1em;
+    padding: 5px 10px;
+}
+
+.is-danger{
+    background-color: red;
+}
+
+.is-success{
+    border-radius: 50px;
+    color: white;
+}
+
+.is-blue{
+    background-color: lightblue;
+}
+
+.is-green{
+    background-color: #217441
+}
+
+.section{
+    margin-top: 20px;
+}
