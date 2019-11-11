@@ -1,0 +1,12 @@
+.container {
+    width: 350px !important;
+    
+}
+
+.message-header {
+        align-items: left !important;
+        background-color: #408ef3 !important;
+        border-radius: 4px 4px 0 0;
+        color: #fff !important;
+        display: flex;
+}

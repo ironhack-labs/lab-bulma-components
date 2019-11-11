@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import FormField from './components/formComponents/form';
 import CoolButton from './components/coolButtonComponent/coolButton';
+import Container from './components/containerComponent/container';
+// import Message from '../messageComponent/message';
 
 class App extends React.Component {
   render() {
@@ -128,6 +130,7 @@ class App extends React.Component {
         <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
         <FormField label="Password" type="password" placeholder="*****" />
         <CoolButton isSuccess isSmall isRounded buttonName="Submit"></CoolButton>
+        <Container></Container>
        </main>
       </div>
     );
