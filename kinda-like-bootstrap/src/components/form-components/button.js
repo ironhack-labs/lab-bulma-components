@@ -40,7 +40,6 @@ class CoolButton extends React.Component {
                 btnClass += ' ' + this.allValues[`${key}`];
             }
         }
-        console.log(btnClass)
         return <button className={btnClass}>{this.props.children}</button>  
     }
 }
