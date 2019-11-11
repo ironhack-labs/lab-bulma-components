@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./comps/NavBar";
 import FormField from "./comps/FormField";
