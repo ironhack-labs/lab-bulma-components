@@ -94,31 +94,12 @@ class App extends React.Component {
               <div className="navbar-item">
                 <div className="field is-grouped">
                   <p className="control">
-                    <a
-                      className="bd-tw-button button"
-                      data-social-network="Twitter"
-                      data-social-action="tweet"
-                      data-social-target="https://bulma.io"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms"
-                    >
-                      <span className="icon">
-                        <i className="fab fa-twitter"></i>
-                      </span>
-                      <span>Tweet</span>
-                    </a>
+                    <CoolButton isInfo buttonName="Login">
+                    </CoolButton>
                   </p>
                   <p className="control">
-                    <a
-                      className="button is-primary"
-                      href="https://github.com/jgthms/bulma/releases/download/0.8.0/bulma-0.8.0.zip"
-                    >
-                      <span className="icon">
-                        <i className="fas fa-download"></i>
-                      </span>
-                      <span>Download</span>
-                    </a>
+                    <CoolButton isSuccess buttonName="Signup">
+                    </CoolButton>
                   </p>
                 </div>
               </div>
@@ -129,7 +110,7 @@ class App extends React.Component {
         <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
         <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
         <FormField label="Password" type="password" placeholder="*****" />
-        <CoolButton isSuccess isSmall isRounded buttonName="Submit"></CoolButton>
+        <CoolButton isDanger isRounded buttonName="Submit"></CoolButton>
         <Container></Container>
        </main>
       </div>
