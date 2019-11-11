@@ -9,7 +9,6 @@ class CoolButton extends Component {
     //     return <button className={strClass}>{this.props.children}</button>                    
     // }
     render() {
-        console.log(this.props);
         return (
             <div>
                 <button className={`button ${this.props.button}`}>{this.props.children}</button>

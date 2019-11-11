@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import CoolButton from './CoolButton';
 
 class Navbar extends Component {
-    render() {
+    render() {        
+        console.log(this.props);        
         return (
             <div className='Navbar'>
                 <nav class="navbar is-transparent">
@@ -27,19 +29,18 @@ class Navbar extends Component {
                     <div class="navbar-end">
                         <div class="navbar-item">
                             <div class="field is-grouped">
-                                
+
+                            {/* {this.props.children.map(x => <CoolButton button={x.props.button}>{x.props.children}</CoolButton>)} */}
                             <p class="control">
-                                <a class="bd-tw-button button">
-                                    <span>
-                                        Login
-                                    </span>
-                                </a>
+                                <CoolButton button='is-info'>
+                                    Login
+                                </CoolButton>
                             </p>
 
                             <p class="control">
-                                <a class="button is-primary">
-                                    <span>Signup</span>
-                                </a>
+                                <CoolButton button='is-primary'>
+                                    Signup
+                                </CoolButton>
                             </p>
                                 
                             </div>

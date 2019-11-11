@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './Components/Navbar';
 import FormField from './Components/FormField';
 import CoolButton from './Components/CoolButton';
+import Signup from './Components/Signup';
 
 class App extends Component {
     constructor(props) {
@@ -51,6 +52,8 @@ class App extends Component {
                     {Object.values(this.modes).map((x, i) => <CoolButton button={x}>Button {i}</CoolButton>)}
 
                 </div>
+
+                <Signup />
             </div>
         )
     }
