@@ -1,6 +1,7 @@
 import './nav-bar.css'
 import React from "react";
 // ^ this is always needed for any react components
+import CoolButton from "../cool-button/cool-button"
 
 class NavBar extends React.Component {
   render() {
@@ -30,16 +31,8 @@ class NavBar extends React.Component {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="field is-grouped">
-                <p className="control">
-                  <a className="button is-info" href="https://bulma.io/">
-                    Login
-                  </a>
-                </p>
-                <p className="control">
-                  <a className="button is-primary" href="https://bulma.io/">
-                    Sign Up
-                  </a>
-                </p>
+                <CoolButton className="is-info">Login</CoolButton>
+                <CoolButton className="is-primary">Sign Up</CoolButton>
               </div>
             </div>
           </div>
