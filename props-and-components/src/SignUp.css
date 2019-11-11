@@ -1,0 +1,10 @@
+.sign-up {
+    width: 50vw; 
+    position: relative;
+    left: 25vw;
+    top: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(250, 155, 250, .4);
+}
