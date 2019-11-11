@@ -15,7 +15,7 @@ export default class Signup extends React.Component {
           placeholder="e.g. alexsmith@gmail.com"
         />
         <FormField label="Password" type="password" placeholder="Password:" />
-        <CoolButton />
+        <CoolButton isSuccess>Register</CoolButton>
       </React.Fragment>
     );
   }
