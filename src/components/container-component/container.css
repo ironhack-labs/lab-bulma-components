@@ -1,0 +1,14 @@
+.main-form {
+    /* padding: 5px; */
+    width: 80% 
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+    width: 80%
+  }
+  .submit {
+    width: 10vw;
+  }
