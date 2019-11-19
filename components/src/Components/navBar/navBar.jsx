@@ -1,13 +1,22 @@
 // import "navBar.css";
 import React from "react";
+import CoolButtons from "../CoolButtons";
 
 class NavBar extends React.Component {
   render() {
     let navOne = (
-      <nav className="navbar is-light" role="navigation" aria-label="main navigation">
+      <nav
+        className="navbar is-light"
+        role="navigation"
+        aria-label="main navigation"
+      >
         <div className="navbar-brand">
           <a className="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
+            <img
+              src="https://bulma.io/images/bulma-logo.png"
+              width="112"
+              height="28"
+            />
           </a>
         </div>
 
@@ -22,12 +31,7 @@ class NavBar extends React.Component {
 
           <div className="navbar-end">
             <div className="navbar-item">
-              <div className="buttons">
-                <a className="button is-info">
-                  <strong>Sign up</strong>
-                </a>
-                <a className="button is-primary">Log in</a>
-              </div>
+              <CoolButtons login="Log in" signup="Sign Up" />
             </div>
           </div>
         </div>
