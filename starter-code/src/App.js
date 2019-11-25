@@ -1,63 +1,5 @@
 import React from 'react';
 
-const Navbar = props => (
-  <nav className="navbar" role="navigation" aria-label="main navigation">
-    <div className="navbar-brand">
-      <a className="navbar-item" href="https://bulma.io">
-        <img
-          src="https://bulma.io/images/bulma-logo.png"
-          width="112"
-          height="28"
-        />
-      </a>
-
-      <a
-        role="button"
-        className="navbar-burger burger"
-        aria-label="menu"
-        aria-expanded="false"
-        data-target="navbarBasicExample"
-      >
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-
-    <div id="navbarBasicExample" className="navbar-menu">
-      <div className="navbar-start">
-        <a href="#" className="navbar-item">
-          Home
-        </a>
-      </div>
-
-      <div className="navbar-end">
-        <div className="navbar-item">
-          <div className="buttons">
-            <a className="button is-primary">
-              <strong>Sign up</strong>
-            </a>
-            <a className="button is-light">Log in</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
-);
-
-const FormField = props => (
-  <div className="field">
-    <label className="label">{props.label}</label>
-    <div className="control">
-      <input
-        className="input"
-        type={props.type}
-        placeholder={props.placeholder}
-      />
-    </div>
-  </div>
-);
-
 const CoolButton = props => {
   const bulmaClasses = {
     isActive: 'is-active',
@@ -100,11 +42,72 @@ const CoolButton = props => {
   }
   console.log(attrs);
   return (
-    <button method="post" type="submit" className={attrs}>
+    <button method={props.method} type="submit" className={attrs}>
       {props.children}
     </button>
   );
 };
+
+
+const Navbar = props => (
+  <nav className="navbar" role="navigation" aria-label="main navigation">
+    <div className="navbar-brand">
+      <a className="navbar-item" href="https://bulma.io">
+        <img
+          src="https://bulma.io/images/bulma-logo.png"
+          width="112"
+          height="28"
+        />
+      </a>
+
+      <a
+        role="button"
+        className="navbar-burger burger"
+        aria-label="menu"
+        aria-expanded="false"
+        data-target="navbarBasicExample"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" className="navbar-menu">
+      <div className="navbar-start">
+        <a href="#" className="navbar-item">
+          Home
+        </a>
+      </div>
+
+      <div className="navbar-end">
+        <div className="navbar-item">
+          <div className="buttons">
+            <CoolButton isFocused isSmall isInfo isRounded isLink method="GET">
+              Sign up
+            </CoolButton>
+            <CoolButton isFocused isSmall isLight isRounded isLink method="GET">
+              Login
+            </CoolButton>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+);
+
+const FormField = props => (
+  <div className="field">
+    <label className="label">{props.label}</label>
+    <div className="control">
+      <input
+        className="input"
+        type={props.type}
+        placeholder={props.placeholder}
+      />
+    </div>
+  </div>
+);
 
 const Signup = props => (
   <div>
@@ -124,7 +127,7 @@ const Signup = props => (
       {/* <CoolButton isSmall isDanger className="is-rounded my-class">
         Button 1
       </CoolButton> */}
-      <CoolButton isSmall isSuccess>
+      <CoolButton isFocused isSmall isSuccess method="POST">
         Signup
       </CoolButton>
     </form>
