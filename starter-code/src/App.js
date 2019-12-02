@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Signup from './Signup';
+import Container from './Container';
 
 class App extends React.Component {
     state = {
@@ -8,7 +9,8 @@ class App extends React.Component {
     }
     render() {
         return(
-            <div className="app">        
+            <div className="app">
+                <Container />      
                 <Signup />
             </div>
         )
