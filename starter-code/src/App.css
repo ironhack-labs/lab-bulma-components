@@ -1,0 +1,13 @@
+
+.columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  max-width: 650px;
+  margin-bottom: 100px;
+}
