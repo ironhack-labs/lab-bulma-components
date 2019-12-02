@@ -1,0 +1,33 @@
+body {
+  font-size: 16px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.signup-form {
+  max-width: 400px;
+  margin: 100px auto 0;
+}
+
+.button {
+  border-radius: 3px !important;
+}
+
+.bd-tw-button {
+  background-color: #55acee;
+  color: #fff;
+  border-color: transparent!important;
+}
+
+.bd-tw-button:hover {
+  background-color: #49a6ed;
+  color: #fff;
+}
+
+.message {
+  max-width: 355px;
+  margin: 50px auto 0;
+}
+
