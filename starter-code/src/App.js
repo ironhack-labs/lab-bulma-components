@@ -14,6 +14,7 @@ class App extends React.Component {
           type="email"
           placeholder="e.g. alexsmith@gmail.com"
         />
+
         <div className="container"> </div>
       </div>
     );
