@@ -26,8 +26,8 @@ class Navbar extends Component {
                         <div className="navbar-item">
                             <div className="field is-grouped">
                                 <div className="buttons">
-                                    <CoolButton className="button is-info">Login</CoolButton>
-                                    <CoolButton className="button is-primary">Signup</CoolButton>
+                                    <CoolButton className="isInfo">Login</CoolButton>
+                                    <CoolButton className="isPrimary">Signup</CoolButton>
                                 </div>
                             </div>
                         </div>
