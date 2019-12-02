@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "bulma/css/bulma.css";
 
-let classNames = "";
 let checkClass = {
   isActive: "is-active",
   isBlack: "is-black",
@@ -30,15 +29,22 @@ let checkClass = {
   isWarning: "is-warning",
   isWhite: "is-white"
 };
+
 function classNames(props) {
-  props.forEach(e => {});
+    let classes = ""
+    checkClass.forEach((element) => {
+        if (props.hasOwnProperty(element)){}
+    }
+)
 }
+
 export default class CoolButton extends Component {
   constructor() {
     super();
   }
   render() {
     const classNames = "button is-small is-primary";
+   
 
     return <button className={classNames}>{this.props.children}</button>;
   }
