@@ -4,7 +4,7 @@ import React, { Component } from 'react'
     render() {
         return (
             <div>
-            <button className={this.props.className}>{this.props.children}</button>
+            <button className={this.props.ClassButton}>{this.props.children}</button>
             </div>
         )
     }

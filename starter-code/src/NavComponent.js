@@ -34,8 +34,8 @@ class NavComponent extends Component {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="field is-grouped buttons">
-              <CoolButton className="button is-info"> Log In </CoolButton>
-              <CoolButton className="button is-primary"> Sign UP </CoolButton>
+              <CoolButton ClassButton="button is-info"> Log In </CoolButton>
+              <CoolButton ClassButton="button is-primary"> Sign UP </CoolButton>
               </div>
             </div>
           </div>
