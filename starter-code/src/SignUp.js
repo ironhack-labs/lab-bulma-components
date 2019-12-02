@@ -8,7 +8,7 @@ class SignUp extends Component {
     return (
       <div >
         <NavComponent />
-        <form  className="container">
+        <form>
         <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
         <FormField
           label="Email"
