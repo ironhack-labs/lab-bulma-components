@@ -27,7 +27,7 @@ export default class Navbar extends Component {
             <div className='navbar-item'>
               <div className='field is-grouped'>
                 <p className='control'>
-                <CoolButton href='./Signup/Signup.js' className="button is-info">Login</CoolButton>
+                <CoolButton href='#' className="button is-info">Login</CoolButton>
                 </p>
                 <p className='control'>
                 <CoolButton className="button is-primary">Signup</CoolButton>

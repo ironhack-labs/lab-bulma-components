@@ -6,7 +6,7 @@ import CoolButton from "../Button/CoolButton";
 export default class Signup extends Component {
   render() {
     return (
-      <div>
+      <div className='control'>
         <Navbar></Navbar>
         <FormField label='Name' type='text' placeholder='e.g Alex Smith' />
         <FormField label='Email' type='email' placeholder='e.g. alexsmith@gmail.com' />
