@@ -1,4 +1,5 @@
 import React from "react";
+import CoolButton from './CoolButton.js'
 
 function Navbar() {
   return (
@@ -18,12 +19,15 @@ function Navbar() {
               <div className="navbar-end">
                 <div className="navbar-item">
                     <div className="buttons">
-                        <a className="button is-info">
+                        <a><CoolButton buttonClass="button is-info" buttonText="Sign up"></CoolButton></a> 
+                        <a><CoolButton buttonClass="button is-primary" buttonText="Log in"></CoolButton></a> 
+                        {/* <CoolButton buttonClass="button is-primary" buttonText="Log in"></CoolButton> */}
+                        {/* <a className="button is-info">
                             <strong>Sign up</strong>
                         </a>
                         <a className="button is-primary">
-                         Log in
-                        </a>
+                            Log in
+                        </a> */}
                     </div>
                 </div>
             </div>
