@@ -1,7 +1,6 @@
 import React from 'react';
-import Navbar from './Navbar'
-import FormField from './FormField'
-import CoolButton from './CoolButton';
+
+import Signup from './Signup';
 
 class App extends React.Component {
     state = {
@@ -9,15 +8,8 @@ class App extends React.Component {
     }
     render() {
         return(
-            <div className="app">
-                <h1>Title app</h1>
-                <Navbar />
-
-                <FormField label="Name" type="text" placeholder="Your name"/>
-                <FormField label="Email" type="email" placeholder="email" />
-
-                <CoolButton classBtn="button is-rounded my-class is-danger is-small" name="button 1"/>
-                <CoolButton classBtn="button is-small is-success" name="button 2"/>
+            <div className="app">        
+                <Signup />
             </div>
         )
     }

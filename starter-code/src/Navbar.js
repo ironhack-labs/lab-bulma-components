@@ -5,9 +5,7 @@ import Signup from './Signup'
 class Navbar extends React.Component {
     handleClick = (e) => {
         console.log('CONSOLE LOG', e.target);
-            return (
-                    <Signup />
-            )
+           
         }
     render() {
         return(
