@@ -6,8 +6,9 @@ import FormField from "./FormField";
 class SignUp extends Component {
   render() {
     return (
-      <div>
+      <div >
         <NavComponent />
+        <form  className="container">
         <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
         <FormField
           label="Email"
@@ -17,6 +18,8 @@ class SignUp extends Component {
         <FormField label="Password" type="password" placeholder="Type your password" />
 
         <CoolButton ClassButton="button is-success">Submit</CoolButton>
+
+        </form>
       </div>
     );
   }
