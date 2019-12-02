@@ -1,0 +1,16 @@
+#specialButton {
+    font-size: 1.4rem;
+    padding: 1rem;
+    border: none;
+    margin: 2rem;
+}
+
+.red {
+    background: rgb(236, 97, 162);
+    border-radius: 2rem;
+}
+
+.green {
+    background: rgb(50, 204, 117);
+    border-radius: 0.5rem;
+}
