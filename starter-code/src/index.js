@@ -10,7 +10,3 @@ ReactDOM.render(
     document.getElementById('root')
   );
 
-//   ReactDOM.render(
-//       <Signup />,
-//       document.getElementById('signup')
-//   )
