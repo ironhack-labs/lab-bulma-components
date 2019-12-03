@@ -1,0 +1,20 @@
+.App {
+    margin:15px;
+    font-family:Arial, sans-serif;
+    
+
+}
+
+.login-btn {
+    background-color:cornflowerblue;
+    color:white;
+}
+
+a {
+    text-align:center;
+}
+
+.button {
+    background-color:cornflowerblue;
+    color:white;
+}
