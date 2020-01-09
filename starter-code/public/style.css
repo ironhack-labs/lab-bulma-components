@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.397) ;
+    margin-bottom: 35px;
+    box-shadow: 10px 10px 24px -7px rgba(0,0,0,0.72);
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+    height: 35vh;
+    border: 1px solid rgba(97, 95, 95, 0.507);
+    border-radius: 5px;
+    box-shadow: 10px 10px 24px -7px rgba(0,0,0,0.72);
+    padding: 45px;
+}
+
+form button {
+    margin: 10px;
+    left: 30%;
+    width: 100px;
+}
+
+article {
+    margin: 15px auto;
+    width: 50%;
+    height: 30vh;
+}
