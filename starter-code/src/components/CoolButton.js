@@ -16,6 +16,9 @@ class CoolButton extends Component {
     if (this.props.isSuccess) {
       allClasses += ' is-success';
     }
+    if (this.props.isPrimary) {
+      allClasses += ' is-primary';
+    }
     if (this.props.className) {
       allClasses += ` ${this.props.className}`;
     }
