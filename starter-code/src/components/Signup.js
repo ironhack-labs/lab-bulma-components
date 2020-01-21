@@ -12,10 +12,10 @@ class Signup extends Component {
     return(
       <div className="signup_container">
         <Navbar />
-        <FormField label="Name" type="text"/>
-        <FormField label="Email" type="email"/>
-        <FormField label="Password" type="password"/>
-        <CoolButton>Submit</CoolButton>
+        <FormField label="Name" type="text" placeholder="e.g Alex Smith QB" />
+        <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+        <FormField label="Password" type="password" placeholder="******" />
+        <CoolButton className='button is-rounded my-class is-link is-small'>Submit</CoolButton>
       </div>
     )
   }

@@ -4,7 +4,8 @@ class CoolButton extends Component {
   constructor(props){
     super(props)
   }
-    render() {
+  
+  render() {
       const { className } = this.props;
         return (
           <React.Fragment>

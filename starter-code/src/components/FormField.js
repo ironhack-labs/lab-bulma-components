@@ -14,7 +14,7 @@ class FormField extends Component {
         <div className="control">
           <input className="input" type={type} placeholder={placeholder} />
         </div>
-    </div>
+      </div>
     )
   }
 }
