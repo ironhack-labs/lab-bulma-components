@@ -1,14 +1,16 @@
 import React from 'react';
-// import 'bulma/css/bulma.css'
 import Navbar from './Components/Navbar';
 import FormField from './Components/FormFields';
+import CoolButton from './Components/CoolButton';
 
 const App = () => {
   return (
-    <div>
+    <div className="form">
       <Navbar />
       <FormField label="Name" type="text" placeholder="John Doe" />
       <FormField label="Email" type="email" placeholder="John Doe" />
+      <FormField label="password" type="password" placeholder="" />
+
     </div>
   );
 };

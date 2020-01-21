@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bulma/css/bulma.css'
+import 'bulma/css/bulma.css';
+import '../public/style.css';
 import App from './App';
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-)
+ReactDOM.render(<App />, document.getElementById('root'));

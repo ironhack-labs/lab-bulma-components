@@ -1,5 +1,6 @@
 import React from 'react';
-
+import CoolButton from './CoolButton';
+// import CoolButton from './CoolButton'
 const Navbar = () => {
   return (
     <nav className="navbar is-transparent">
@@ -32,14 +33,16 @@ const Navbar = () => {
           <div className="navbar-item">
             <div className="field is-grouped">
               <p className="control">
-                <a className="button is-info" target="_blank" href="/login">
-                  <span>Login</span>
-                </a>
+              {/* is-info */}
+              <CoolButton isInfo href="/login">
+                Login
+              </CoolButton>
               </p>
               <p className="control">
-                <a className="button is-primary" target="_blank" href="/signup">
-                  <span>signup</span>
-                </a>
+              {/* is-primary */}
+              <CoolButton isPrimary href="/login">
+                Signup
+              </CoolButton>
               </p>
             </div>
           </div>
