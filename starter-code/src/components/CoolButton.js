@@ -1,12 +1,17 @@
-import React from "react";
+import React, { Component } from "react";
 
-const CoolButton = () => {
-  return (
-    <div className='button'>
-      <button className="button is-rounded my-class is-danger is-small">Button 1</button>
-      <button className="button is-small is-success">Button 2</button>
-    </div>
-  )
+class CoolButton extends Component {
+  constructor(props){
+    super(props)
+  }
+    render() {
+      const { className } = this.props;
+        return (
+          <React.Fragment>
+            <button class={className}>Submit</button>
+          </React.Fragment>
+        )
+    }
 }
 
 export default CoolButton;
