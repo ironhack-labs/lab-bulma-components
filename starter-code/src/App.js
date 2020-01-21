@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css"
 import Navbar from "./components/Navbar.js";
 import FormField from "./components/FormField.js";
-import CoolButton from "./components/CoolButton.js";
+// import CoolButton from "./components/CoolButton.js";
 
 class App extends Component {
   render() {

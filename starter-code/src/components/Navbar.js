@@ -29,14 +29,12 @@ class Navbar extends Component {
       <div className="navbar-item">
         <div className="field is-grouped">
           <p className="control">
-          <CoolButton isSmall isDanger className="is-rounded my-class">Login</CoolButton>
-            {/* <a className="bd-tw-button button" target="_blank" href="#">
-            </a> */}
+          <CoolButton isInfo>Login</CoolButton>
+          {/* <CoolButton isSmall isDanger className="is-rounded my-class">Login</CoolButton> */}
           </p>
           <p className="control">
-          <CoolButton isSmall isSuccess>Signup</CoolButton>
-            {/* <a className="button is-primary" href="#">
-            </a> */}
+          <CoolButton isPrimary>Signup</CoolButton>
+          {/* <CoolButton isSmall isSuccess>Signup</CoolButton> */}
           </p>
         </div>
       </div>
