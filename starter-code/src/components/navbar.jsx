@@ -2,10 +2,10 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <nav className="navbar is-transparent">
+        <nav className="navbar is-light">
           <div className="navbar-brand">
             <a className="navbar-item" href="#">
-              <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width={112} height={28} />
+              <img src="https://bulma.io/images/bulma-logo.png" alt="" width={112} height={28} />
             </a>
             <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
               <span />
@@ -23,20 +23,12 @@ const Navbar = () => {
               <div className="navbar-item">
                 <div className="field is-grouped">
                   <p className="control">
-                    <a className="button" href="#">
-                      <span className="icon">
-                        <i className="fab fa-twitter" />
-                      </span>
-                      <span>
-                        Login
-                      </span>
+                    <a className="button is-info" href="#">
+                      <span>Login</span>
                     </a>
                   </p>
                   <p className="control">
                     <a className="button is-primary" href="#">
-                      <span className="icon">
-                        <i className="fas fa-download" />
-                      </span>
                       <span>Signup</span>
                     </a>
                   </p>
