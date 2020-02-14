@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Navbar from "./components/navbar";
+import FormField from "./components/FormField";
 import "./App.css";
 
 class App extends Component {
@@ -27,9 +29,9 @@ class App extends Component {
 
         return (
             <div className="App">
-                <h1> Hello Ironhackers!!! </h1>
-                {element}
-                {displayAvatar(user)}
+                <Navbar/>
+                <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
+                <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
             </div>
         );
     }
