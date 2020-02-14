@@ -3,6 +3,7 @@ import FormField from './components/FormField.js';
 import Container from './components/Container.js'
 import CoolButton from './components/CoolButton.js';
 import React from 'react';
+import Message from './components/Message.js';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
                         <CoolButton isLarge isPrimary isRounded>Submit</CoolButton>
                     </div>
                 </div>
+                <Container><Message title="Receta" text="nome alcansa grasias"></Message></Container>
             </Container>
         </div>
     );
