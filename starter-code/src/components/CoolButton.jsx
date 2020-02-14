@@ -34,7 +34,7 @@ const CoolButton = (props) => {
         let result = "button";
 
         for (let key of Object.keys(props)) {
-            if (key !== "children" && key !== "className") {
+            if (key in allCases) {
                 result += ` ${allCases[key]}`;
             }
         }
