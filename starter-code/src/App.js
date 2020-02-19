@@ -15,7 +15,7 @@ class App extends Component {
             <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
             <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com"/>
             <CoolButton isSmall isDanger isRounded value="Button"/>
-            <CoolButton isSmall isSuccess value="Button"/>          
+            <CoolButton isSmall isSuccess value="Button" className="my-class"/>          
         </div>
       );
     }
