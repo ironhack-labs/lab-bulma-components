@@ -1,0 +1,13 @@
+body {
+    margin: 20px
+}
+
+.is-link{
+    margin-top: 20px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.input {
+    width: 50%;
+}
