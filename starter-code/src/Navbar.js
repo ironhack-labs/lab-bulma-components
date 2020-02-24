@@ -1,4 +1,5 @@
 import React from "react";
+import CoolButton from "./CoolButton";
 // import "./navbar.css";
 
 function Navbar() {
@@ -17,6 +18,9 @@ function Navbar() {
       <span></span>
       <span></span>
     </div>
+    <CoolButton isSmall isDanger className="is-rounded my-class">Sign up</CoolButton>
+    <CoolButton isSmall isSuccess>Log in</CoolButton>
+
   </div>
 
   <div id="navbarExampleTransparentExample" className="navbar-menu">
