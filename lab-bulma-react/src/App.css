@@ -34,6 +34,13 @@
   width: 500px;
   max-width: 100%;
 }
+
+.message{
+  margin: 50px auto;
+  width: 300px;
+  max-width: 100%;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25)
+}
 .my-class{
   margin: 30px 0;
 }
