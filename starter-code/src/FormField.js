@@ -4,6 +4,7 @@ import "./FormField.css";
 function FormField() {
   return (
     <div>
+
       {/* FORM FIELD 1 */}
       <div className="field">
         <label className="label">Name</label>
@@ -17,7 +18,8 @@ function FormField() {
         <div className="control">
           <input className="input" type="email" placeholder="e.g. alexsmith@gmail.com" />
         </div>
-      </div>      
+      </div>  
+          
     </div>
   )
 }
