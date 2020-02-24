@@ -5,5 +5,12 @@ div form {
 
 div form input {
     width: 20%;
-    
+    margin-bottom: 1em;
+    padding: 0.5em;
 }
+
+div form label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+

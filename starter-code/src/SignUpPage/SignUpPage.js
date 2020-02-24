@@ -13,9 +13,9 @@ class SignUpPage extends Component {
          <form action="">
         <Formfield label="Name" type="text" placeholder="e.g Alex Smith"/>
         <Formfield label="Email" type="email" placeholder="e.g. alexsmith@gmail.com"/>
-        <Formfield label="password" type="password" placeholder="password"/>
-        <CoolButton isSmall className="is-rounded my-class form">Submit</CoolButton>
+        <Formfield label="Password" type="password" placeholder="password"/>
         </form>
+        <CoolButton isSmall className="is-rounded my-class">Submit</CoolButton>
         </div>
        )
     }
