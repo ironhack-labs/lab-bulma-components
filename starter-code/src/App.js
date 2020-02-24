@@ -4,8 +4,11 @@ import Nav from "./components/nav/Nav";
 import Form from "./components/form/Form";
 import Button from "./components/coolButton/CoolButton";
 import SignUp from "./components/signUp/signUp";
+import Container from "./components/container/Container"
+
 
 function App() {
+
   return (
     <>
       <Nav />
@@ -21,6 +24,8 @@ function App() {
 
       <hr />
       <SignUp />
+      <hr/>
+      <Container title="Hi world!" />
     </>
   );
 }
