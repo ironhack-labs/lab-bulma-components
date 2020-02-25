@@ -1,14 +1,18 @@
 import React from "react";
 import Nav from "./Nav.js";
 import FormField from "./FormField.js";
+import Button from "./Button.js";
 
 export default class App extends React.Component {
     render() {
         return (
             <div >
                 <Nav />
-                <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-                <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+                <FormField labelName="Name" typeName="text" placeholderText="Alex Smith" />
+                <Button />
+                <Button isSmall isDanger className="is-rounded my-class">HOLY MOLY</Button>
+                <Button isSmall isSuccess>INPUT</Button>
+
             </div>
         );
     }

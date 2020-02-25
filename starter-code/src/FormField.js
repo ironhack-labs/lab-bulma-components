@@ -1,22 +1,34 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-export default class FormField extends Component {
-    render() {
-        return (
-            <div>
-                <div className="field">
-                    <label className="label">Name</label>
-                    <div className="control">
-                        <input className="input" type="text" placeholder="e.g Alex Smith" />
-                    </div>
-                    </div>
-                    <div className="field">
-                    <label className="label">Email</label>
-                    <div className="control">
-                        <input className="input" type="email" placeholder="e.g. alexsmith@gmail.com" />
-                    </div>
-                    </div>
-            </div>
-        )
-    }
+//rfc in VSCODE
+//props have to be passed, no state 
+export default function FormField(props) {
+    const {
+        labelName, typeName, placeholderText 
+    } = props;
+    return (
+        <div className="field">
+          <label className="label">{labelName}</label>
+          <div className="control">
+            <input className="input" type={typeName} placeholder={placeholderText} />
+          </div>
+        </div>
+    )
 }
+
+// alternative way -  it wit a class (props already included)
+/*
+export default class FormField extends Component {
+    const = {labelName, typeName, placeholderText} = this.props
+  render() 
+    return (
+      <div className="field">
+          <label className="label">{labelName}</label>
+          <div className="control">
+            <input className="input" type={typeName} placeholder={placeholderText} />
+          </div>
+        </div>
+    );
+  }
+}
+*/
