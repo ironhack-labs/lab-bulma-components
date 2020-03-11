@@ -17,12 +17,8 @@ const Navbar = () => {
         <div class="navbar-end">
             <div class="navbar-item">
                 <div class="buttons">
-                    <CoolButton>
-                        <strong>Sign up</strong>
-                    </CoolButton>
-                    <CoolButton>
-                        Log in
-                    </CoolButton>
+                    <CoolButton cta="Signup" classes="button is-primary is-success"/>
+                    <CoolButton cta="Login" classes="button is-link"/>
                 </div>
             </div>
         </div>
