@@ -36,16 +36,11 @@ const Navbar = () => {
               <div class="field is-grouped">
                 <p class="control">
                   <a
-                    class="bd-tw-button button"
-                    data-social-network="Twitter"
-                    data-social-action="tweet"
+                    class="bd-tw-button button is-info"
                     data-social-target="https://bulma.io"
                     target="_blank"
                     href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms"
                   >
-                    <span class="icon">
-                      <i class="fab fa-twitter"></i>
-                    </span>
                     <span>Login</span>
                   </a>
                 </p>
@@ -54,9 +49,6 @@ const Navbar = () => {
                     class="button is-primary"
                     href="https://github.com/jgthms/bulma/releases/download/0.8.0/bulma-0.8.0.zip"
                   >
-                    <span class="icon">
-                      <i class="fas fa-download"></i>
-                    </span>
                     <span>Signup</span>
                   </a>
                 </p>
