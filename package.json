@@ -24,7 +24,10 @@
   },
   "dependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "bulma": "^0.8.0",
     "css-loader": "^3.4.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "style-loader": "^1.1.3"
   }
 }
