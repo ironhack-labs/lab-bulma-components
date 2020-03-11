@@ -9,8 +9,12 @@ const Navbar = () =>
         <a className="nabvar-item" href="https://bulma.io">
          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28"></img>   
         </a>
-        <a className="navbar-item" href="https//bulma.io/">Signup</a>
-        <a className="navbar-item">Login</a>
+        <button className="button is-rounded my-class is-danger is-small">
+        Signup
+        </button>
+        <button class="button is-small is-success">
+        Login
+        </button>
     </div>
 </nav>;
 
