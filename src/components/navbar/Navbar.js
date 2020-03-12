@@ -5,9 +5,9 @@ import CoolButton from "../coolButton/CoolButton";
 const Navbar = props => {
   return (
     <>
-      <nav class="navbar is-transparent">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="#">
+      <nav className="navbar">
+        <div className="navbar-brand">
+          <a className="navbar-item" href="#">
             {/* https://bulma.io */}
             <img
               src="https://bulma.io/images/bulma-logo.png"
@@ -17,7 +17,7 @@ const Navbar = props => {
             />
           </a>
           <div
-            class="navbar-burger burger"
+            className="navbar-burger burger"
             data-target="navbarExampleTransparentExample"
           >
             <span></span>
@@ -26,17 +26,17 @@ const Navbar = props => {
           </div>
         </div>
 
-        <div id="navbarExampleTransparentExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="https://bulma.io/">
+        <div id="navbarExampleTransparentExample" className="navbar-menu">
+          <div className="navbar-start">
+            <a className="navbar-item" href="https://bulma.io/">
               Home
             </a>
           </div>
 
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="field is-grouped">
-                <p class="control">
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <div className="field is-grouped">
+                <p className="control">
                   <CoolButton classes='is-info m-right' title='Login'/>
                   <CoolButton classes='is-primary' title='Signup'/>
                 </p>
