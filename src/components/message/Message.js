@@ -3,12 +3,12 @@ import "./Message.css";
 
 const Message = () => {
   return (
-    <article class="message is-info">
-      <div class="message-header">
+    <article className="message is-info">
+      <div className="message-header">
         <p>Hello World</p>
-        <button class="delete" aria-label="delete"></button>
+        <button className="delete" aria-label="delete"></button>
       </div>
-      <div class="message-body">
+      <div className="message-body">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
         <strong>Pellentesque risus mi</strong>.
       </div>
