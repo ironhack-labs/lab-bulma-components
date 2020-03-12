@@ -1,0 +1,21 @@
+.form-div {
+   
+    width: 400px;
+    margin: 0 auto;
+}
+.form-div form button{
+    align-self: flex-end;
+}
+.form-div form {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-div form input {
+    width: 35vw;
+}
+.label {
+    /* text-align: center; */
+    padding: 0 10px;
+}

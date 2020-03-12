@@ -1,10 +1,10 @@
 import React from 'react'
-import Buttons from './Buttons'
 
- const Button = ({buttonClass}) => {
+ const Button = (props) => {
+     const {buttonClass, buttonName} = props
     return (
         <div>
-            <button className={buttonClass}>{buttonClass}</button>
+            <button className={buttonClass}>{buttonName}</button>
         </div>
     )
 }
