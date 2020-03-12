@@ -17,8 +17,8 @@ const Navbar = () => {
         <div class="navbar-end">
             <div class="navbar-item">
                 <div class="buttons">
-                    <CoolButton cta="Signup" classes="button is-primary is-success"/>
-                    <CoolButton cta="Login" classes="button is-link"/>
+                    <CoolButton cta="Signup" isPrimary isSuccess/>
+                    <CoolButton cta="Login" isLink/>
                 </div>
             </div>
         </div>
