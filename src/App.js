@@ -6,8 +6,7 @@ import FormField from './formfield/FormField'
 import Buttons from './coolButtons/Buttons'
 import Message from './message/Message'
 
-//css
-import 'bulma/css/bulma.css';
+
 
 //data
 const buttonClasses = require('./data/buttons.json')

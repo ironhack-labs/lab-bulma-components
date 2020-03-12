@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from './Button'
-import 'bulma/css/bulma.css';
+
 import './Buttons.css'
 
  const Buttons = ({buttonClasses}) => {
