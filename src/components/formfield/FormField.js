@@ -1,26 +1,13 @@
 import React from "react";
 
-const FormField = props => {
+const FormField = ({ label, type, placeholder }) => {
   return (
-    <div className="field">
-      <label className="label">{props.label}</label>
-      <div class="field">
-        {/* <label class="label">Name</label> */}
-        <div class="control">
-          <input class="input" type="text" placeholder="e.g Alex Smith" />
+      <div className="field">
+        <label className="label">{label}</label>
+        <div className="control">
+          <input className="input" type={type} placeholder={placeholder} />
         </div>
       </div>
-      <div class="field">
-        <label class="label">Email</label>
-        <div class="control">
-          <input
-            class="input"
-            type="email"
-            placeholder="e.g. alexsmith@gmail.com"
-          />
-        </div>
-      </div>
-    </div>
   );
 };
 
