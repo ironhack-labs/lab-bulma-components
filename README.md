@@ -56,7 +56,7 @@ import 'bulma/css/bulma.css';
 
 To kick off, create a new folder `src/navbar` and inside create two files:
 
-- `src/navbar/Navbar.js` and
+- `src/navbar/Navbar.jsx` and
 - `src/navbar/Navbar.css`.
 
 This component should display a link to "Home", "Login" and "Signup" like in the following example:
@@ -65,7 +65,7 @@ This component should display a link to "Home", "Login" and "Signup" like in the
 
 To help you, you can use the code from the [Bulma Transparent Navbar](https://bulma.io/documentation/components/navbar/#transparent-navbar).
 
-In the end, you will need to import this component into the `src/App.js` and use it properly in the return statement, instead of the `h1` tag which is there for now.
+In the end, you will need to import this component into the `src/App.jss` and use it properly in the return statement, instead of the `h1` tag which is there for now.
 
 ### Iteration 2 | `FormField` component
 
