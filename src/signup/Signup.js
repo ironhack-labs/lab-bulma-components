@@ -9,8 +9,8 @@ const Signup = () => {
   return (<div>
     <Navbar button={
       <div>
-          <CoolButton className="button is-info">Signup</CoolButton>
-          <CoolButton className="button is-primary">Login</CoolButton>
+        <Link to="/"><CoolButton isInfo>Signup</CoolButton></Link>
+        <Link to="/signup"><CoolButton className="button is-primary">Login</CoolButton></Link>
       </div>
     }/>
     <Formfield label="name" type="text" placeholder="Raúl Marchán"/>
