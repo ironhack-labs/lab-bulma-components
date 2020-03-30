@@ -21,12 +21,14 @@ class App extends Component {
         } />
 
         <Switch>
-        <Route path="/">
+        <Route exact path="/">
         <Formfield label="name" type="text" placeholder="Raúl Marchán" />
         <Formfield label="mail" type="email" placeholder="r.marchan@mail.com" />
-        <CoolButton isSmall isInfo>Submit</CoolButton>
+        <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
+        <CoolButton isSmall isSuccess>Button 2</CoolButton>
+        
         </Route>
-        <Route path="/signup">
+        <Route exact path="/signup">
         <Formfield label="name" type="text" placeholder="Raúl Marchán" />
         <Formfield label="mail" type="email" placeholder="r.marchan@mail.com" />
         <Formfield label="password" type="password" placeholder="" />
