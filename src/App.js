@@ -1,7 +1,15 @@
-import React from 'react';
+import React from "react";
+import SignUp from "./SignUp"
+import 'bulma/css/bulma.css';
 
-const App = () => {
-  return <h1>Bulma</h1>;
-};
+import "./App.css";
+
+function App(){
+  return (
+      <div>
+      <SignUp/>
+      </div>
+  );
+}
 
 export default App;
