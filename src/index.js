@@ -4,4 +4,3 @@ import App from './App';
 import SignUp from "./signup/Signup";
 
 ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<SignUp />, document.getElementById('root1'))

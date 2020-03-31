@@ -16,7 +16,7 @@ const Navbar = () => {
     </div>
   </div>
 
-  <div id="navbarExampleTransparentExample" class="navbar-menu">
+  <div id="navbarExampleTransparentExample" className="navbar-menu">
     <div className="navbar-start">
       <a className="navbar-item" href="https://bulma.io/">
         Home

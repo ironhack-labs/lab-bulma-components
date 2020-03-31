@@ -1,14 +1,15 @@
 import React from 'react';
 import Navbar from "../navbar/Navbar";
-import FormField from "..//formfield/Formfield";
+import FormField from "../formfield/Formfield";
 import CoolButton from "../coolbutton/Coolbutton";
+import Container from "../container/Container"
 import 'bulma/css/bulma.css';
 
 
-const SignUp = props => {
+const SignUp = () => {
     return (
         <div>
-<Navbar />
+    <Navbar />
 <form>
     <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
     <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
@@ -16,8 +17,7 @@ const SignUp = props => {
     <CoolButton label="SignUp" />
 </form>
 <div>
-<Component />
-<Message />
+    <Container />
 </div>
 </div>
     )
