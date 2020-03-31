@@ -7,9 +7,15 @@ const Signup = (data) => {
     return (
     <div>
         <Navbar />
-        <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-        <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
-        <FormField label="Pasword" type="email" placeholder="e.g. alexsmith@gmail.com" />
+        <FormField />
+        <div>
+      <div className="field">
+        <label className="label">Pasword</label>
+        <div className="control">
+          <input className="input" type="text" placeholder="Password" />
+        </div>
+      </div>
+      </div>
         <CoolButton label="Submit" >Button 2</CoolButton>
     </div>
     );
