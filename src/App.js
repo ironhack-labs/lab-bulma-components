@@ -2,11 +2,13 @@ import React from 'react';
 import Navbar from './navbar/Navbar';
 import FormField from './formfield/FormField';
 import CoolButton from './coolbutton/CoolButton';
+import Message from './message/Message';
 import './App.css';
 import './navbar/Navbar.css';
 import 'bulma/css/bulma.css';
 import './formfield/FormField.css';
 import './coolbutton/CoolButton.css';
+import './message/Message.css'
 
 const App = () => {
   return (
@@ -22,6 +24,7 @@ const App = () => {
             <CoolButton styleClass="button is-success" typeOfButton="submit" value="Submit"/>
           </div>
         </form>
+        <Message />
       </div>
       
       
