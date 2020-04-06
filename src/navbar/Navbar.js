@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 class Navbar extends Component {
 	render() {
 		return (
-			<nav class="navbar" role="navigation" aria-label="main navigation">
+			<nav class="navbar is-light" role="navigation" aria-label="main navigation">
  				<div class="navbar-brand">
    					<a class="navbar-item" href="https://bulma.io">
       				<img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"></img>
@@ -31,7 +31,7 @@ class Navbar extends Component {
 									<strong>Log in</strong>
 								</a>
 								<a class="button is-primary">
-									Sign up
+									<strong>Sign up</strong>
 								</a>
 							</div>
 						</div>
