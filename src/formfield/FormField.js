@@ -4,13 +4,12 @@ import 'bulma/css/bulma.css';
 class FormField extends Component{
     render() {
       return (
-        <div>
-          <input class="input" type="text" placeholder="Thibault"></input>
-          <input class="input" type="text" placeholder="thibault.delfaud@gmail.com"></input>
+        <div className='field'>
+          <label className='label'>{this.props.label}</label>
+          <input label = {this.props.label} class="input" type={this.props.type} placeholder={this.props.placeholder}></input>
         </div>
-
-      )
-    }
+    )
+  }
 }
 
 export default FormField 
