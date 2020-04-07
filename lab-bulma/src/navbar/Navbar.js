@@ -1,10 +1,11 @@
 import React from 'react';
+import CoolButton from '../coolbutton/CoolButton';
 import 'bulma/css/bulma.css';
 import './Navbar.css';
 
 function navbar () {
   return (
-    <nav class="navbar is-transparent">
+    <nav class="navbar is-transparent nav">
       <div class="navbar-brand">
         <a class="navbar-item" href="https://bulma.io">
           <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
@@ -26,8 +27,9 @@ function navbar () {
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="field is-grouped">
-              <p class="control">
-                <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
+            <CoolButton isSmall isDanger className="is-rounded my-class" button1='Login' button2='Sign Up' />
+              {/* <p class="control">
+                <a class="bd-tw-button button login" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
                   <span>
                     Login
                   </span>
@@ -37,7 +39,7 @@ function navbar () {
                 <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.8.0/bulma-0.8.0.zip">
                   <span>Signup</span>
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

@@ -1,0 +1,9 @@
+.two-buttons {
+  display: flex;
+  margin: 0.5rem;
+  padding: 0 1rem;
+}
+
+.danger-button {
+  margin-right: 1rem;
+}
