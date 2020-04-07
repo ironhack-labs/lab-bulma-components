@@ -4,7 +4,7 @@ import 'bulma/css/bulma.css';
 class Cool extends Component{
     render() {
       return (
-          <div>
+        <div>
             <button class="button is-rounded my-class is-danger is-small">Button 1</button>
             <button class="button is-small is-success">Button 2</button>
         </div>

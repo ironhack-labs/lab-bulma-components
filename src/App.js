@@ -9,7 +9,7 @@ const App = () => {
       <div className="App">
         <Navbar />
         <FormField label="Name" type="text" placeholder="Thibault Delfaud" />
-        <FormField label="Email" type="email" placeholder="thibault.delfaud@gmail.com" /> 
+        <FormField label="Email" type="text" placeholder="thibault.delfaud@gmail.com" /> 
         <Button />
       </div>
     );

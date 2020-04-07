@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import 'bulma/css/bulma.css';
 
+
 class Navbar extends Component{
   render() {
     return (
@@ -24,7 +25,7 @@ class Navbar extends Component{
         <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary">
+          <a class="button is-primary" href="../../signup.html">
             <strong>Sign up</strong>
           </a>
           <a class="button is-light">
