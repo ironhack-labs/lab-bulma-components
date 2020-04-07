@@ -3,7 +3,7 @@ import 'bulma/css/bulma.css';
 import './FormField.css';
 
 function FormField (props) {
-  const { name, email } = props;
+  const { name, email, password } = props;
   return (
     <div className='form'>
       <div className='field'>
@@ -16,6 +16,12 @@ function FormField (props) {
         <label class="label">{ email }</label>
         <div class="control">
           <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" />
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">{ password }</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="*******" />
         </div>
       </div>
     </div>

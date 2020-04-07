@@ -1,7 +1,7 @@
 .two-buttons {
   display: flex;
   margin: 0.5rem;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 
 .danger-button {

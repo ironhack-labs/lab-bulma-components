@@ -27,19 +27,8 @@ function navbar () {
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="field is-grouped">
-            <CoolButton isSmall isDanger className="is-rounded my-class" button1='Login' button2='Sign Up' />
-              {/* <p class="control">
-                <a class="bd-tw-button button login" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
-                  <span>
-                    Login
-                  </span>
-                </a>
-              </p>
-              <p class="control">
-                <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.8.0/bulma-0.8.0.zip">
-                  <span>Signup</span>
-                </a>
-              </p> */}
+            <CoolButton buttonClass="button is-rounded my-class is-danger is-normal" buttonName='Login' />
+            <CoolButton buttonClass="button is-normal is-success" buttonName='Sign Up' />
             </div>
           </div>
         </div>
