@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import 'bulma/css/bulma.css';
 
-class Formfield extends Component{
+class FormField extends Component{
     render() {
       return (
+        <div>
+          <input class="input" type="text" placeholder="Thibault"></input>
+          <input class="input" type="text" placeholder="thibault.delfaud@gmail.com"></input>
+        </div>
 
-<FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-<FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
       )
     }
 }
