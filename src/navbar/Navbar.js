@@ -2,6 +2,7 @@
 
 import React from 'react';
 import 'bulma/css/bulma.css';
+import './Navbar.css';
 import chichaLogo from '../assets/chicha-logo.png';
 
 function Navbar() {
@@ -9,7 +10,7 @@ function Navbar() {
     <nav className="navbar is-light">
       <div className="navbar-brand">
         <a className="navbar-item" href="/">
-          <img src={chichaLogo} alt="Home" width="79" height="28" />
+          <img id="logo" src={chichaLogo} alt="Home" width="79" height="28" />
         </a>
         <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span></span>
