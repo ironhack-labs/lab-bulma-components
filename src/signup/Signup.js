@@ -1,4 +1,4 @@
-// /signup/Signup.js
+// signup/Signup.js
 
 import React from 'react';
 import Navbar from '../navbar/Navbar';

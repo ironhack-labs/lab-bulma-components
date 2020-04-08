@@ -1,4 +1,4 @@
-// components/CoolButton.js
+// coolbutton/CoolButton.js
 
 import React from 'react';
 import 'bulma/css/bulma.css';

@@ -1,4 +1,4 @@
-// components/FormField.js
+// formfield/FormField.js
 
 import React from 'react';
 import 'bulma/css/bulma.css';

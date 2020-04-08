@@ -1,4 +1,4 @@
-// components/Navbar.js
+// navbar/Navbar.js
 
 import React from 'react';
 import CoolButton from '../coolbutton/CoolButton';
