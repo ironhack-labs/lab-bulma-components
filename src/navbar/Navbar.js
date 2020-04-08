@@ -2,7 +2,7 @@
 
 import React from 'react';
 import 'bulma/css/bulma.css';
-import chichaLogo from '../assets/chicha-logo.gif';
+import chichaLogo from '../assets/chicha-logo.png';
 
 function Navbar() {
   return (
