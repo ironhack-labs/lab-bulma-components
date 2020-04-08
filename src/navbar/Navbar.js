@@ -1,6 +1,7 @@
 // components/Navbar.js
 
 import React from 'react';
+import CoolButton from '../coolbutton/CoolButton';
 import 'bulma/css/bulma.css';
 import './Navbar.css';
 import chichaLogo from '../assets/chicha-logo.png';
@@ -29,15 +30,15 @@ function Navbar() {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="field is-grouped">
-              <p className="control">
-                <a className="button is-info" href="">
-                  <span>Login</span>
-                </a>
+              <p className="control">    
+                <CoolButton isInfo>
+                  Login
+                </CoolButton>
               </p>
               <p className="control">
-                <a className="button is-primary" href="">
-                  <span>Signup</span>
-                </a>
+                <CoolButton isPrimary>
+                  Signup
+                </CoolButton>
               </p>
             </div>
           </div>
