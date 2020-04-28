@@ -2,12 +2,12 @@ import React, { Fragment } from 'react';
 
 import 'bulma/css/bulma.css';
 
-import Nav from './components/navbar/Nav';
+import Signup from './components/signup/Signup';
 
 
 const App = () => 
   <>
-    <Nav/>
+    <Signup/>
   </>
   
 
