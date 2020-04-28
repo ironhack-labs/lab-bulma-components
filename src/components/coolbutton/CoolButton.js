@@ -32,7 +32,6 @@ let btnTypes = {
 const checkClasses = obj => {
     let result = "button ";
     for( let type in btnTypes){
-        console.log(type);
         if(obj[type]) result = `${result} ${btnTypes[type]} `;
     }
 

@@ -25,10 +25,10 @@ const Nav = () =>
         <div className="navbar-item">
           <div className="field is-grouped">
             <p className="control">
-                <CoolButton isSmall isDanger className="is-rounded my-class">Login</CoolButton>
+                <CoolButton isSmall isLight>Login</CoolButton>
             </p>
             <p className="control">
-                <CoolButton>Signup</CoolButton>
+                <CoolButton isSmall isPrimary>Signup</CoolButton>
             </p>
           </div>
         </div>
