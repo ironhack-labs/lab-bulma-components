@@ -1,0 +1,8 @@
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.box-message {
+    width: 30rem;
+}

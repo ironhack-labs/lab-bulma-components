@@ -1,0 +1,8 @@
+.field {
+    display: flex;
+    justify-content: center;
+}
+
+.field-size {
+    width: 20rem;
+}
