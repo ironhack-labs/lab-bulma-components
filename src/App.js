@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import Nav from './components/navbar/Nav';
-const App = () => {
-  return <h1>Bulma
-        <Nav/>
-    </h1>;
-};
+const App = () => 
+  <>
+    <Nav/>
+  </>
+  
 
 export default App;
