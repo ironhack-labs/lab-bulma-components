@@ -1,0 +1,15 @@
+.version{
+    display: flex;
+    justify-content: center;
+    background-color: #00d1b2;
+    padding: 16px;
+}
+.version p, .version a, .version strong{
+    color: white;
+}
+.version p{
+    margin-right: 8px;
+}
+.version a{
+    text-decoration: underline;
+}
