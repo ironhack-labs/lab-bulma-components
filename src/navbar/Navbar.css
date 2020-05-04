@@ -1,0 +1,17 @@
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    background: #f0f0f0;
+}
+
+.navbar-start a {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.navbar-end a {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
