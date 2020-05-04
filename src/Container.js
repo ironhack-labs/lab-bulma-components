@@ -4,7 +4,7 @@ import FormField from "./formfield/FormField.js"
 import CoolButton from "./CoolButton/CoolButton.js"
 import Message from "./Message/Message.js"
 
-class Main extends React.Component {
+class Container extends React.Component {
     render() {
         return (
             <>
@@ -21,4 +21,4 @@ class Main extends React.Component {
     }
 };
 
-export default Main;
+export default Container;
