@@ -9,7 +9,16 @@ class CoolButton extends Component {
       isPrimary: 'is-primary',
       isSuccess: 'is-success',
     }
-    return <a href={this.props.link} class="button">{this.props.children}</a>
+
+    return this.props.isButton ? (
+      <button className="button">
+        {this.props.children}
+      </button>
+    ) : (
+      <a href={this.props.link} className="button">
+        {this.props.children}
+      </a>
+    )
   }
 }
 
