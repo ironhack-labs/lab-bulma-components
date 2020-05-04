@@ -3,6 +3,7 @@ import 'bulma/css/bulma.css'
 
 import Navbar from './navbar/navbar'
 import FormField from './formfield/formfield'
+import CoolButton from './coolbutton/coolbutton'
 
 const App = () => {
   return (
@@ -26,6 +27,11 @@ const App = () => {
               />
             </div>
           </form>
+        </div>
+      </div>
+      <div className="columns is-centered">
+        <div className="column is-one-third">
+        <CoolButton isSmall isDanger className="is-rounded my-class">AAAAAAAAAAA</CoolButton>
         </div>
       </div>
     </div>
