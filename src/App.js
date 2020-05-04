@@ -1,7 +1,18 @@
 import React from 'react';
+import './App.css';
+
+
+import SignUp from './signUp/SignUp';
+
 
 const App = () => {
-  return <h1>Bulma</h1>;
+  return (
+
+    <>
+    <SignUp/>
+    </>
+  
+  )
 };
 
 export default App;
