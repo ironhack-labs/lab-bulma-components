@@ -13,6 +13,29 @@ class Navbar extends Component {
             />
           </a>
         </div>
+        <div className="navbar-menu">
+          <div className="navbar-start">
+            <a href="#" className="navbar-item">
+              Home
+            </a>
+          </div>
+        </div>
+        <div className="navbar-end">
+          <div className="navbar-item">
+            <div className="field is-grouped">
+              <p className="control">
+                <a href="#" className="button is-primary">
+                  Login
+                </a>
+              </p>
+              <p className="control">
+                <a href="#" className="button is-primary">
+                  Signup
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
       </nav>
     )
   }
