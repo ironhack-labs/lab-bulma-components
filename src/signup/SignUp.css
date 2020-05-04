@@ -1,0 +1,11 @@
+#signup-container {
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+#signup-container input {
+    width: 500px;
+}
