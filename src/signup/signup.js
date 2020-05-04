@@ -27,7 +27,7 @@ class Signup extends Component {
                   placeholder="e.g. alexsmith@gmail.com"
                 />
               </div>
-              <CoolButton isButton isPrimary link="#">Submit</CoolButton>
+              <CoolButton isButton isDark isCentered isRounded link="#">Submit</CoolButton>
             </form>
           </div>
         </div>
