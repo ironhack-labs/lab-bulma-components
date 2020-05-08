@@ -1,8 +1,10 @@
 import React from 'react';
+import './Coolbutton.css'
+import 'bulma/css/bulma.css';
 
 function Coolbutton(props) {
     return (
-        <button className={getClasses(props)}>Button 1</button>
+        <button className={getClasses(props)}>{props.children}</button>
     );
 }
 
@@ -36,7 +38,7 @@ const getClasses = (props) => {
         isWhite: 'is-white',
     }
 
-    let classes = "";
+    let classes = "button cool-button";
     for (let element in props) {
         if (objClasses[element]) {
             classes +=  " "  + objClasses[element];
