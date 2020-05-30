@@ -1,0 +1,14 @@
+.iteration {
+    border: 2px solid rgba(0, 221, 184, 0.445);
+    margin: 25px 0;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.iteration h5 {
+    font-weight: 600;
+    margin-bottom: 25px;
+
+}
