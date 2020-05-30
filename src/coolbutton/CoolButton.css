@@ -1,0 +1,13 @@
+#Buttons {
+    width: 95vw;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.Buttons {
+    display: inline;
+}
+
+.button {
+    margin-right: 10px;
+}
