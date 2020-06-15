@@ -26,7 +26,8 @@ const App = () => {
     <Signup />
 
     <Message isInfo title='Hello World'
-    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>.">
+    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    strong="Pellentesque risus mi.">
       </Message>
 
   </div>;

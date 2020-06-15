@@ -9,7 +9,7 @@ function Message(props) {
     <button class="delete" aria-label="delete"></button>
   </div>
   <div class="message-body">
-    {props.text}
+    {props.text} <strong>{props.strong}</strong>
   </div>
 </article>
 
