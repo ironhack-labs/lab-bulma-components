@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bulma/css/bulma.css'
 import Navbar from './navbar/Navbar'
 import FormField from './formField/FormField'
 import CoolButton from './button/button';
@@ -18,7 +17,7 @@ function Signup(props) {
     type={props.type}
     placeholder="e.g Alex Smith" />
 
-<CoolButton isSmall isDanger className="is-rounded my-class">Submit</CoolButton>
+    <CoolButton isSmall isDanger className="is-rounded my-class">Submit</CoolButton>
 
 
     </div>)
