@@ -10,8 +10,8 @@ const App = () => {
     <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
     <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
     <CoolButton />
-    <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
-    <CoolButton isSmall isSuccess>Button 2</CoolButton> 
+    <CoolButton isSmall isDanger className="is-rounded my-class">Log In</CoolButton>
+    <CoolButton className="is-rounded my-class">Submit</CoolButton> 
     <Message isInfo title='Hello World'>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>.
   </Message>
