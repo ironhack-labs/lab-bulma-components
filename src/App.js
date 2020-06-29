@@ -1,7 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
+import Navbar from './navbar/Navbar'
+import FormField from './formfield/FormField'
+class App extends Component {
+  render(){
+    return( 
+    <div>
+      <Navbar/>
+    <FormField />
+    </div>
+    );
+  }
 
-const App = () => {
-  return <h1>Bulma</h1>;
-};
+}
 
 export default App;
