@@ -1,7 +1,7 @@
 import React from 'react';
-import Signup from './Signup';
-import Container from './Container';
-import Message from './Message';
+import Signup from './Signup/Signup';
+import Container from './Container/Container';
+import Message from './Message/Message';
 import 'bulma/css/bulma.css'
 
 const App = () => {

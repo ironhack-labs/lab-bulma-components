@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './Navbar'
-import FormField from './FormField'
-import CoolButton from './CoolButton';
+import Navbar from '../Navbar/Navbar'
+import FormField from '../FormField/FormField'
+import CoolButton from '../CoolButton/CoolButton';
 
 export default function Signup() {
     return (

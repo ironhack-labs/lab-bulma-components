@@ -1,5 +1,5 @@
 import React from 'react';
-import CoolButton from './CoolButton'
+import CoolButton from '../CoolButton/CoolButton'
 import 'bulma/css/bulma.css'
 
 export default function Message(props) {
