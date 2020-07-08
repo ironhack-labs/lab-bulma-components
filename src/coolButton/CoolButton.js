@@ -1,3 +1,6 @@
+import React, { Component } from 'react';
+import 'bulma/css/bulma.css';
+
 const buttonOptions = {
 	isActive: 'is-active',
 	isBlack: 'is-black',
@@ -26,3 +29,17 @@ const buttonOptions = {
 	isWarning: 'is-warning',
 	isWhite: 'is-white',
 };
+class CoolButton extends Component {
+	render() {
+		let dynClass = 'button ';
+		Object.keys(this.props).map((p) => {
+			console.log(p);
+			if (p != 'children') {
+				dynClass += buttonOptions[p];
+			}
+		});
+		return <button className={dynClass}>{this.props.children}</button>;
+	}
+}
+
+export default CoolButton;

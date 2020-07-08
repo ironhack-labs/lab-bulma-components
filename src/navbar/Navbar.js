@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CoolButton from '../coolButton/CoolButton';
 import 'bulma/css/bulma.css';
 
 class Navbar extends Component {
@@ -27,14 +28,10 @@ class Navbar extends Component {
 						<div className="navbar-item">
 							<div className="field is-grouped">
 								<p className="control">
-									<a className="button" href="/">
-										<span>Login</span>
-									</a>
+									<CoolButton>Login</CoolButton>
 								</p>
 								<p className="control">
-									<a className="button is-primary" href="/">
-										<span>Signup</span>
-									</a>
+									<CoolButton isPrimary>Signup</CoolButton>
 								</p>
 							</div>
 						</div>

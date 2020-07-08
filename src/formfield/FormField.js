@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import './FormField.css';
+import 'bulma/css/bulma.css';
 
 class FormField extends Component {
 	render() {
 		return (
-			<div class="field">
-				<label class="label">{this.props.label}</label>
-				<div class="control">
+			<div className="field">
+				<label className="label">{this.props.label}</label>
+				<div className="control">
 					<input
-						class="input"
+						className="input"
 						type={this.props.type}
 						placeholder={this.props.placeholder}
 					/>
