@@ -34,8 +34,7 @@ const CoolButton = props => {
     let classList = 'button';
     for (const oneClass in props) {
         if (props[oneClass] === true) {
-            classList += ' ';
-            classList += classes[oneClass];
+            classList = classList + ' ' + classes[oneClass];
         }
     }
 
