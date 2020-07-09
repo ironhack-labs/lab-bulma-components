@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import Button from '../coolbutton/CoolButton.js'
+import 'bulma/css/bulma.css'
+import CoolButton from '../coolbutton/CoolButton.js'
 
 class Navbar extends Component {
     render() {
@@ -25,14 +28,10 @@ class Navbar extends Component {
                     <div className="navbar-item">
                         <div className="field is-grouped">
                             <p className="control">
-                                <a className="button is-info" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
-                                    <span> Login </span>
-                                </a>
+                                <CoolButton buttonClass="button is-info" link="#" text="Login"/>
                             </p>
                             <p className="control">
-                                <a className="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.9.0/bulma-0.9.0.zip">
-                                    <span>Signup</span>
-                                </a>
+                                <CoolButton buttonClass="button is-primary" link="#" text="Signup" />
                             </p>
                         </div>
                     </div>
