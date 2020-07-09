@@ -18,7 +18,7 @@ const App = () => {
 				<CoolButton isSmall isSuccess>
 					Button 2
 				</CoolButton>
-				<Signup />
+
 				<Container>
 					<Message isInfo title="Hello World">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.{' '}
