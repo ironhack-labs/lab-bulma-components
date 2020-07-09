@@ -7,7 +7,7 @@ const FormField = props => {
       <div className='field'>
         <label className='label'>{props.label}</label>
         <div className="control has-icons-left">
-            <input className="input" type="text" placeholder="e.g Alex Smith" />
+            <input className="input" type="text" placeholder={props.placeholder} />
             <span className="icon is-small is-left">
                 <i className={props.icon}></i>
             </span>
