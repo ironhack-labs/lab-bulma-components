@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../navbar/Navbar';
 import FormField from '../formfield/FormField';
 import Signup from '../signup/Signup';
+import Message from '../message/Message';
 
 class Container extends Component {
     render() {
@@ -21,6 +22,9 @@ class Container extends Component {
                     />
                 </div>
                 <Signup />
+                <Message
+                    title="Hello World"
+                />
             </div>
         )
     }
