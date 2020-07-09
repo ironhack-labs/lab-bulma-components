@@ -3,10 +3,11 @@ import CssOptions from '../cssOptions/CssOptions';
 
 class Message extends Component {
 	render() {
-		let dynClass = 'message ';
+		let dynClass =
+			(this.props.className ? this.props.className + ' ' : '') + 'message ';
 		Object.keys(this.props).map((p) => {
 			if (CssOptions[p] != undefined) {
-				dynClass += CssOptions[p];
+				dynClass += CssOptions[p] + ' ';
 			}
 		});
 		return (
