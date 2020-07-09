@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import 'bulma/css/bulma.css'
 import './Navbar.css'
+import CoolButton from '../coolbutton/CoolButton';
 
 const Navbar = () => {
     return (
@@ -21,12 +22,8 @@ const Navbar = () => {
                     <div className="navbar-end">
                         <div className="navbar-item">
                             <div className="buttons">
-                            <a className="button is-primary">
-                                    Log in
-                                </a>
-                                <a className="button is-info">
-                                    <strong>Sign up</strong>
-                                </a>
+                                <CoolButton classes="button is-primary" text="Log in" />
+                                <CoolButton classes="button is-info" text="Sign up" />
                             </div>
                         </div>
                     </div>
