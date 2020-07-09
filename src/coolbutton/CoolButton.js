@@ -5,7 +5,7 @@ class CoolButton extends Component {
     render() {
         return (
             <div>
-                <a className={this.props.buttonClass} href={this.props.link}><span>{this.props.text}</span></a>
+                <button className={this.props.buttonClass} type={this.props.link}>{this.props.text}</button>
             </div>
         )
     }
