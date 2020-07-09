@@ -1,0 +1,10 @@
+.navbar-end {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+
+.button {
+    margin: 0 10px;
+}

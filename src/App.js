@@ -8,12 +8,12 @@ const App = () => {
     <div>
       <Navbar />
       <div className="formDiv">
-        <FormField 
+        <FormField
           label="Name"
           type="text"
           placeholder="e.g Alex Smith"
         />
-        <FormField 
+        <FormField
           label="Email"
           type="email"
           placeholder="e.g alexsmith@gmail.com"
