@@ -7,11 +7,11 @@ const FormField = props => {
         >
             <label className='label'>{props.label}</label>
             <input
-                
                 className='input is-small'
                 type={props.type}
                 placeholder={props.placeholder}
-            ></input>
+            >
+            </input>
         </div>
     )
 }
