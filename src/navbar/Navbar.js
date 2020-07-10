@@ -1,6 +1,6 @@
 import "bulma/css/bulma.css";
 import React, { Component } from "react";
-
+import CoolButton from "../coolbutton/CoolButton";
 
 export default class Navbar extends Component {
   render() {
@@ -29,26 +29,10 @@ export default class Navbar extends Component {
               <div className="navbar-item">
                 <div className="field is-grouped">
                   <p className="control">
-                    <a
-                      className="bd-tw-button button"
-                      data-social-network="Twitter"
-                      data-social-action="tweet"
-                      data-social-target="https://bulma.io"
-                      target="_blank"
-                      href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms"
-                    >
-                      <span className="icon"></span>
-                      <span>Login</span>
-                    </a>
+                    <CoolButton isInfo>Login</CoolButton>
                   </p>
                   <p className="control">
-                    <a
-                      className="button is-primary"
-                      href="https://github.com/jgthms/bulma/releases/download/0.9.0/bulma-0.9.0.zip"
-                    >
-                      <span className="icon"></span>
-                      <span>Signup</span>
-                    </a>
+                    <CoolButton isPrimary>SignUp</CoolButton>
                   </p>
                 </div>
               </div>
