@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Formfield from "../formfield/Formfield";
 import Coolbutton from "../coolbutton/Coolbutton";
 import Navbar from "../navbar/Navbar";
+import Message from "../message/Message";
 
 class Signup extends Component {
 	render() {
@@ -35,10 +36,14 @@ class Signup extends Component {
 				<Navbar />
 				<form action="" method="">
 					{fieldsList}
-					<p>{fieldsList}</p>
 					<Coolbutton
-						class="button is-Medium is-success"
+						class="button is-Medium is-success mt-2"
 						cta="Create account"
+					/>
+					<Message
+						class="message mt-5"
+						title="Hello World"
+						body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pallentesque risus mi."
 					/>
 				</form>
 			</div>

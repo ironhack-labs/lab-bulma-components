@@ -3,7 +3,11 @@ import Signup from "../signupForm/Signup";
 
 class Container extends Component {
 	render() {
-		return <Signup />;
+		return (
+			<div className="container">
+				<Signup />
+			</div>
+		);
 	}
 }
 
