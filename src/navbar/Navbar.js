@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import "bulma/css/bulma.css";
 import Coolbutton from "../coolbutton/Coolbutton";
 
 class Navbar extends Component {
@@ -23,7 +22,6 @@ class Navbar extends Component {
 								Home
 							</a>
 						</div>
-
 						<div className="navbar-end">
 							<div className="navbar-item">
 								<div className="field is-grouped">
