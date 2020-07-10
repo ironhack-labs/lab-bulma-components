@@ -1,7 +1,17 @@
 import React from 'react';
+import Navbar from './navbar/Navbar'
+import Signup from './signup/Signup'
+import Container from './container/Container';
 
 const App = () => {
-  return <h1>Bulma</h1>;
+  return (
+    <div>
+      <Navbar />
+      <Container>
+        <Signup action="#" method="POST"/>
+      </Container>
+    </div>
+  )
 };
 
 export default App;
