@@ -16,7 +16,7 @@ const Navbar = () => {
               <div className="field is-grouped">
                 <p className="control">
                 <a>
-                    <CoolButton isSmall isDanger isRounded name="Login"/>
+                    <CoolButton isSmall isDanger className="is-rounded" name="Login"/>
                 </a>
                 </p>
                 <p className="control">

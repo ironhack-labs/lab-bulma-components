@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from "../components/navbar/Navbar"
 import FormField from "../components/formfield/FormField"
 import Signup from "../components/signup/Signup"
+import Container from "../components/container/Container"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com"/>
       </section>
       <Signup />
+      <Container />
     </div>
   );
 }
