@@ -1,7 +1,14 @@
 import React from 'react';
 
-const App = () => {
-  return <h1>Bulma</h1>;
-};
+import 'bulma/css/bulma.css'
 
-export default App;
+import Signup from './Signup/signup'
+
+const App = () => {
+  return ( 
+
+      <Signup/>
+  )
+}
+
+export default App
