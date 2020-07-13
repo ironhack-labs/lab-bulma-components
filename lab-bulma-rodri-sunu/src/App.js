@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import FormField from './components/FormField/FormField'
 import CoolButton from './components/CoolButton/CoolButton';
-import SignUp from './components/SignUp/SignUp';
+import Container from './components/Container/Container';
 
 function App() {
   return (
@@ -17,6 +17,9 @@ function App() {
         </section>
         <section>
           <CoolButton></CoolButton>
+        </section>
+        <section>
+          <Container></Container>
         </section>
     </main>  
     </>
