@@ -3,6 +3,8 @@ import React from 'react'
 import 'bulma/css/bulma.css';
 import './Navbar.css'
 
+import Button from "../Button/Button"
+
 const Navbar = () => {
 
     return ( 
@@ -32,12 +34,13 @@ const Navbar = () => {
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          
-            <button class="button is-rounded my-class is-danger is-small"> Sign up </button>
-          
-          
-             <button class="button is-small is-success"> Log in </button>
-          
+          <a>
+            <Button class="button is-rounded my-class is-danger is-small" name="Sign up"/>
+          </a>
+          <a>
+             <Button class="button is-small is-success" name="Log in"/>
+          </a>
+            
         </div>
       </div>
     </div>
