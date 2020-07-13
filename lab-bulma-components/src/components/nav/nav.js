@@ -1,8 +1,8 @@
 import React from 'react'
 
 //css
-import 'bulma/css/bulma.css';
 import './nav.css'
+import 'bulma/css/bulma.css';
 
 //components
 import Button from '../button/button'
@@ -27,7 +27,8 @@ const nav = () => {
                 </div>
             </div>
 
-            <Button className='buttonsNav' button1='Login' button2='Sign-up' />
+            <Button isSmall isDanger className='is-rounded' button='Login'/>
+            <Button className='button is-small is-success' button='Sign-up' />
 
         </nav>
 

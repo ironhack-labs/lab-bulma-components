@@ -5,15 +5,11 @@ import 'bulma/css/bulma.css';
 import './button.css'
 
 const button = props => {
+   const className = `button ${props.isSmall ? 'is-small' : null} ${props.isDanger ? 'is-danger' : null} ` 
 
     return(
-        <>
-            <button className='button is-rounded my-class is-danger is-small'>{props.button1}</button>
-            <button className='button is-small is-success'>{props.button2}</button>
-        </>
+        <button className={className}>{props.button}</button>
     )
-
 }
-
 
 export default button
