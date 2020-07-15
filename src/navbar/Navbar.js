@@ -1,4 +1,5 @@
-import 'bulma/css/bulma.css';
+import CoolButton from './coolbutton/CoolButton'
+
 
 
 
@@ -18,6 +19,7 @@ export default function Navbar() {
                     <span>Home</span>
                   </a>
                 </p>
+                <CoolButton/>
             </a>
             <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
             
