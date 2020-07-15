@@ -11,7 +11,7 @@ export default function Navbar() {
           <a className="navbar-item" href="https://bulma.io">
             <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" />
             <p className="control">
-                  <a className="bd-tw-button button is-rounded is-light" href="https://github.com/jgthms/bulma/releases/download/0.9.0/bulma-0.9.0.zip">
+                  <a className="bd-tw-button button is-rounded is-light" >
                     <span className="icon">
                       <i className="fas fa-download"></i>
                     </span>
@@ -41,7 +41,7 @@ export default function Navbar() {
                   </a>
                 </p>
                 <p className="control">
-                  <a className="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.9.0/bulma-0.9.0.zip">
+                  <a className="button is-primary" >
                     <span className="icon">
                       <i className="fas fa-download"></i>
                     </span>
