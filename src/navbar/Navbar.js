@@ -1,12 +1,10 @@
-import CoolButton from './coolbutton/CoolButton'
-
-
-
-
 import React from 'react'
+//import CoolButton from './coolbutton/CoolButton'
+
 
 export default function Navbar() {
     return (
+      <div className="navbar">
         <nav className="navbar is-transparent">
         <div className="navbar-brand">
           <a className="navbar-item" href="https://bulma.io">
@@ -19,7 +17,6 @@ export default function Navbar() {
                     <span>Home</span>
                   </a>
                 </p>
-                <CoolButton/>
             </a>
             <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
             
@@ -54,6 +51,7 @@ export default function Navbar() {
             </div>
           </div>
       </nav>
+    </div>
     )
 }
 

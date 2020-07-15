@@ -5,7 +5,7 @@ import Navbar from '../navbar/Navbar.js'
 
 const Signup = props => {
     return (
-        <div>
+        <div className="signup">
         <Navbar/>
             <form >
                 <FormField label="Name" type="text" placeholder=" "/>
