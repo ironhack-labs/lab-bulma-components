@@ -1,14 +1,16 @@
 import React from 'react'
 import FormField from '../formfield/FormField.js'
 import Coolbutton from '../coolButton/Coolbutton.js'
+import Navbar from '../navbar/Navbar.js'
 
 const Signup = props => {
     return (
         <div>
-            <form action={props.action} method={props.method}>
+        <Navbar/>
+            <form >
                 <FormField label="Name" type="text" placeholder=" "/>
-                <FormField label="Name" type="email" placeholder=" "/>
-                <FormField label="Name" type="password" placeholder=" "/>
+                <FormField label="Email" type="email" placeholder=" "/>
+                <FormField label="Password" type="password" placeholder=" "/>
                 <Coolbutton class="button is-dark" type="submit" text="Submit"/>
             </form>
         </div>

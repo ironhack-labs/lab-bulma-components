@@ -3,6 +3,7 @@ import Navbar from './navbar/Navbar'
 import FormField from './formfield/FormField.js'
 import './formfield/FormField.css'
 import './coolbutton/CoolButton.css'
+import Signup from './signup/Signup';
 
 
 
@@ -11,6 +12,8 @@ const App = () => {
   <div>
   <Navbar/>
   <FormField/>
+  <Signup/>
+
   
 
   </div>)
