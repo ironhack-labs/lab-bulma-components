@@ -38,6 +38,27 @@ repeat i1 steps 1-2 with /formfield/FormField.js & /formfield/FormField.css
 -----
 
 i3
+1. create folder, js and css for CoolButton
+2. paste JSX <CoolButton ..../> txt in const App
+
+3. ........needs to be fill
+
+-----
+
+i4
+1. create folder, js and css for Signup
+2. in Signup.js
+    move from App.js components of Navbar, FormField and CoolButton
+    remember also to brign all the imports for the componentes
+    export signup 
+3. in App.js
+    add Signup to div and remember to import Signup at the top
+
+-----
+
+i5
+
+........needs to be fill
 
 
 

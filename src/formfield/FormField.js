@@ -1,13 +1,14 @@
 import React from 'react'
 import 'bulma/css/bulma.css';
+import "./FormField.css";
 
 export const FormField = props => {
     return (
         <div>
-            <div class="field">
-                <label class="label">{props.label}</label>
-                <div class="control">
-                    <input class="imput" type={props.type} placeholder={props.placeholder}/>
+            <div className="field">
+                <label className="label">{props.label}</label>
+                <div className="control">
+                    <input className="imput" type={props.type} placeholder={props.placeholder}/>
                 </div>
             </div>
         </div>
