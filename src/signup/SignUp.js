@@ -3,28 +3,21 @@ import "bulma/css/bulma.css";
 import Navbar from "./navbar/Navbar.js";
 import FormField from "./formfield/FormField.js";
 import CoolButton from "./coolbutton/CoolButton.js";
-import Container from "./container/Container";
 
-const App = () => {
+const SignUp = () => {
   return (
     <div>
-      <Navbar className="has-navbar-fixed-top" />
+      <Navbar />
       <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
       <FormField
         label="Email"
         type="email"
         placeholder="e.g. alexsmith@gmail.com"
       />
-      <div className="buttons">
-        <CoolButton
-          label="Button 1"
-          className="button is-rounded my-class is-Small is-Danger"
-        />
-        <CoolButton label="Button 2" className="button is-Small is-Success" />
-      </div>
-      <Container />
+      <FormField label="Password" type="text" placeholder="*******" />
+      <CoolButton className="button is-primary" />
     </div>
   );
 };
 
-export default App;
+export default SignUp;
