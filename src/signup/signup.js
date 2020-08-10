@@ -5,7 +5,6 @@ import "./signup.css";
 
 import Navbar from "../navbar/Navbar";
 import FormField from "../formfield/FormField";
-import CoolButton from "../button/CoolButton";
 
 const Signup = () => {
   return (

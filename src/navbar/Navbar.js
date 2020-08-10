@@ -32,12 +32,10 @@ const Navbar = () => {
             <div className="navbar-item">
               <div className="field is-grouped">
                 <p className="control">
-                    <button className="button is-primary">Login</button>
+                  <button className="button is-primary">Login</button>
                 </p>
                 <p className="control">
-
-                    <button className="button is-link">Signup</button>
-                
+                  <button className="button is-link">Signup</button>
                 </p>
               </div>
             </div>
