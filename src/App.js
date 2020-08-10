@@ -1,7 +1,15 @@
 import React from 'react';
+import Navbar from './navbar/navbar'
+import FormField from './formfield/formField'
+import CoolButton from './coolButton/CoolButton'
 
 const App = () => {
-  return <h1>Bulma</h1>;
+  
+  return <div>
+   <Navbar/>
+   <FormField/>
+   <CoolButton/>
+  </div>
 };
 
-export default App;
+export default App
