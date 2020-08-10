@@ -1,7 +1,18 @@
 import React from 'react';
+import 'bulma/css/bulma.css';
+import Signup from './signup/Signup';
+import Container from './Container/Container';
 
 const App = () => {
-  return <h1>Bulma</h1>;
+  return (
+    <div className="App">
+
+      <Signup />
+      <Container />
+
+
+    </div>
+  )
 };
 
 export default App;
