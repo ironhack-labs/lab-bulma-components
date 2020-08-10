@@ -1,0 +1,46 @@
+i0
+npm install
+npm install react react-dom
+To get Bulma, install the npm package: npm install bulma
+
+-----
+
+i1
+1. create src/navbar
+2. create /navbar/Navbar.js & /navbar/Navbar.css
+3. copy navbar html from bulma page 
+4. in Navbar.js
+    paste it in Navbar.js after function Navbar() {return( .....
+    make sure at the end to the export the proper name Navbar
+    at line2 add "import 'bulma/css/bulma.css'" to get all the css
+5. in App.js 
+    bring "  import Navbar from "./navbar/Navbar"  "
+    and change de <h1> for de <Navbar/> we exported from Navbar.js
+
+-----
+
+i2 (rafc) para crear la formula
+repeat i1 steps 1-2 with /formfield/FormField.js & /formfield/FormField.css
+3. copy both " <FormField label="Name" ...../>  " 
+4. in App.js 
+    paste <FormField...../>  below <Navbar/>
+5. in FormField.js 
+    paste: <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="e.g Alex Smith" />
+            </div>
+           </div>
+    include {props.----} in the variables of label, type and placeholder.
+    after declaracion "const FormField= () =..." "props" instead of"()"
+    remember to export FormField.
+
+-----
+
+i3
+
+
+
+
+
+
