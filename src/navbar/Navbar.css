@@ -1,0 +1,28 @@
+html {
+  padding: 0;
+  margin: 0em;
+}
+.navbar.is-transparent.is-light {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-start {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu.is-active {
+  background: none;
+  box-shadow: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
