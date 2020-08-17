@@ -11,14 +11,11 @@ function Signup (props){
     return (          
 
         <div>
-
             <Navbar/>
             <FormField label="Name" type="text" placeholder="e.g FirstName FamilyName" />
             <FormField label="Email" type="email" placeholder="e.g. youremail@domain.com" />
             <FormField label="Password" type="password" placeholder="type your password here" />
-            <CoolButton isSmall isSuccess>Submit</CoolButton> 
-  
-        
+            <CoolButton isSmall isSuccess>Submit</CoolButton>         
         </div>
     )
         
