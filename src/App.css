@@ -1,0 +1,36 @@
+.container{
+  margin-top: 40px;
+  width: 90%;
+  max-width: 350px;
+}
+
+.signup{
+  margin: 10% 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label{
+  text-align: center;
+}
+.form-btn{
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 650px){
+  .signup{
+    margin:50px 50px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .field{
+    width:20%;
+    min-width: 300px;
+    margin: auto 5%;
+  }
+
+
+}
