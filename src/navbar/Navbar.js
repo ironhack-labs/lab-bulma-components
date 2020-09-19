@@ -1,9 +1,17 @@
 import React from "react";
+import CoolButton from "../coolbutton/CoolButton";
+
 import "bulma/css/bulma.css";
 
 const Navbar = () => {
   return (
     <div>
+      {/* <CoolButton
+        isSmall
+        isDanger
+        className="is-rounded my-class"
+        btnText="Sign Up"
+      /> */}
       <nav className="navbar is-transparent">
         <div className="navbar-brand">
           <a className="navbar-item">
@@ -19,10 +27,8 @@ const Navbar = () => {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
-              <a className="button is-primary">
-                <strong>Login</strong>
-              </a>
-              <a className="button is-light">Signup</a>
+              <CoolButton isSuccess className=" my-class" btnText="Login" />
+              <CoolButton isLight className=" my-class" btnText="Signup" />
             </div>
           </div>
         </div>
