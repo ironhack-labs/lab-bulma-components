@@ -1,5 +1,6 @@
 import React from "react";
 import CoolButton from "../coolbutton/CoolButton";
+
 import "bulma/css/bulma.css";
 
 const Navbar = () => {

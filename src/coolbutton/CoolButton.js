@@ -1,5 +1,6 @@
 import React from "react";
-import "../signup/node_modules/bulma/css/bulma.css";
+import "bulma/css/bulma.css";
+
 const classes = {
   isActive: "is-active",
   isBlack: "is-black",
@@ -28,6 +29,7 @@ const classes = {
   isWarning: "is-warning",
   isWhite: "is-white",
 };
+
 const CoolButton = (props) => {
   let resClass = "button ";
   //   console.log(" only boolean props: ");
@@ -50,4 +52,5 @@ const CoolButton = (props) => {
     </div>
   );
 };
+
 export default CoolButton;

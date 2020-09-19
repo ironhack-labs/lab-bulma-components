@@ -3,6 +3,7 @@ import Navbar from "../navbar/Navbar";
 import FormField from "../formfield/FormField";
 import CoolButton from "../coolbutton/CoolButton";
 import "bulma/css/bulma.css";
+
 const SignUp = () => {
   return (
     <div>
@@ -21,4 +22,5 @@ const SignUp = () => {
     </div>
   );
 };
+
 export default SignUp;
