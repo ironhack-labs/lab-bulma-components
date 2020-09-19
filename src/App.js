@@ -10,6 +10,7 @@ const App = () => {
       <Navbar />
       <FormField label="Name" type="text" placeholder="alex" />
       <FormField label="Email" type="email" placeholder="hi@ironhack.com" />
+      <FormField label="Password" type="password" placeholder="*******" />
       <br />
       <CoolButton />
       {/* <FormField /> */}
