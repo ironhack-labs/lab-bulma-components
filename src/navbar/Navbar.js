@@ -32,7 +32,7 @@ const Navbar = () => {
               class="navbar-link"
               href="https://bulma.io/documentation/overview/start/"
             >
-              Docs
+              About
             </a>
             <div class="navbar-dropdown is-boxed">
               <a
@@ -97,7 +97,7 @@ const Navbar = () => {
                   <span class="icon">
                     <i class="fab fa-twitter"></i>
                   </span>
-                  <span>Tweet</span>
+                  <span>Log in</span>
                 </a>
               </p>
               <p class="control">
@@ -108,7 +108,7 @@ const Navbar = () => {
                   <span class="icon">
                     <i class="fas fa-download"></i>
                   </span>
-                  <span>Download</span>
+                  <span>Log out</span>
                 </a>
               </p>
             </div>
