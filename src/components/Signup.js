@@ -1,7 +1,7 @@
 import React from "react";
-import Nav from "../navbar/Navbar.js";
-import FormField from "../formfield/FormField.js";
-import CoolButton from "../button/CoolButton.js";
+import Nav from "./Navbar.js";
+import FormField from "./FormField.js";
+import CoolButton from "./CoolButton.js";
 import "bulma/css/bulma.css";
 
 const Signup = (props) => {
@@ -14,8 +14,9 @@ const Signup = (props) => {
         type='email'
         placeholder='e.g. alexsmith@gmail.com'
       />
-
-      <CoolButton isActive>Submit</CoolButton>
+      <CoolButton isSuccess className='is-rounded'>
+        Submit
+      </CoolButton>
     </div>
   );
 };

@@ -35,7 +35,7 @@ const Nav = () => {
             <div class='field is-grouped'>
               <p class='control'>
                 <a
-                  class='bd-tw-button button button is-info'
+                  class='bd-tw-button button is-info'
                   data-social-target='https://bulma.io'
                   target='_blank'
                   href='#'
@@ -45,9 +45,6 @@ const Nav = () => {
               </p>
               <p class='control'>
                 <a class='button is-primary' href='#'>
-                  <span class='icon'>
-                    <i class='fas fa-download'></i>
-                  </span>
                   <span>Signup</span>
                 </a>
               </p>

@@ -33,12 +33,12 @@ const CoolButton = (props) => {
   let buttonStyle = " button ";
 
   for (let key in props) {
-    if (props[key]) buttonStyle += `${buttonsCases[key]}`;
+    if (typeof props[key] === `boolean`) buttonStyle += `${buttonsCases[key]} `;
   }
 
   return (
     <div>
-      <button className={props.className + buttonStyle} type={props.type}>
+      <button className={buttonStyle + props.className} type={props.type}>
         {props.children}
       </button>
     </div>
