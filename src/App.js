@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Signup from './Signup';
 
 const App = () => {
-  return <h1>Bulma</h1>;
+  return (
+    <Signup />
+  )
 };
 
 export default App;
