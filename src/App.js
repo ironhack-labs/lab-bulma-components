@@ -1,9 +1,13 @@
 import React from 'react';
-import Signup from "./signup/Signup";
+import Navbar from "./navbar/Navbar";
+import Container from "./container/Container";
 
 const App = () => {
   return (
-      <Signup />
+      <div>
+        <Navbar />
+        <Container />
+      </div>
     );
 };
 
