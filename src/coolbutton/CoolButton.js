@@ -1,22 +1,56 @@
-import React from 'react';
-import 'bulma/css/bulma.css';
-//import  './CoolButton.css';
+import React from "react";
+import "bulma/css/bulma.css";
 
-export class CoolButton extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
+const classes = {
+  isActive: "is-active",
+  isBlack: "is-black",
+  isCentered: "is-centered",
+  isDanger: "is-danger",
+  isDark: "is-dark",
+  isFocused: "is-focused",
+  isGrouped: "is-grouped",
+  isHovered: "is-hovered",
+  isInfo: "is-info",
+  isInverted: "is-inverted",
+  isLarge: "is-large",
+  isLight: "is-light",
+  isLink: "is-link",
+  isLoading: "is-loading",
+  isMedium: "is-medium",
+  isOutlined: "is-outlined",
+  isPrimary: "is-primary",
+  isRight: "is-right",
+  isRounded: "is-rounded",
+  isSelected: "is-selected",
+  isSmall: "is-small",
+  isStatic: "is-static",
+  isSuccess: "is-success",
+  isText: "is-text",
+  isWarning: "is-warning",
+  isWhite: "is-white",
+};
+
+const CoolButton = (props) => {
+  let resClass = "button ";
+  //   console.log(" only boolean props: ");
+  //   console.log(props);
+  for (const key in props) {
+    if (typeof props[key] === "boolean") {
+      //   console.log(key);
+      resClass += classes[key] + " ";
     }
-}
+  }
+  resClass += props["className"] + " ";
+  //   console.log(props["className"]);
+  //   console.log(resClass);
+  return (
+    <div>
+      {/* <button className="button is-rounded my-class is-danger is-small">
+        Button 1
+      </button> */}
+      <button className={resClass}>{props.btnText}</button>
+    </div>
+  );
+};
 
-for (let i in buttons){
-	if(props[i]){
-		classes+= ' '+buttons[i]
-	}
-}
-
-
-export default CoolButton
+export default CoolButton;
