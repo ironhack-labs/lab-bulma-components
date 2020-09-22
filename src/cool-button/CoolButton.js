@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bulma/css/bulma.css';
 
-const buttonClassses = {
+const buttonClasses = {
     isActive: 'is-active',
     isBlack: 'is-black',
     isCentered: 'is-centered',
@@ -31,9 +31,16 @@ const buttonClassses = {
 };
 
 const CoolButton = (props) => {
-    console.log(props);
+    let classes = "button";
+    
+    Object.keys(props).map(btnClass => {
+        if (buttonClasses[btnClass]) classes += ` ${buttonClasses[btnClass]}`;
+    });
+
+    if (props.className) classes += ` ${props.className}`;
+
     return (
-        <button className={props.className}>{props.children}</button>
+        <button className={classes}>{props.children}</button>
     );
 };
 
