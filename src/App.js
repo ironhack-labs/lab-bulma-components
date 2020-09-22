@@ -1,7 +1,13 @@
-import React from 'react';
+import React from "react";
+import "bulma/css/bulma.css";
+import Container from "./components/Container.js";
 
 const App = () => {
-  return <h1>Bulma</h1>;
+  return (
+    <>
+    <Container></Container>
+  </>
+  );
 };
 
 export default App;
