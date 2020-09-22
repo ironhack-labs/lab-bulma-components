@@ -1,13 +1,24 @@
-import React from 'react';
+import React, {Component} from 'react';
 import 'bulma/css/bulma.css';
 
-const FormField = props => {
-    return (
-      <div className='field'>
-        <label className='label'>{props.label}</label>
-        <input className="input" type={props.type} placeholder={props.placeholder} />
-      </div>
-    );
-  };
+class FormField extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      label: props.label,
+      type: props.type,
+      placeholder: props.placeholder
+    };
+  }
+  
+  render() {
+      return (
+        <div className='field'>
+          <label className='label'>{this.state.label}</label>
+          <input className="input" type={this.state.type} placeholder={this.state.placeholder} />
+        </div>
+      );
+    };
+  }
 
 export default FormField;
