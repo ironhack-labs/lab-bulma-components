@@ -1,0 +1,21 @@
+html {
+  overflow-y: auto;
+}
+
+body {
+  height: 100vh;
+}
+
+div#root {
+  height: calc(100vh - 7.25rem - 1px);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  min-height: 450px;
+  margin: 2rem auto;
+  width: clamp(300px, 75%, 750px);
+  flex-direction: column;
+}
