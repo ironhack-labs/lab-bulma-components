@@ -1,5 +1,4 @@
 import React from 'react';
-// import '../CoolButton/node_modules/bulma/css/bulma.css';
 import CoolButton from '../coolbutton/CoolButton'
 
 function Navbar() {

@@ -1,12 +1,11 @@
 import React from 'react';
 import Navbar from './navbar/Navbar';
-import FormField from './formfield/FormField'
+import Signup from './signup/Signup';
 
 const App = () => {
   return <div>
     <Navbar/>
-    <FormField label='Name' placeholder='e.g Alex Smith'/>
-    <FormField label='Email' placeholder='e.g. alexsmith@gmail.com'/>
+    <Signup/>
   </div>;
 };
 
