@@ -1,0 +1,9 @@
+.CoolButtons{
+    margin-right:150px;
+}
+
+
+.field.is-grouped > .control:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: -8.25rem;
+}
