@@ -15,7 +15,6 @@ const Container = props => {
 
                 <Message className="message" isInfo title='Hello World' text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." textstrong="Pellentesque risus mi">
                 </Message>
-
         </div>
   
     );
