@@ -9,7 +9,7 @@ const CoolButton = props => {
 
     return (
         //isSmall isDanger className="is-rounded my-class"
-        <button  className= {props.className}>Button 2</button>
+        <button  className= {props.className}>{props.name}</button>
 
     )
 }
