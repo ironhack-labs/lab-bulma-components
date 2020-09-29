@@ -1,7 +1,24 @@
 import React from 'react';
+import Navbar from './navbar/Navbar.js'
+import FormField from './formfield/FormField.js'
+import CoolButton from './coolbutton/CoolButton.js'
+import './App.css'
+import Signup from './signup/Signup.js';
 
 const App = () => {
-  return <h1>Bulma</h1>;
+  return (
+
+    <div className="div-mother">
+
+  <Navbar></Navbar>
+  <FormField />
+    <CoolButton/>
+    {/* <Signup/> */}
+    </div>
+    );
+
+  
+  
 };
 
 export default App;
