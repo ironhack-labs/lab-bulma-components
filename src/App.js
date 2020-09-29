@@ -1,7 +1,12 @@
-import React from 'react';
+import React from "react";
+import Navbar from "./navbar/Navbar";
 
-const App = () => {
-  return <h1>Bulma</h1>;
-};
+function App() {
+  return (
+    <>
+      <Navbar />
+    </>
+  );
+}
 
 export default App;
