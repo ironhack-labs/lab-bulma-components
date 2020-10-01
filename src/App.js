@@ -1,7 +1,13 @@
 import React from 'react';
+import Navbar from './Navbar';
+import FormField from './FormField';
+import CoolButton from './CoolButton';
+import SignUp from './SignUp';
 
-const App = () => {
-  return <h1>Bulma</h1>;
-};
+const App = () => (
+  <div className="App">
+    <SignUp />
+  </div>
+);
 
 export default App;
