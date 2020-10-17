@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './navbar/Navbar.js'
 import FormField from './formfield/FormField.js'
 import CoolButton from './coolbutton/CoolButton.js'
+import Signup from './signup/Signup.js'
 
 const App = () => {
   return (
@@ -11,6 +12,8 @@ const App = () => {
       <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
       <CoolButton isSmall isDanger='is-danger' className="is-rounded my-class">Button 1</CoolButton>
       <CoolButton isSmall isSuccess='is-success'>Button 2</CoolButton>
+      <Signup />
+
     </div>
   )
   
