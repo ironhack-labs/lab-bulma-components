@@ -3,7 +3,8 @@ import React from "react";
 import Navbar from "./navbar/Navbar";
 import FormField from "./formfield/FormField";
 //import CoolButton from "./coolbutton/CoolButton";
-import Signup from './signup/Signup'
+import Signup from "./signup/Signup";
+import Message from './message/Message'
 
 const App = () => {
   return (
@@ -22,7 +23,10 @@ const App = () => {
         type="email"
         placeholder="e.g. alexsmith@gmail.com"
       />
-
+      <Message isInfo title="Hello World">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+        <strong>Pellentesque risus mi</strong>.
+      </Message>
       <Signup />
     </div>
   );
