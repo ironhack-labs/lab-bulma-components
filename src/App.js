@@ -1,12 +1,9 @@
 import React from "react";
-import Navbar from "./navbar/Navbar";
+import "bulma/css/bulma.css";
+import Signup from "./Signup";
 
-function App() {
-  return (
-    <>
-      <Navbar />
-    </>
-  );
-}
+const App = () => {
+  return <Signup />;
+};
 
 export default App;
