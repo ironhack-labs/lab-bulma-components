@@ -1,8 +1,9 @@
 import React from 'react';
+import './FormField.css';
 
 const FormField = ({ label, type, placeholder }) => {
     return (
-        <div className="field">
+        <div className="field field-custom">
             <label className="label">{label}</label>
             <div className="control">
                 <input className="input" type={type} placeholder={placeholder} />
