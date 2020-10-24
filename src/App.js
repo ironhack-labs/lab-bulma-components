@@ -1,13 +1,21 @@
 import React from 'react';
 import 'bulma/css/bulma.css'
-/* import Navbar from './navbar/Navbar';
-import FormField from './formfield/FormField';
-import CoolButton from './coolbutton/CoolButton'; */
-import Signup from './singup/Signup';
+import Navbar from './components/Navbar/Navbar';
+import Container from './components/Container/Container';
+import Signup from './components/Signup/Signup';
+import Message from './components/Message/Message';
 
 const App = () => {
   return (
-    <Signup />
+    <div>
+      <Navbar />
+      <Container>
+        <Signup />
+      </Container>
+      <Message isInfo title="Hello Ironhackers">I bring you forth this message for yet another delightful reading of a timeless classic: <br></br><br></br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>.</Message>
+
+    </div>
   )
 };
 
