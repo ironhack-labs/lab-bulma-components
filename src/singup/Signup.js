@@ -10,7 +10,7 @@ const Signup = () => {
             <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
             <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
             <FormField label="Password" type="password" placeholder="e.g. Alex123456" />
-            <CoolButton isInfo type="submit">Register</CoolButton>
+            <CoolButton isActive isPrimary type="submit">Register</CoolButton>
         </div>
     )
 }
