@@ -3,3 +3,7 @@
     margin-left: 8px;
     max-width: 665px;
 }
+
+.closeMessage {
+    display: none;
+}
