@@ -9,7 +9,7 @@ class Message extends React.Component {
         this.state = { showMessage: true }
     }
 
-    handleCloseclick = () => this.setState({ showMessage: this.state.showMessage = false });
+    handleCloseclick = () => this.setState({ showMessage: this.state.showMessage = !this.state.showMessage});
 
     render() {
         if (this.state.showMessage) {
@@ -22,7 +22,7 @@ class Message extends React.Component {
                 <div className="message-body">{this.props.children}</div>
                 </article>
             )
-        } else return <article className={`message ${returnClassNames(this.props)} closeMessage`}></article>;
+        } else return <article className={`show-message ${returnClassNames(this.props)}`}><a onClick={this.handleCloseclick}>Show Message</a></article>;
     }
 }
 
