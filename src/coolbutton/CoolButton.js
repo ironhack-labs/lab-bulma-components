@@ -1,10 +1,10 @@
 import React from 'react';
 
-const dictionary = {
-    isSuccess: 'is-success',
-    isDanger: 'is-danger',
-    isPrimary: 'is-primary',
-}
+// const dictionary = {
+//     isSuccess: 'is-success',
+//     isDanger: 'is-danger',
+//     isPrimary: 'is-primary',
+// }
 
 // function CoolButton(props) {
 //     let classes = `button ${props.ClassName}`;
@@ -21,7 +21,7 @@ const dictionary = {
 const CoolButton = (props) => {
     return (
         <div>
-            <button className={dictionary}>{props.children}</button>
+            <button className={props.className}>{props.children}</button>
         </div>
     )
 };
