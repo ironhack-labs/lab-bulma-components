@@ -1,7 +1,14 @@
-import React from 'react';
+import React,{Component} from 'react';
 
-const App = () => {
-  return <h1>Bulma</h1>;
+import 'bulma/css/bulma.css';
+
+import './App.css';
+import Navbar from './navbar/Navbar';
+
+
+class App extends Component {
+  render(){return(
+<Navbar />)}
 };
 
 export default App;
