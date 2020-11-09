@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { Component } from "react";
+import Navbar from "./navbar/Navbar.js";
+import "./navbar/Navbar.css";
+import FormField from "./formfield/FormField.js";
+import "./formfield/FormField.css";
+import CoolButton from "./coolButton/CoolButton.js";
+import "./coolButton/CoolButton.css";
+import Signup from "./signup/Signup.js";
 
 const App = () => {
-  return <h1>Bulma</h1>;
+  return (
+    <div>
+      <Signup />
+    </div>
+  );
 };
 
 export default App;
