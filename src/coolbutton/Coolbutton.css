@@ -1,0 +1,11 @@
+.inline-button {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    margin: 20px;
+    width: 150px;
+    height: 100px;
+}
+
