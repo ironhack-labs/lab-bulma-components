@@ -1,0 +1,13 @@
+
+.message-header{
+ background-color: #369CEE ;   
+}
+
+.message{
+    width: 350px;
+    margin-top: 50px;
+}
+
+.message-body{
+    background-color:#F6FBFE;
+}
