@@ -1,0 +1,32 @@
+/* Hero Section */
+
+.hero_cta {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 5rem 4rem;
+  height: 18rem;
+  border-radius: 1rem;
+  background-color: #535966;
+}
+
+.hero_cta h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+.hero_cta span {
+  color: rgb(0, 209, 178);
+  font-weight: bold;
+}
+
+.buttons-container {
+  margin-top: 2rem;
+}
+
+.buttons-container > button {
+  margin-right: 2rem !important;
+  margin-left: 2rem !important;
+}

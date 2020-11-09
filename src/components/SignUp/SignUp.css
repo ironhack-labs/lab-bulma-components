@@ -1,0 +1,19 @@
+.signup-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 5rem 4rem;
+  height: 28rem;
+  width: 40rem;
+  border-radius: 1rem;
+  background-color: #535966;
+}
+
+.signup-container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin: 1rem;
+}
