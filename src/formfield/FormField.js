@@ -6,7 +6,7 @@ function FormField(props){
         <div className='field'>
 
         	<label className='label'>{props.label}</label>
-            <input></input>
+            <input placeholder={props.placeholder} type={props.type}></input>
 
         </div>
     )

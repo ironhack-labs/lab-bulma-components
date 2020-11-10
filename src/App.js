@@ -11,11 +11,11 @@ const App = () => {
     <div>
       <Navbar />
       <form className="container">
-         <FormField label="Nome" type="text"/>
+         <FormField label="Nome" type="text" placeholder="e.g Alex Smith"/>
 
-         <FormField label="Email" type="email"/>
+         <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com"/>
 
-         <FormField label="Password" type="password"/>
+         <FormField label="Password" type="password" placeholder="Password"/>
 
          <ButtonOne text="Submit"></ButtonOne>
 
