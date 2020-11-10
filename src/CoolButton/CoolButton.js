@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
+import './CoolButton.css';
 
 const dictionary = {
     isActive: "is-active",

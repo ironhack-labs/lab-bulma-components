@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import 'bulma/css/bulma.css';
 
+
 class Navbar extends Component{
     render(){
         return (
@@ -21,10 +22,7 @@ class Navbar extends Component{
       <div class="navbar-item">
         <div class="field is-grouped">
           <p class="control">
-            <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
-              <span class="icon">
-                <i class="fab fa-twitter"></i>
-              </span>
+            <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="./Signup">
               <span>
                 Signup
               </span>
