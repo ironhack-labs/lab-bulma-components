@@ -6,7 +6,7 @@ function Container(){
     return(
 
         <div className="container">
-                    <Message title="Teste Cx Messagem" message="Teste do componente de caixa de mensagem!"/>
+                    <Message title="Teste Cx Messagem" message="Teste do componente de caixa de mensagem!" isDanger/>
 
             <Signup />
         </div>
