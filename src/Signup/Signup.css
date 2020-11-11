@@ -1,0 +1,15 @@
+form {
+    width: 50%; 
+}
+
+.signup {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
