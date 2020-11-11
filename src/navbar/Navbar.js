@@ -1,15 +1,22 @@
 import React from "react";
+import "bulma/css/bulma.css";
 
 function NavBar(props) {
   return (
-    <nav className="navbar is-light">
+    <nav
+      className="navbar is-light"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div className="navbar-brand">
-        <img
-          src="https://bulma.io/images/bulma-logo.png"
-          alt="Bulma: Free, open source, and modern CSS framework based on Flexbox"
-          width="112"
-          height="28"
-        ></img>
+        <a className="navbar-item" href="https://bulma.io">
+          <img
+            src="https://bulma.io/images/bulma-logo.png"
+            alt="Bulma: Free, open source, and modern CSS framework based on Flexbox"
+            width="120"
+            height="auto"
+          />
+        </a>
       </div>
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
