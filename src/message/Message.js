@@ -16,7 +16,7 @@ function Message(props){
             <p>{props.title}</p>
            <button class="delete" aria-label="delete"></button>
         </div>
-        <div className="message-body">{props.message}</div>
+        <div className="message-body">{props.children}</div>
         </article>
     );
 }
