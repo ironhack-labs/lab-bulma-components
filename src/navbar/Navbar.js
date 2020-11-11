@@ -1,4 +1,5 @@
 import React from "react";
+import CoolButton from "../coolButton/CoolButton";
 import "bulma/css/bulma.css";
 
 function NavBar(props) {
@@ -19,16 +20,16 @@ function NavBar(props) {
         </a>
       </div>
       <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item">Home</a>
+        <div className="navbar-start">
+          <a className="navbar-item">Home</a>
         </div>
       </div>
       <div className="navbar-menu is-active">
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="buttons">
-              <a class="button is-info">Login</a>
-              <a class="button is-primary">Signup</a>
+        <div className="navbar-end">
+          <div className="navbar-item">
+            <div className="buttons">
+            <CoolButton info className="is-info">Login</CoolButton>
+            <CoolButton info className="is-primary">Signup</CoolButton>
             </div>
           </div>
         </div>
