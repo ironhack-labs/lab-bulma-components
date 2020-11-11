@@ -1,16 +1,9 @@
 import React from "react";
-import Signup from "../signup/Signup";
-import Message from "../message/Message";
 
-function Container(){
+function Container(props){
     return(
 
-        <div className="container">
-            <Message title="Teste Cx Messagem" isDanger>
-                Teste do componente de caixa de mensagem!
-            </Message>
-            <Signup />
-        </div>
+        <div className="container">{props.children}</div>
     )
 }
 

@@ -4,9 +4,9 @@ import 'bulma/css/bulma.css';
 function FormField(props){
     return (
         <div className="field">
-            <label className="label">{props.labelName}</label>
+            <label className="label">{props.label}</label>
             <div className="control">
-                <input className="input" type={props.inputType} placeholder={props.placeHolder} />
+                <input className="input" type={props.input} placeholder={props.placeholder} />
             </div>
         </div>
     )
