@@ -8,7 +8,7 @@ function FormField(props) {
       <div className="control">
         <input
           className="input"
-          type={props.inputType}
+          type={props.type}
           placeholder={props.placeholder}
         />
       </div>
