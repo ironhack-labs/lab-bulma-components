@@ -6,27 +6,25 @@ import "bulma/css/bulma.css";
 
 const App = () => {
   return (
-    <div>
+    <>
       <NavBar />
-      <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-      <FormField
-        label="Email"
-        type="email"
-        placeholder="e.g. alexsmith@gmail.com"
-      />
-      <FormField label="Password" type="password" placeholder="Ag524Hqu" />
+      <div style={{ width: "50%", margin: "1% 0" }}>
+        <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
+        <FormField
+          label="Email"
+          type="email"
+          placeholder="e.g. alexsmith@gmail.com"
+        />
+        <FormField label="Password" type="password" placeholder="Ag524Hqu" />
+      </div>
 
-      <CoolButton
-        isSmall="is-small "
-        isDanger="is-danger"
-        className="is-rounded my-class"
-      >
+      <CoolButton isSmall isDanger className="is-rounded my-class">
         Button 1
       </CoolButton>
-      <CoolButton isSmall="is-small " isSuccess="is-success">
+      <CoolButton isSmall isSuccess>
         Button 2
       </CoolButton>
-    </div>
+    </>
   );
 };
 
