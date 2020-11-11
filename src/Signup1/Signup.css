@@ -1,0 +1,11 @@
+.signup {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.buttons {
+  margin-left: 30px;
+}

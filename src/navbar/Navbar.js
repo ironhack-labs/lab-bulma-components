@@ -24,12 +24,16 @@ function Navbar() {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="field is-grouped">
-              <CoolButton isSmall isDanger className="is-rounded my-class">
-                Login
-              </CoolButton>
-              <CoolButton isSmall isSuccess>
-                Signup
-              </CoolButton>
+              <p className="control">
+                <CoolButton isSmall isDanger className="is-rounded my-class">
+                  Login
+                </CoolButton>
+              </p>
+              <p className="control">
+                <CoolButton isSmall isSuccess>
+                  Signup
+                </CoolButton>
+              </p>
             </div>
           </div>
         </div>
