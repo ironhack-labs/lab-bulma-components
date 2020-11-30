@@ -1,0 +1,19 @@
+
+// import './FormField.css'
+// import 'bulma/css/bulma.css';
+
+// const FormField = props => {
+//     return (
+//         <form>
+//             <div className="field">
+//                 <label className="label">{props.label}</label>
+//                 <div className="control">
+//                     <input className="input" type={props.text} placeholder={props.placeholder} />
+//                 </div>
+//             </div>
+//         </form>
+
+//     )
+// }
+
+// export default FormField

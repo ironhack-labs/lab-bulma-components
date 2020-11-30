@@ -1,0 +1,10 @@
+.signUp{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.message {
+  margin: 40px auto;
+    width: 300px;
+}
