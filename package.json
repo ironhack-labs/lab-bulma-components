@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "webpack": "webpack-dev-server --progress --color",
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +25,10 @@
   },
   "dependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "bulma": "^0.9.1",
     "css-loader": "^3.4.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "style-loader": "^1.1.3"
   }
 }
