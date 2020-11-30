@@ -1,7 +1,14 @@
 import React from 'react';
+import './App.css';
+import SignUp from './components/SignUp/SignUp'
 
-const App = () => {
-  return <h1>Bulma</h1>;
-};
+function App() {
+  return (
+    <div>
+      <SignUp />
+
+    </div>
+  );
+}
 
 export default App;
