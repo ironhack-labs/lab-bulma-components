@@ -1,35 +1,34 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
 
-function App() {
+//Components
+// import Navbar from './navbar/Navbar'
+// import FormField from './formfield/FormField'
+
+import SignUp from './components/signup/SignUp'
+import Container from './components/container/Container'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <main>
+      
+    {/* <header><Navbar></Navbar></header>    
+
+    <section>
+        <form class="is-centered">
+          <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
+          <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+        </form>       
+    </section> */}
+
+    <section class="frame">
+      <SignUp></SignUp>
+      <br/>
+      <aside><Container /></aside>
+    </section>
+      
+    </main> 
+  )
 }
 
 export default App;
-
-
-
-// import React from 'react';
-
-// const App = () => {
-//   return <h1>Bulma</h1>;
-// };
-
-// export default App;
