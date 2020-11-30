@@ -14,7 +14,7 @@ const App = () => {
   <Formfield label="Name" type="text" placeholder="e.g. Alex Smith" />
   <Formfield label="Email" type="email" placeholder="e.g. alex.smith@gmail.com" />
   </div>
-  <CoolButton buttonClass="is-danger is-large" text="test" />
+  {/* <CoolButton buttonClass="is-danger is-large" text="test" href="/test" /> */}
 </>
   )
 };

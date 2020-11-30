@@ -1,5 +1,6 @@
 import "bulma/css/bulma.css";
 import React, { Fragment } from "react";
+import CoolButton from '../coolButton/CoolButton'
 // import ReactDOM from 'react-dom';
 
 export default function Navbar() {
@@ -10,7 +11,8 @@ export default function Navbar() {
           <img
             src="https://bulma.io/images/bulma-logo.png"
             width="112"
-            height="28" />
+            height="28"
+          />
         </a>
 
         <a
@@ -34,10 +36,8 @@ export default function Navbar() {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
-              <a className="button is-primary">
-                <strong>Sign up</strong>
-              </a>
-              <a className="button is-light">Log in</a>
+            <CoolButton buttonClass="is-primary" text='Login' href='#' />
+            <CoolButton buttonClass="is-link is-light" text='Signup' href='#' />
             </div>
           </div>
         </div>
