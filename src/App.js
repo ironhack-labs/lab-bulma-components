@@ -1,6 +1,7 @@
 import Navbar from "./navbar/Navbar"
 import FormField from "./formfield/FormField"
 import CoolButton from "./buttons/Buttons"
+import Signup from "./signup/Signup"
 import Message from "./message/Message"
 import 'bulma/css/bulma.css';
 
@@ -14,6 +15,7 @@ function App() {
             <Message isInfo title='Hello World'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>.
             </Message>
+            <Signup/>
           </main>
       )
 }
