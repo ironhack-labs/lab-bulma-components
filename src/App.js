@@ -3,7 +3,8 @@ import "bulma/css/bulma.css";
 import React from 'react';
 import Navbar from './navbar/Navbar.js'
 import Formfield from './formfield/Formfield.js'
-import CoolButton from './coolButton/CoolButton'
+import CoolButton from './coolButton/CoolButton.js'
+import Signup from './signup/Signup.js'
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
   <Formfield label="Name" type="text" placeholder="e.g. Alex Smith" />
   <Formfield label="Email" type="email" placeholder="e.g. alex.smith@gmail.com" />
   </div>
-  {/* <CoolButton buttonClass="is-danger is-large" text="test" href="/test" /> */}
+  {/* <CoolButton buttonClass="is-danger is-large" text="To the signup Page" href="signup/Signup" /> */}
+  <Signup />
 </>
   )
 };
