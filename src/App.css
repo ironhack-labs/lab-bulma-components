@@ -1,0 +1,19 @@
+.iteration1,
+.iteration2,
+.iteration3,
+.iteration4 {
+    margin-bottom: 100px;
+}
+
+h3 {
+    text-align: center;
+    background-color: yellow;
+}
+
+.iteration2,
+.iteration3,
+.signupForm,
+.message {
+    margin: 50px;
+    width: 25%;
+}
