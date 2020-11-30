@@ -23,7 +23,7 @@ const Navbar = () => {
                     <a class="navbar-item" href="https://bulma.io/">
                         Home
                     </a>
-                    <div class="navbar-item has-dropdown is-hoverable">
+                    {/* <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
                         Docs
                         </a>
@@ -51,7 +51,7 @@ const Navbar = () => {
                             Components
                         </a>
                         </div>
-                    </div>
+                    </div> */}
                     </div>
 
                     <div class="navbar-end">
@@ -62,18 +62,9 @@ const Navbar = () => {
                             <span class="icon">
                                 <i class="fab fa-twitter"></i>
                             </span>
-                            {/* <span>
-                                Tweet
-                            </span> */}
-                            <CoolButton isSmall isDanger className="is-rounded my-class">Log IN</CoolButton>
-                            </a>
-                        </p>
-                        <p class="control">
-                            <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.9.1/bulma-0.9.1.zip">
-                            <span class="icon">
-                                <i class="fas fa-download"></i>
-                            </span>
-                            <span>Download</span>
+                            <CoolButton className="button is-danger" type="submit" title="Log in"/>
+                            <CoolButton className="button is-success" type="submit" title="Sign Up"/>
+                            <a></a>
                             </a>
                         </p>
                         </div>

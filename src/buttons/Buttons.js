@@ -3,10 +3,9 @@ import React from 'react'
 
 const CoolButton = (props) => {
     return (
-        <div className='Buttons'>
-            <button class="button is-rounded my-class is-danger is-small">LOG IN</button>
-            <button class="button is-small is-success">SIGN UP</button>
-        </div>
+        <div className="Buttons">
+        <button className={props.className} type={props.type}>{props.title}</button>
+    </div>
     )
 }
 
