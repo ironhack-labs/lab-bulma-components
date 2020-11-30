@@ -15,6 +15,7 @@ const Signup = () => {
         placeholder="e.g. alexsmith@gmail.com"
       />
       <FormField label="Password" type="password" placeholder="123456789" />
+      <CoolButton className="button is-info" type="submit" title="Submit" />
     </div>
   );
 };
