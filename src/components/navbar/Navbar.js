@@ -27,10 +27,10 @@ const Navbar = props => {
               <CoolButton class="button is-rounded my-class is-danger is-small" name="Log In" />
               <CoolButton class="button is-small is-success" name="Log Out" />
               
-             {/* <div class="buttons">        
+             <div class="buttons">        
                 <a href="https://bulma.io/" class="button is-info">Log in</a>
                 <a href="https://bulma.io/" class="button is-primary">Sign up</a>
-              </div> */}
+              </div>
             </div>
         </div>
       </nav>
