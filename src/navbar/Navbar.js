@@ -32,20 +32,25 @@ const Navbar = () => {
             </a>
           </div>
 
-                         <div class="navbar-end">
-                    <div class="navbar-item">
-                        <div class="field is-grouped">
-                       
-                            <CoolButton className="button is-rounded is-danger" type="submit" title="Log in"/>
-                            <CoolButton className="button  is-success" type="submit" title="Sign Up"/>
-                         
-                        
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </nav>
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="field is-grouped">
+                <CoolButton
+                  className="button is-rounded is-danger"
+                  type="submit"
+                  title="Log in"
+                />
+                <CoolButton
+                  className="button  is-success"
+                  type="submit" 
+                  title="Sign Up"
+                />
+              </div>
+            </div>
+          </div>
         </div>
+      </nav>
+    </div>
   );
 };
 
