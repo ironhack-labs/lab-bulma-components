@@ -1,0 +1,14 @@
+.message {
+    max-width: 400px;
+    border: 1px solid rgb(85, 163, 236);
+}
+
+span {
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
