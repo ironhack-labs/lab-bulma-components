@@ -1,0 +1,7 @@
+.field {
+    margin: 30px;
+}
+
+input[type=text], input[type=email] {
+    width: 80%;
+}
