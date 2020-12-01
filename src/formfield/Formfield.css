@@ -1,0 +1,14 @@
+.form1 {
+    display: flex;
+    justify-content: center;
+}
+
+.control1 {
+    border: 2px solid #999;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.input {
+    width: 200px;
+}
