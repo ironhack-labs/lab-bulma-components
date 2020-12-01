@@ -1,20 +1,19 @@
 import React from 'react'
 
-class FormField extends React.Component {
-    render () {
+function Formfield (props) {
     return (
       <div className='field'>
-        <label className='label'>{this.props.label}</label>
+        <label className='label'>{props.label}</label>
         <div className="formInput">
             <input 
             className="input"
-            type={this.props.input}
-            placeholder={this.props.placeholder}
+            type={props.type}
+            placeholder={props.placeholder}
             />
         </div>
       </div>
     );
   };
-}
 
-export default FormField;
+
+export default Formfield;

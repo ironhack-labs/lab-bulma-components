@@ -2,8 +2,7 @@ import React from "react";
 import "bulma/css/bulma.css";
 import CoolButton from "../coolButton/CoolButton";
 
-class Navbar extends React.Component {
-  render() {
+function Navbar () {
     return (
         <nav className="navbar is-transparent">
         <div className="navbar-brand">
@@ -48,6 +47,6 @@ class Navbar extends React.Component {
       </nav>
     )
   }
-}
+
 
 export default Navbar;
