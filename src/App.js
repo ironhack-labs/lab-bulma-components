@@ -7,15 +7,15 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div>
+      <h1>Sign up Page</h1>
+      <form>
         <FormField label="Name" type="text" />
         <FormField label="Email" type="email" />
-      </div>
+        <FormField label="Password" type="password" />
+        <CoolButton class="button is-small is-success" name="Sign up" />
+      </form>
     </div>
   );
 };
 
 export default App;
-
-// button is-rounded my-class is-danger is-small
-// button is-small is-success
