@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./navbar/Navbar";
 import FormField from "./formfield/FormField";
 import CoolButton from "./coolbutton/CoolButton";
+import Signup from "./signup/Signup";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <CoolButton isSmall isSuccess>
         Button 2
       </CoolButton>
+      <Signup />
     </div>
   );
 };
