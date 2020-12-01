@@ -2,6 +2,7 @@ import React from "react";
 import Formfield from "./formfield/Formfield";
 import Navbar from "./Navbar/Navbar";
 import 'bulma/css/bulma.css';
+import CoolButton from "./CoolButton/CoolButton";
 
 const App = () => {
   return (
@@ -15,6 +16,10 @@ const App = () => {
 label="Email" 
 type="email" 
 placeholder="e.g. alexsmith@gmail.com" />
+
+<CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
+<CoolButton isSmall isSuccess>Button 2</CoolButton>
+
   </div>
   )
 };
