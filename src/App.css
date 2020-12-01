@@ -1,0 +1,12 @@
+body {
+    background-color: lightblue; 
+ 
+}
+
+.form {
+   padding: 10px; 
+   margin: 10px; 
+   display:flex;
+   justify-content:center;
+   align-items:center
+}
