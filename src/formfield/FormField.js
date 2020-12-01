@@ -5,8 +5,12 @@ import 'bulma/css/bulma.css';
 const FormField = (props) => {
     return (
       <div className='Formfield'>
-        <label className='label'>{props.label}</label>
-        <input type={props.type} name={props.label} placeholder={props.placeholder}/>
+        <div class="field">
+          <label class="label">{props.label}</label>
+          <div class="control">
+            <input class="input" type={props.type} placeholder={props.placeholder} />
+          </div>
+        </div>
       </div>
     );
   };

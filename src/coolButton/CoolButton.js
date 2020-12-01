@@ -2,12 +2,12 @@ import React from 'react'
 import './CoolButton.css'
 import 'bulma/css/bulma.css';
 
-const FormField = (props) => {
+const Coolbutton = (props) => {
     return (
       <div className='Coolbutton'>
-          <button type={props.type} >{props.value}</button>
+          <button class={props.class} type={props.type}> {props.value} </button>
       </div>
     );
   };
 
-export default FormField;
+export default Coolbutton;

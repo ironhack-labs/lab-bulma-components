@@ -1,13 +1,24 @@
 import React from 'react';
 import Navbar from './navbar/Navbar'
-import Signup from './signup/Signup'
+import Formfield from './formfield/FormField'
+import Signup from './signup/Signup';
+import Container from './Container';
+
 import 'bulma/css/bulma.css';
 
+
 const App = () => {
-  <div>
-    <Navbar />;
-    <Signup />
-  </div>
+  return (
+    <div>
+      <Navbar />
+      <Formfield label="Name" type="text" placeholder="e.g Alex Smith" />
+      <Formfield label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+      <hr />
+      <Signup />
+      <hr />
+      <Container class="message is-info" />
+    </div>
+  )
 };
 
 export default App;

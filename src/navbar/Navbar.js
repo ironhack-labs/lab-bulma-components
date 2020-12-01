@@ -54,8 +54,8 @@ const Navbar = () => {
 
                 <div class="navbar-end">
                     <div class="navbar-item">
-                       <CoolButton />
-                       <CoolButton />
+                       <CoolButton class="button is-rounded my-class is-danger is-small" value='Signup'/>
+                       <CoolButton class="button is-small is-success" value='Login'/>
                     </div>
                 </div>
                 </div>
