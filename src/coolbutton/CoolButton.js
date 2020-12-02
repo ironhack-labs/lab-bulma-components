@@ -31,11 +31,11 @@ const CoolButton = (props) => {
     isWhite: "is-white",
   };
 
-  let startingStyle = `button `;
-  for (key in props) {
-    for (attribute in attrs) {
+  let startingStyle = `button`;
+  for (let key in props) {
+    for (let attribute in attrs) {
       if (key === attribute) {
-        className += `attrs[attribute] `;
+        startingStyle += ` ${attrs[attribute]}`;
       }
     }
   }
