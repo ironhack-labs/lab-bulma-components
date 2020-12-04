@@ -1,16 +1,21 @@
-import 'bulma/css/bulma.css'
-import React from 'react'
+import React from "react";
+import "./Formfield.css";
 
-
-
-const Formfield = props => {
-    return (
-        <div className="Formfield">
-            <label className="label">{props.label}</label>
-                <input className={props.input} type="text" placeholder={props.placeholder} />
+const FormField = (props) => {
+  return (
+    <div>
+      <div className="field">
+        <label className="label">{props.label}</label>
+        <div className="control">
+          <input
+            className="input"
+            type="text"
+            placeholder={props.placeholder}
+          />
         </div>
-    );
-  };
-  
-  export default Formfield;
-  
+      </div>
+    </div>
+  );
+};
+
+export default FormField;

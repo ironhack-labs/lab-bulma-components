@@ -1,10 +1,10 @@
-import "bulma/css/bulma.css";
 import React from "react";
-import CoolButton from "../button/CoolButton";
+import "bulma/css/bulma.css";
+import CoolButton from "../coolButton/CoolButton";
 
 const Navbar = () => {
   return (
-    <div className="Navbar">
+    <div>
       <nav class="navbar is-transparent">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
@@ -15,37 +15,23 @@ const Navbar = () => {
               height="28"
             />
           </a>
-          <div
-            class="navbar-burger burger"
-            data-target="navbarExampleTransparentExample"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
         </div>
-
         <div id="navbarExampleTransparentExample" class="navbar-menu">
           <div class="navbar-start">
             <a class="navbar-item" href="https://bulma.io/">
               Home
             </a>
           </div>
-
           <div class="navbar-end">
             <div class="navbar-item">
-              <div class="field is-grouped">
-                <CoolButton
-                  className="button is-rounded is-danger"
-                  type="submit"
-                  title="Log in"
-                />
-                <CoolButton
-                  className="button  is-success"
-                  type="submit" 
-                  title="Sign Up"
-                />
-              </div>
+              <CoolButton
+                className="button is-small is-success"
+                data="Sign up"
+              />
+              <CoolButton
+                className="button is-rounded my-class is-danger is-small"
+                data="Log in"
+              />
             </div>
           </div>
         </div>
