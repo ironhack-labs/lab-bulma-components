@@ -20,7 +20,7 @@ module.exports = {
     ]
   },
   devServer: {
-    port: 3000,
+    port: 3005,
     inline: true,
     hot: true
   },
