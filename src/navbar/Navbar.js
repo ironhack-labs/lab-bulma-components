@@ -1,7 +1,7 @@
 import 'bulma/css/bulma.css';
 import React from 'react';
 
-function Navbar() {
+function Navbar(props) {
         return(
             <nav className="navbar is-transparent">
                 <div className="navbar-brand">
@@ -20,14 +20,7 @@ function Navbar() {
                     <div className="navbar-item">
                         <div className="field is-grouped">
                             <p className="control">
-                                <a className="button is-primary" target="_blank" href="#">
-                                Login
-                                </a>
-                            </p>
-                            <p className="control">
-                                <a className="button is-secondary" target="_blank" href="#">
-                                Signup
-                                </a>
+                                {props.children}
                             </p>
                         </div>
                     </div>
