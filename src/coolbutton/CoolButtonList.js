@@ -35,7 +35,7 @@ class CoolButtonList extends React.Component {
 
           const classesValues = Object.values(buttonsClasses)
 
-          const buttonsToRender = classesValues.map(button => <div><button className = {`button is-rounded ${button}`} >{button}</button><br/></div>)
+          const buttonsToRender = classesValues.map(button => <div><button className = {`button is-rounded ${button}`} >{button}</button></div>)
 
         return buttonsToRender;
     }

@@ -62,13 +62,15 @@ class Navbar extends React.Component {
                 Login
               </span>
             </a> */}
-            <CoolButton className="bd-tw-button button" value = "Signup"/>
+            <CoolButton className="bd-tw-button button" value = "Login" href="#"/>
           </p>
           <p className="control">
             {/* <a className="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.9.1/bulma-0.9.1.zip">
               <span>Signup</span>
             </a> */}
-            <CoolButton className="button is-primary" value = "Signup"/>
+            <CoolButton className="button is-primary" value = "Signup" href="/signup">
+
+            </CoolButton>
           </p>
         </div>
       </div>
