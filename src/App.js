@@ -1,7 +1,12 @@
 import React from 'react';
+import {SignupForm} from './forms/SignupForm';
 
 const App = () => {
-  return <h1>Bulma</h1>;
+    return (
+        <div className="container">
+            <SignupForm/>
+        </div>
+    );
 };
 
 export default App;
