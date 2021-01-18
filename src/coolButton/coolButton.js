@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
 
-export default function CoolButton(props) {
+function CoolButton(props) {
 
     let className = 'button ' + props.className
 
@@ -12,6 +12,10 @@ export default function CoolButton(props) {
     if (props.isDanger) {
         className += 'is-danger '
     }
+
+    if (props.isSuccess) {
+        className += "is-success ";
+        }
 
     return (
         <div>
