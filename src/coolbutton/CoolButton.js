@@ -12,7 +12,7 @@ function CoolButton(props) {
     }
 
     return (
-        <button className={classes}>{props.name}</button>
+        <button className={classes} type={props.type}>{props.name}</button>
     );
 }
 
