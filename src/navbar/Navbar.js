@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
+import CoolButton from '../coolbutton/CoolButton';
 
 class Navbar extends React.Component {
     render() {
@@ -27,16 +28,10 @@ class Navbar extends React.Component {
                 <div class="navbar-item">
                   <div class="field is-grouped">
                     <p class="control">
-                      <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
-                        <span>
-                          Login
-                        </span>
-                      </a>
+                      <CoolButton className='is-danger is-rounded' name='Login' />
                     </p>
                     <p class="control">
-                      <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.9.1/bulma-0.9.1.zip">
-                        <span>Signup</span>
-                      </a>
+                      <CoolButton className='is-success' name='Signup' />
                     </p>
                   </div>
                 </div>
