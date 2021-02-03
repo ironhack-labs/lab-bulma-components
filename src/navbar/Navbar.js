@@ -4,9 +4,9 @@ import CoolButton from "../coolbutton/CoolButton";
 
 function Navbar(props) {
   return (
-    <nav class="navbar is-transparent">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+    <nav className="navbar is-transparent">
+      <div className="navbar-brand">
+        <a className="navbar-item" href="https://bulma.io">
           <img
             src="https://bulma.io/images/bulma-logo.png"
             alt="Bulma: a modern CSS framework based on Flexbox"
@@ -17,21 +17,24 @@ function Navbar(props) {
       </div>
 
       <div id="navbarExampleTransparentExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="https://bulma.io/">
+        <div className="navbar-start">
+          <a className="navbar-item" href="https://bulma.io/">
             Home
           </a>
         </div>
 
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="field is-grouped">
-              <p class="control">
-                <CoolButton class="button is-info" text="Login"></CoolButton>
-              </p>
-              <p class="control">
+        <div className="navbar-end">
+          <div className="navbar-item">
+            <div className="field is-grouped">
+              <p className="control">
                 <CoolButton
-                  class="button is-primary"
+                  className="button is-info"
+                  text="Login"
+                ></CoolButton>
+              </p>
+              <p className="control">
+                <CoolButton
+                  className="button is-primary"
                   text="Signup"
                 ></CoolButton>
               </p>

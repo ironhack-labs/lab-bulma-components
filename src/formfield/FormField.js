@@ -4,12 +4,12 @@ import "./FormField.css";
 
 function FormField(props) {
   return (
-    <div class="form-size">
-      <div class="field">
-        <label class="label">{props.label}</label>
-        <div class="control">
+    <div className="form-size">
+      <div className="field">
+        <label className="label">{props.label}</label>
+        <div className="control">
           <input
-            class="input"
+            className="input"
             type={props.type}
             placeholder={props.placeholder}
           ></input>

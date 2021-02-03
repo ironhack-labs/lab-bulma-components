@@ -5,7 +5,7 @@ import "./CoolButton.css";
 function CoolButton(props) {
   return (
     <div>
-      <button class={props.class}>{props.text}</button>
+      <button className={props.className}>{props.text}</button>
     </div>
   );
 }
