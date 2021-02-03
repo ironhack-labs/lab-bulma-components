@@ -2,6 +2,8 @@ import "bulma/css/bulma.css";
 import "./Navbar.css";
 import CoolButton from "../coolbutton/CoolButton";
 import React from "react";
+import Signup from "../signup/Signup";
+import App from "../app/App";
 
 function NavMenu() {
   return (
@@ -24,8 +26,16 @@ function NavMenu() {
           </div>
 
           <div className="navbar-end">
-            <CoolButton text="Login" class="is-primary mr-2 mt-1"></CoolButton>
-            <CoolButton text="Signup" class="is-info ml-2 mt-1"></CoolButton>
+            <CoolButton
+              text="Login"
+              click={App}
+              class="is-primary mr-2 mt-1"
+            ></CoolButton>
+            <CoolButton
+              text="Signup"
+              click={Signup}
+              class="is-info ml-2 mt-1"
+            ></CoolButton>
           </div>
         </div>
       </nav>

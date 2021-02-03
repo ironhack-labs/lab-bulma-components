@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
 import FormField from "../formfield/FormField";
-import Signup from "../signup/Signup";
+import CoolButton from "../coolbutton/CoolButton";
 
-const App = () => {
+const Signup = () => {
   return (
     <div>
       <div>
@@ -16,9 +16,11 @@ const App = () => {
           type="email"
           placeholder="e.g. alexsmith@gmail.com"
         />
+        <FormField label="Pasword" type="password" placeholder="Pasword" />
+        <CoolButton text="SignUp" class="is-link mt-1"></CoolButton>
       </div>
     </div>
   );
 };
 
-export default App;
+export default Signup;
