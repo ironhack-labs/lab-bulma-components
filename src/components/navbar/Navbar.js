@@ -6,7 +6,7 @@ import Container from "../container/Container";
 
 function NavMenu() {
   return (
-    <header>
+    <header className="navbar-width">
       <nav className="navbar is-transparent is-fixed-top">
         <div className="navbar-brand container is-justify-content-space-between is-transparent">
           <div className="navbar-start">
