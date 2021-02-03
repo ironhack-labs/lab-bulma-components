@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../navbar/Navbar";
 import FormField from "../formfield/FormField";
 import CoolButton from "../coolbutton/CoolButton";
+import Message from "../message/Message";
+import Container from "../container/Container";
 
 const Signup = () => {
   return (
@@ -17,8 +19,14 @@ const Signup = () => {
           placeholder="e.g. alexsmith@gmail.com"
         />
         <FormField label="Pasword" type="password" placeholder="Pasword" />
-        <CoolButton text="SignUp" class="is-link mt-1 ml-4"></CoolButton>
+        <CoolButton text="Submit" class="is-link mt-1 ml-4"></CoolButton>
       </div>
+
+      <Message
+        title="Hello World"
+        regularText="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        strongText="Pellentesque risus mi"
+      ></Message>
     </div>
   );
 };

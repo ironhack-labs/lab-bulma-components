@@ -2,7 +2,7 @@ import "bulma/css/bulma.css";
 import "./Navbar.css";
 import CoolButton from "../coolbutton/CoolButton";
 import React from "react";
-import Signup from "../signup/Signup";
+import Container from "../container/Container";
 
 function NavMenu() {
   return (
