@@ -84,16 +84,16 @@ Now it's time to create a new component `FormField` we will use multiple times i
 
 ```html
 <!-- What is rendered in the DOM -->
-<div class="field">
-  <label class="label">Name</label>
-  <div class="control">
-    <input class="input" type="text" placeholder="e.g Alex Smith" />
+<div className="field">
+  <label className="label">Name</label>
+  <div className="control">
+    <input className="input" type="text" placeholder="e.g Alex Smith" />
   </div>
 </div>
-<div class="field">
-  <label class="label">Email</label>
-  <div class="control">
-    <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" />
+<div className="field">
+  <label className="label">Email</label>
+  <div className="control">
+    <input className="input" type="email" placeholder="e.g. alexsmith@gmail.com" />
   </div>
 </div>
 ```
@@ -131,8 +131,8 @@ You will find the Bulma buttons documentation here: https://bulma.io/documentati
 
 ```html
 <!-- What is rendered in the DOM -->
-<button class="button is-rounded my-class is-danger is-small">Button 1</button>
-<button class="button is-small is-success">Button 2</button>
+<button className="button is-rounded my-class is-danger is-small">Button 1</button>
+<button className="button is-small is-success">Button 2</button>
 ```
 
 What is visually rendered

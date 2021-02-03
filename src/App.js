@@ -4,6 +4,7 @@ import "bulma/css/bulma.css";
 
 import Navbar from "./navbar/Navbar";
 import FormField from "./formfield/Formfield";
+import CoolButton from "./coolbutton/CoolButton";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         type="email"
         placeholder="e.g. alexsmith@gmail.com"
       />
+      <CoolButton>Login</CoolButton>
     </div>
   );
 };

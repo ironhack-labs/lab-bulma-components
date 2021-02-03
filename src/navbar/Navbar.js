@@ -1,10 +1,12 @@
 import React from "react";
 
+import CoolButton from "../coolbutton/CoolButton";
+
 export default function Navbar() {
   return (
-    <nav class="navbar is-transparent">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+    <nav className="navbar is-transparent">
+      <div className="navbar-brand">
+        <a className="navbar-item" href="https://bulma.io">
           <img
             src="https://bulma.io/images/bulma-logo.png"
             alt="Bulma: a modern CSS framework based on Flexbox"
@@ -13,7 +15,7 @@ export default function Navbar() {
           />
         </a>
         <div
-          class="navbar-burger"
+          className="navbar-burger"
           data-target="navbarExampleTransparentExample"
         >
           <span></span>
@@ -22,40 +24,20 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div id="navbarExampleTransparentExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="https://bulma.io/">
+      <div id="navbarExampleTransparentExample" className="navbar-menu">
+        <div className="navbar-start">
+          <a className="navbar-item" href="https://bulma.io/">
             Home
           </a>
         </div>
       </div>
 
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <div class="field is-grouped">
-            <p class="control">
-              <a
-                class="bd-tw-button button"
-                data-social-network="Twitter"
-                data-social-action="tweet"
-                data-social-target="https://bulma.io"
-                target="_blank"
-                href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms"
-              >
-                <span>Tweet</span>
-              </a>
-            </p>
-            <p class="control">
-              <a
-                class="button is-primary"
-                href="https://github.com/jgthms/bulma/releases/download/0.9.1/bulma-0.9.1.zip"
-              >
-                <span class="icon">
-                  <i class="fas fa-download"></i>
-                </span>
-                <span>Download</span>
-              </a>
-            </p>
+      <div className="navbar-end">
+        <div className="navbar-item">
+          <div className="field is-grouped">
+            
+            <CoolButton isSmall isDanger isRound>Login</CoolButton>
+            <CoolButton isSmall isSuccess isRound>Signup</CoolButton>
           </div>
         </div>
       </div>
