@@ -8,13 +8,13 @@ const App = () => {
   return (
     <React.Fragment>
     <Navbar />
-    <form class="box">
+    <form className="box">
         <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
         <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
 
-      <div class="field is-grouped">
-          <CoolButton class="button is-rounded is-danger" text='Cancel' />
-          <CoolButton class="button is-success" text='Submit' />
+      <div className="field is-grouped">
+          <CoolButton className="button is-rounded is-danger" text='Cancel' />
+          <CoolButton className="button is-success" text='Submit' />
       </div>
     </form>
   </React.Fragment>
