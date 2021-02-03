@@ -1,5 +1,6 @@
 import React from 'react'
 import 'bulma/css/bulma.css'
+import {CoolButton} from '../coolbutton/CoolButton'
 
 export const Navbar = () => 
     <nav class="navbar is-transparent">
@@ -18,20 +19,10 @@ export const Navbar = () =>
 
             <div class="navbar-end">
                 <div class="navbar-item">
-                <div class="field is-grouped">
-                    <p class="control">
-                        <a class="button is-info" href="#">
-                            <span>
-                            Login
-                            </span>
-                        </a>
-                    </p>
-                    <p class="control">
-                        <a class="button is-primary" href="#">
-                            <span>Signin</span>
-                        </a>
-                    </p>
-                </div>
+                    <div class="field is-grouped">
+                        <CoolButton class="button is-info" text='Login' />
+                        <CoolButton class="button is-primary" text='Signup' />
+                    </div>
                 </div>
             </div>
         </div>
