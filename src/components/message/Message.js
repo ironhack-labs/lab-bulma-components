@@ -4,12 +4,12 @@ import "./Message.css";
 
 const Message = (props) => {
   return (
-    <article class="message message-width mt-5">
-      <div class="message-header">
+    <article className={`message message-width mt-5 ${props.class}`}>
+      <div className="message-header">
         <p>{props.title}</p>
         <button class="delete" aria-label="delete"></button>
       </div>
-      <div class="message-body">
+      <div className="message-body">
         {props.regularText} <strong>{props.strongText}</strong>
       </div>
     </article>
