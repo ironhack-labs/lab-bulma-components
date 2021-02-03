@@ -9,7 +9,7 @@ const Signup = () => {
       <div>
         <Navbar></Navbar>
       </div>
-      <div className="container">
+      <div className="container is-flex-direction-column">
         <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
         <FormField
           label="Email"
@@ -17,7 +17,7 @@ const Signup = () => {
           placeholder="e.g. alexsmith@gmail.com"
         />
         <FormField label="Pasword" type="password" placeholder="Pasword" />
-        <CoolButton text="SignUp" class="is-link mt-1"></CoolButton>
+        <CoolButton text="SignUp" class="is-link mt-1 ml-4"></CoolButton>
       </div>
     </div>
   );

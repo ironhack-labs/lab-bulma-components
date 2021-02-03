@@ -4,9 +4,9 @@ import Signup from "../signup/Signup";
 
 const CoolButton = (props) => {
   return (
-    <button onClick={props.click} className={`button ${props.class}`}>
+    <a href={props.click} className={`button ${props.class}`}>
       {props.text}
-    </button>
+    </a>
   );
 };
 

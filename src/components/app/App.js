@@ -4,21 +4,7 @@ import FormField from "../formfield/FormField";
 import Signup from "../signup/Signup";
 
 const App = () => {
-  return (
-    <div>
-      <div>
-        <Navbar></Navbar>
-      </div>
-      <div className="container">
-        <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-        <FormField
-          label="Email"
-          type="email"
-          placeholder="e.g. alexsmith@gmail.com"
-        />
-      </div>
-    </div>
-  );
+  return <Signup></Signup>;
 };
 
 export default App;
