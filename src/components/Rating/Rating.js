@@ -1,7 +1,7 @@
 import React from 'react'
 
-function Rating (props){
-    const mark = Math.round(props)
+function Rating ({rating}){
+    const mark = Math.round(rating)
     if (mark === '1'){
         return "★☆☆☆☆" 
     }
