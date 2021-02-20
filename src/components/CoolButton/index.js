@@ -3,16 +3,13 @@ import 'bulma/css/bulma.css';
 
 
 
-// const CoolButton = props => {
-//   return (
-//     <div className=''>
-      
-     
-//     </div>
-//   );
-// };
+const CoolButton = ({classList, name}) => {
+  return <button className={classList}>{name}</button>
+};
 
-// export default CoolButton;
+export default CoolButton;
+
+
 
 
 
