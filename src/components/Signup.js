@@ -8,14 +8,20 @@ const Signup = () => (
     <Navbar />
     <main>
       <form>
-        <FormField label="Name" type="text" placeholder="e.g. AlexSmith" />
         <FormField
+          className="mt-2"
+          label="Name"
+          type="text"
+          placeholder="e.g. AlexSmith"
+        />
+        <FormField
+          className="mt-2"
           label="Email"
           type="email"
           placeholder="e.g. alexsmith@gmail.com"
         />
-        <FormField label="Password" type="password" />
-        <CoolButton isSmall isDanger className="is-rounded">
+        <FormField className="mt-2" label="Password" type="password" />
+        <CoolButton isPrimary className="mt-3 is-rounded">
           Submit
         </CoolButton>
       </form>
