@@ -1,5 +1,4 @@
-import './navbar.css'
-
+import './Navbar.css'
 
 import 'bulma/css/bulma.css';
 
