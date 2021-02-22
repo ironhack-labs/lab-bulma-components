@@ -1,0 +1,15 @@
+body {
+  font-family:sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 200;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
