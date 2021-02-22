@@ -16,7 +16,7 @@ const Signup = () => (
         />
         <FormField label="Password" type="password" />
         <CoolButton isSmall isDanger className="is-rounded">
-          Button 1
+          Submit
         </CoolButton>
       </form>
     </main>
