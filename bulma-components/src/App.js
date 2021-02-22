@@ -4,6 +4,7 @@ import Navbar from './navbar/Navbar';
 import FormField from './formField/FormField';
 import CoolButton from './coolButton/CoolButton';
 import Signup from './signup/Signup';
+import Message from './message/Message';
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
       <CoolButton className="button is-rounded my-class is-danger is-small is-centered" btn1="Button 1" > </CoolButton>
       <CoolButton className="button is-small is-success is-centered" btn1="Button 2"> </CoolButton>
       <Signup></Signup>
+      <Message
+        title="Hello world"
+        description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque risus mi."
+      > </Message>
 
     </>
 
