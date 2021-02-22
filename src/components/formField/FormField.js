@@ -1,5 +1,8 @@
 import './FormField.css'
 
+import 'bulma/css/bulma.css';
+
+
 const FormField = ({ label, type, placeholder }) => {
 
     return (
