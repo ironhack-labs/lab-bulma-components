@@ -1,4 +1,5 @@
 import './Navbar.css'
+import CoolButton from '../coolButton/CoolButton'
 
 import 'bulma/css/bulma.css';
 
@@ -27,10 +28,10 @@ const Navbar = () => {
                     <div class="navbar-item">
                         <div class="field is-grouped">
                             <p class="control">
-                                <a class="bd-tw-button button" href="#">Login</a>
+                                <CoolButton isSmall isDanger className="is-rounded my-class" btnName="Button 1" />
                             </p>
                             <p class="control">
-                                <a class="button is-primary" href="#">Sign up</a>
+                                <CoolButton isSmall isSuccess btnName="Button 2" />
                             </p>
                         </div>
                     </div>
