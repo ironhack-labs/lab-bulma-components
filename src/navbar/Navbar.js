@@ -1,5 +1,7 @@
 import 'bulma/css/bulma.css';
 import React from 'react';
+import CoolButton from '../CoolButton/CoolButton';
+
 
 const Brand = () => {
     return (
@@ -29,9 +31,7 @@ const Signup = () => {
     return (
         <div className="navbar-item">
             <p className="control">
-            <a className="button is-primary" href="/login">
-              <span>Signup</span>
-            </a>
+            <CoolButton classes="button is-primary">Signup</CoolButton>
           </p>
         </div>
     );
@@ -42,9 +42,7 @@ const Login = () => {
     return (
         <div className="navbar-item">
             <p className="control">
-            <a className="button is-info" href="/signup">
-              <span>Login</span>
-            </a>
+            <CoolButton classes="button is-info">Login</CoolButton>
           </p>
         </div>
     );
@@ -54,7 +52,7 @@ function Navbar() {
     return (
         <nav className="navbar is-transparent">
             <Brand />
-            <div class="navbar-start">
+            <div className="navbar-start">
                 <Home />
             </div>
             <div className="navbar-end">
