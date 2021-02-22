@@ -1,7 +1,17 @@
 import React from 'react';
+import Navbar from './navbar/Navbar.js';
+import bulma from 'bulma/css/bulma.css';
+import FormField from './formfield/FormField.js'
+import SignUp from './Signup/Signup'
+
+
 
 const App = () => {
-  return <h1>Bulma</h1>;
+  return (
+    <>
+      <SignUp /> 
+    </>
+  );
 };
 
 export default App;
