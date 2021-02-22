@@ -1,0 +1,18 @@
+.container {
+  margin: 0 auto;
+}
+
+.container > .navbar {
+  margin-bottom: 100px
+}
+
+.form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.message {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 80px;
+}
