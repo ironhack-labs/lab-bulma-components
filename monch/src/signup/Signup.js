@@ -3,15 +3,16 @@ import 'bulma/css/bulma.css';
 import Navbar from '../navbar/Navbar';
 import FormField from '../formfield/FormField';
 import CoolButton from '../coolbutton/CoolButton';
+import './Signup.css'
 
 const Signup = () => {
     return (
         <>
             {/* <Navbar /> */}
             <FormField label="Name" type="text" placeholder="Your Name" />
-            <FormField label="email" type="email" placeholder="Enter your email here" />
-            <FormField label="password" type="password" placeholder="Your password" />
-            <CoolButton typeButton="button is-success is-rounded is-focused" text="submit">Submit</CoolButton>
+            <FormField label="Email" type="email" placeholder="Enter your email here" />
+            <FormField label="Password" type="password" placeholder="Your password" />
+            <CoolButton div className='submit' typeButton="button is-success is-rounded is-focused" text="Submit">Submit</CoolButton>
         </>
     )
 }
