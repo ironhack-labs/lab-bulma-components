@@ -4,7 +4,7 @@ import 'bulma/css/bulma.css';
 
 const CoolButton = (props) => {
     return (
-        <button className={props.classes}>
+        <button type={props.typeBtn} className={props.classes}>
             {props.children}
         </button>
     );
