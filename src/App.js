@@ -1,7 +1,12 @@
 import React from 'react';
+import SignUp from "./Signup";
 
 const App = () => {
-  return <h1>Bulma</h1>;
+  return (
+    <div>
+    <SignUp/>
+    </div>
+  )
 };
 
 export default App;
