@@ -1,7 +1,17 @@
-import React from 'react';
+import './App.css';
+import Navbar from "./navbar/Navbar.js"
+import React from "react"
+import FormField from "./formfield/FormField.js"
+// import Signup from "./Signup.js"
 
-const App = () => {
-  return <h1>Bulma</h1>;
-};
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <FormField />
+    </>
+  );
+}
 
 export default App;
