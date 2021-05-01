@@ -8,7 +8,7 @@ const Navbar = () => {
                 <a className="navbar-item" href="https://bulma.io" >
                     <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
                 </a>
-                <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+                <div className="navbar-burger" data-target="navbarExampleTransparentExample">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -16,20 +16,20 @@ const Navbar = () => {
             </div>
             
             <div className="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item" href="https://bulma.io/">
+                <div className="navbar-start">
+                    <a className="navbar-item" href="https://bulma.io/">
                         Home
                     </a>
                 </div>
                 <div className="navbar-end">
                     <div className="field is-grouped">
                         <div className="control">
-                            <a class="button is-info" href="/login">
+                            <a className="button is-info" href="/login">
                                 Login
                             </a>
                         </div>
                         <div className="control">
-                            <a class="button is-primary" href="/login">
+                            <a className="button is-primary" href="/login">
                                 Sign up
                             </a>
                         </div>
