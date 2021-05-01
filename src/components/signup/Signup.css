@@ -1,0 +1,24 @@
+nav {
+    margin-top: 10px;
+}
+
+.form-container {
+    display: flex;
+    margin: 50px auto;
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #f3f0f0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+}
+
+button {
+    align-self: center;
+    width: 100px;
+}
