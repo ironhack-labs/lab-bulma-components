@@ -1,7 +1,14 @@
-import React from 'react';
+import React from "react";
+import "bulma/css/bulma.css";
+import "./App.css";
+import Navbar from "./Navbar/Navbar";
 
 const App = () => {
-  return <h1>Bulma</h1>;
+  return (
+    <div className="App">
+      <Navbar />
+    </div>
+  );
 };
 
 export default App;
