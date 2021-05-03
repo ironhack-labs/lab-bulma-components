@@ -1,12 +1,12 @@
 import React from "react";
 import "bulma/css/bulma.css";
 import "./App.css";
-import Navbar from "./Navbar/Navbar";
+import Signup from "./Signup/Signup";
 
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
+      <Signup />
     </div>
   );
 };
