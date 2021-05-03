@@ -1,7 +1,11 @@
-import React from 'react';
+import React from "react";
+import "./App.css";
+import Container from "./container/Container";
 
 const App = () => {
-  return <h1>Bulma</h1>;
+  return (
+    <Container />
+  );
 };
 
 export default App;
