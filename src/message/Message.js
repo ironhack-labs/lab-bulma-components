@@ -1,25 +1,17 @@
 import React from "react";
 import "bulma/css/bulma.css";
+import "../message/Message.css";
 
 const Message = (props) => {
-    console.log(props)
+  const { isInfo, title, children } = props;
   return (
-    <div>
-      <article class = {`${props.isInfo}`}>
+    <div className="message">
+      <article class={`message ${isInfo ? "is-info" : ""}`}>
         <div class="message-header">
-          <p>Hello World</p>
+          <p>{title}</p>
           <button class="delete" aria-label="delete"></button>
         </div>
-        <div class="message-body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-          <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta
-          nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida
-          purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac{" "}
-          <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-          sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi
-          magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales
-          sem.
-        </div>
+        ≥<div class="message-body">{children}</div>
       </article>
     </div>
   );

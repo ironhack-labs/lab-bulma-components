@@ -8,7 +8,7 @@ const Container = () => {
     <div className="Container">
       <SignUp />
       <Message isInfo title="Hello World">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         <strong>Pellentesque risus mi</strong>.
       </Message>
     </div>

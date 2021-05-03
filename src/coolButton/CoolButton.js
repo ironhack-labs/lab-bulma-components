@@ -31,7 +31,6 @@ const BTN_CLASSES = {
 
 }
 const CoolButton = (props) => {
-    console.log(props)
     const propNames = Object.keys(props);
     let classes = "button";
 
