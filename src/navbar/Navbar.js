@@ -1,10 +1,11 @@
 import React from 'react';
 import './Navbar.css';
+import CoolButton from '../coolbutton/CoolButton';
 
 class Navbar extends React.Component {
 
     render() {
-        return(
+        return (
             <nav className="navbar is-transparent">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="https://bulma.io">
@@ -53,14 +54,14 @@ class Navbar extends React.Component {
                                     Form
                                 </a>
                                 <hr className="navbar-divider"/>
-                                    <a className="navbar-item"
-                                       href="https://bulma.io/documentation/elements/box/">
-                                        Elements
-                                    </a>
-                                    <a className="navbar-item is-active"
-                                       href="https://bulma.io/documentation/components/breadcrumb/">
-                                        Components
-                                    </a>
+                                <a className="navbar-item"
+                                   href="https://bulma.io/documentation/elements/box/">
+                                    Elements
+                                </a>
+                                <a className="navbar-item is-active"
+                                   href="https://bulma.io/documentation/components/breadcrumb/">
+                                    Components
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -69,35 +70,17 @@ class Navbar extends React.Component {
                         <div className="navbar-item">
                             <div className="field is-grouped">
                                 <p className="control">
-                                    <a className="bd-tw-button button"
-                                       data-social-network="Twitter"
-                                       data-social-action="tweet"
-                                       data-social-target="https://bulma.io"
-                                       target="_blank"
-                                       href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
-              <span className="icon">
-                <i className="fab fa-twitter"></i>
-              </span>
-                                        <span>
-                Tweet
-              </span>
-                                    </a>
+                                    <CoolButton isSmall isPrimary className="is-rounded my-class">Login</CoolButton>
                                 </p>
                                 <p className="control">
-                                    <a className="button is-primary"
-                                       href="https://github.com/jgthms/bulma/releases/download/0.9.2/bulma-0.9.2.zip">
-              <span className="icon">
-                <i className="fas fa-download"></i>
-              </span>
-                                        <span>Download</span>
-                                    </a>
+                                    <CoolButton isSmall isSuccess className="is-rounded my-class">Signup</CoolButton>
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </nav>
-        )
+        );
     }
 }
 
