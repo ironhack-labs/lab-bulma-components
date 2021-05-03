@@ -48,7 +48,12 @@ const App = (props) => {
       return acc + ' ' + coolButtonClasses[cur];
     return acc;
   }, 'button');
-  return <button className={addedClass}>{props.children}</button>;
+  let buttonType = props.type ? 'type="' + props.type + '"' : '';
+  return (
+    <button className={addedClass} type={props.type}>
+      {props.children}
+    </button>
+  );
 };
 
 export default App;
