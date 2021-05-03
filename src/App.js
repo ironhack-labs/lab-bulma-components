@@ -2,9 +2,19 @@ import React from 'react';
 import './App.css';
 import 'bulma/css/bulma.css';
 import Navbar from './navbar/Navbar';
+import FormField from './formfield/FormField'
 
 const App = () => {
-  return <Navbar />
+  return (
+  <div>
+  <Navbar />
+
+    <div className="form">
+      <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
+      <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+    </div>
+  </div>
+  )
 };
 
 export default App;
