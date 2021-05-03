@@ -1,10 +1,10 @@
 import React from "react";
 import "bulma/css/bulma.css";
 import "./Navbar.css";
+import CoolButton from '../coolbutton/CoolButton';
 
 const Navbar = () => {
   return (
-    <div>
       <nav className="navbar is-transparent">
         <div className="navbar-brand">
           <a className="navbar-item" href="#">
@@ -50,6 +50,8 @@ const Navbar = () => {
                     </span>
                     <span>Login</span>
                   </a>
+                  <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
+                  <CoolButton isSmall isDanger name="Login"/>
                 </p>
                 <p className="control">
                   <a
@@ -67,7 +69,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </div>
   );
 };
 
