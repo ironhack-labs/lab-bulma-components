@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import CoolButton from '../coolbutton/CoolButton'
+import CoolButton from './coolbutton/CoolButton'
 import 'bulma/css/bulma.css';
 
 
@@ -12,7 +12,7 @@ function Navbar () {
             <ul>
                 <li><CoolButton buttonName="Signup" classes="button is-rounded my-class is-danger is-small" /></li>
                 
-                <li><CoolButton buttonName="Login" classes="button is-small is-success" /></li>
+                
             </ul>
         </div>
     )
