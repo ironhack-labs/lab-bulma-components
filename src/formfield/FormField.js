@@ -1,22 +1,18 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
 
-function FormField({ name, email }) {
+const FormField = props => {
+    console.log(props)
     return(
-        <div>
-            <div class="field">
-                <label class="label">{name}</label>
-                <div class="control">
-                    <input class="input" type="text" placeholder="e.g Alex Smith" />
+        <div className="formDiv">
+            <div className="input-field">
+                <label className="label">{props.nameLabel}</label>
+                <label className="label">{props.emailLabel}</label>
+                
+                <input className="input" type="text" placeholder={props.emailPldr} />
                 </div>
             </div>
-            <div class="field">
-                <label class="label">{email}</label>
-                <div class="control">
-                    <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" />
-                </div>
-            </div>
-        </div>
+        
     )
 }
 
