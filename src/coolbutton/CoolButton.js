@@ -30,7 +30,6 @@ const CoolButton = (props) => {
       ${props.isSelected && "is-selected"}
       ${props.isSmall && "is-small"}
       ${props.isStatic && "is-static"}
-      ${props.isSuccess && "is-success"}
       ${props.isText && "is-text"}
       ${props.isWarning && "is-warning"}
       ${props.isWhite && "is-white"}

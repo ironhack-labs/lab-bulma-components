@@ -50,7 +50,6 @@ const Navbar = () => {
                     </span>
                     <span>Login</span>
                   </a>
-                  <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
                   <CoolButton isSmall isDanger name="Login"/>
                 </p>
                 <p className="control">

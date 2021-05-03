@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from './navbar/Navbar';
+import SignUp from './signup/SignUp';
 
 const App = () => {
   return(
-    <Navbar />
+    <SignUp />
   );
 };
 
