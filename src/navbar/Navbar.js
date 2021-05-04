@@ -49,8 +49,17 @@ function Navbar(props){
                     </div>
                 </div>
 
-                <div>
-
+                <div className='navbar-end'>
+                    <div className='navbar-items'>
+                        <div className='buttons'>
+                            <a className='button is-primary'>
+                                <strong>Sign Up</strong>
+                            </a>
+                            <a className='button is-light'>
+                                Log In
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
             </nav>
