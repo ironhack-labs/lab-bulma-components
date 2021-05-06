@@ -1,6 +1,5 @@
 import React from 'react';
-import Navbar from './navbar/Navbar';
-import FormField from './formField/FormField';
+import SignUp from './signup/SignUp'
 
 
 
@@ -8,16 +7,7 @@ import FormField from './formField/FormField';
 const App = () => {
   return(
   <div>
-  <Navbar />
-  <FormField 
-    label={'Name'} 
-    type={'text'} 
-    placeholder={'e.g Mayhem Rodriguez'}/>
-
-  <FormField 
-  label={'Email'} 
-  type={'email'} 
-  placeholder={'Mayhem@world.com'}/> 
+<SignUp/>
 
 </div>
   ) 

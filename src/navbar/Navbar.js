@@ -31,10 +31,10 @@ return(
     <div className="navbar-item">
     <div className="field is-grouped">
         <p className='control'>
-        <CoolButton isLogin>Login</CoolButton>
+        <CoolButton isRed>Login</CoolButton>
         </p>
         <p className='control'>
-        <CoolButton isSignup>Signup</CoolButton>
+        <CoolButton isGreen>Signup</CoolButton>
         </p>
       </div>
     </div>
