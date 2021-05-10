@@ -13,8 +13,12 @@ function Signup() {
         <FormField label="Name" type="text" placeholder="Name" />
         <FormField label="Email" type="email" placeholder="Email" />
         <FormField label="Password" type="password" placeholder="Password" />
-            <CoolButton class="button is-primary" />
-            <Message />
+        <CoolButton class="button is-primary" />
+        <Message
+          header="FAQ"
+          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>."
+          type="message is-success"
+        />
       </div>
     );
 }
