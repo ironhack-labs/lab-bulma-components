@@ -1,10 +1,10 @@
 import React from 'react'
 
-class CoolButton extends React.component {
+class CoolButton extends React.Component {
     render() {
         return (
             <div>
-                <button className="button">{this.props.name}</button>
+                <button className={this.props.class}>{this.props.input}</button>
             </div>
         )
     }
