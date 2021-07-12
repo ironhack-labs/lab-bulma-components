@@ -12,15 +12,6 @@ const App = () => {
 
       <Signup
       // navbar
-        navbar = {<Navbar
-          button1 = {<CoolButton class={"is-rounded is-danger is-small"}>
-            Login
-          </CoolButton>}
-          button2 = {<CoolButton class={"is-small is-success"}>
-            Signup
-          </CoolButton>}
-        ></Navbar>
-        }
         name = {<FormField 
           label={"Name"}
           type={"text"}

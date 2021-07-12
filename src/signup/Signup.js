@@ -1,9 +1,14 @@
 import React from 'react';
 
+
+import Navbar from '../navbar/Navbar';
+import CoolButton from '../coolbutton/CoolButton';
+
 function Signup (props) {
     return (
         <div>
-            {props.navbar}
+        <Navbar/>
+    
             {props.name}
             {props.email}
             {props.password}

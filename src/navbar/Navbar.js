@@ -1,4 +1,5 @@
 import React from 'react';
+import CoolButton from '../coolbutton/CoolButton';
 
 function Navbar (props) {
     return (
@@ -20,20 +21,12 @@ function Navbar (props) {
                 <div className="navbar-end">
                 <div className="navbar-item">
                     <div className="field is-grouped">
-                        {props.button1}
-                        {props.button2}
-                        {/* <p className="control">
-                            <a className="bd-tw-button is-info button" data-social-target="https://bulma.io" target="_blank">
-                            <span>
-                                Login
-                            </span>
-                            </a>
-                        </p>
-                        <p className="control">
-                            <a className="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.9.3/bulma-0.9.3.zip">
-                            <span>Signup</span>
-                            </a>
-                        </p> */}
+                    <CoolButton class={"is-rounded is-danger is-small"}>
+                        Login
+                    </CoolButton>
+                    <CoolButton class={"is-small is-success"}>
+                        Signup
+                    </CoolButton>
                     </div>
                 </div>
                 </div>
