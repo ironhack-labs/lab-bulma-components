@@ -1,0 +1,11 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-end {
+    display: flex;
+}
+.navbar-end button {
+    margin: 0 5px;
+}
