@@ -11,6 +11,6 @@ const Signup = () => {
         <FormField label={'Password'} type={'text'} placeholder={'e.g. a mix of uppercase and lowercase letters, numbers and special characters'} />
         <CoolButton input={'Button 2'} class={'button is-primary is-success'} />
     </div>)
-  };
+};
   
 export default Signup;
