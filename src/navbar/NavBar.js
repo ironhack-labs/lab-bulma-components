@@ -26,10 +26,10 @@ function NavBar(){
                     <div className="navbar-end">
                         <div className="navbar-item">
                             <div className="buttons">
-                                <a className="button is-primary">
+                                <a href='/login' className="button is-primary is-danger is-rounded">
                                     <strong>Login</strong>
                                 </a>
-                                <a className="button is-light">
+                                <a href='/signup' className="button is-primary is-success">
                                     Signup
                                 </a>
                             </div>
