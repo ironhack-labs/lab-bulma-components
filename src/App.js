@@ -15,8 +15,8 @@ const App = () => {
            <MyNavbar/>   
            <FormField placeholder = "e.g Alex Smith" type = "text" label ="Name"> </FormField>    
            <FormField placeholder = "e.g. alexsmith@gmail.com" type = "email" label ="Email"> </FormField> 
-           <CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
-            <CoolButton isSmall isSuccess>Button 2</CoolButton>  
+           <CoolButton isSmall isDanger className="is-rounded my-class">Login</CoolButton>
+            <CoolButton isSmall isSuccess>Signup</CoolButton>  
             
             <Signup />
            
