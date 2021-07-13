@@ -6,11 +6,11 @@ function CoolButton () {
 
 return (
 
-<div>
-<button className="button is-primary {props.className}">{props.children}</button>
+
+<button className={buttonClasses}>{props.children}</button>
 
 
-</div>
+
 )
 
 
