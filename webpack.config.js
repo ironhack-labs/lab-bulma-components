@@ -1,4 +1,4 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   module: {
@@ -7,26 +7,26 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
+          loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-react', '@babel/preset-env']
-          }
-        }
+            presets: ["@babel/preset-react", "@babel/preset-env"],
+          },
+        },
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-      }
-    ]
+        use: ["style-loader", "css-loader"],
+      },
+    ],
   },
   devServer: {
     port: 3000,
     inline: true,
-    hot: true
+    hot: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html'
-    })
-  ]
+      template: "./public/index.html",
+    }),
+  ],
 };
