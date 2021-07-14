@@ -1,0 +1,10 @@
+.azul{
+    background-color:lightblue;
+    color:white;
+}
+
+.azul:hover{
+    color:white;
+    border-color: white;
+    background-color: rgb(192, 233, 247);
+}
