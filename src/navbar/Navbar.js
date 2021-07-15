@@ -29,9 +29,9 @@ function Navbar() {
           <div className="navbar-end">
             <div className="navbar-item">
               
-                <CoolButton isSmall isInfo>Login</CoolButton>
+                <CoolButton cname="button is-small is-info">Login</CoolButton>
                  
-                <CoolButton isSmall isSuccess>Signup</CoolButton>
+                <CoolButton cname="button is-small is-success">Signup</CoolButton>
             
               </div>
             </div>
