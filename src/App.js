@@ -1,7 +1,8 @@
-import React from 'react';
+import React from "react"
+import  "bulma / css / bulma.css" 
+import NavBar from "./src/navbar/src/navbar/Navbar";
 
-const App = () => {
-  return <h1>Bulma</h1>;
-};
-
+function App () {
+  return (NavBar, FormField);
+}
 export default App;
