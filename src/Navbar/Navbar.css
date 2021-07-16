@@ -1,0 +1,26 @@
+.navbar{
+    width: 99%;
+    margin-left: 0.5%;
+    background-color: rgba(128, 128, 128, 0.199);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar > div {
+    display: flex;
+    align-items: center;
+}
+.navbar > div > p{
+    font-size: 22px;
+    margin-left: 30px;
+}
+.logo{
+    width: 200px;
+    margin-left: 10px;
+}
+
+.button{
+    width: 100px;
+    margin-right: 10px;
+}
