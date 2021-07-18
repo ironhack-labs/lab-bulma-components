@@ -36,7 +36,7 @@ const CoolButton = (props) => {
   const propNames = Object.keys(props);
   propNames.forEach((propName) => {
     if (legend[propName]) {
-      classes += "" + legend[propName];
+      classes += " " + legend[propName];
     }
   });
   return (
