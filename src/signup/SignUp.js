@@ -12,10 +12,9 @@ const SignUp = (props) => {
         <FormField label="Name" type="text" />
         <FormField label="Email" type="email" />
         <FormField label="Password" type="password" />
-        <CoolButton
-          styles="is-primary is-outlined is-centered"
-          buttonContent="Sign Up"
-        />
+        <CoolButton isSmall isSuccess>
+          Submit
+        </CoolButton>
       </form>
     </div>
   );

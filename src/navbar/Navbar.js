@@ -36,16 +36,12 @@ const Navbar = () => {
             <div className="navbar-item">
               <div className="field is-grouped">
                 <p className="control">
-                  <CoolButton
-                    buttonContent="Sign Up"
-                    styles="is-small is-success"
-                  />
-                </p>
-                <p className="control">
-                  <CoolButton
-                    buttonContent="LogIn"
-                    styles="is-rounded my-class is-danger is-small"
-                  />
+                  <CoolButton isSmall isPrimary isRounded>
+                    Login
+                  </CoolButton>
+                  <CoolButton isSmall isDanger>
+                    Signup
+                  </CoolButton>
                 </p>
               </div>
             </div>
