@@ -4,6 +4,7 @@ import FormField from "./formfield/FormField.js";
 import SignUp from "./signup/SignUp";
 import "bulma/css/bulma.css";
 import Container from "./container/Container.js";
+import Message from "./message/Message.js";
 
 const App = () => {
   return (
@@ -16,6 +17,11 @@ const App = () => {
         placeholder="e.g. alexsmith@gmail.com"
       /> */}
       <SignUp />
+      <Container />
+      <Message isInfo title="Hello World">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+        <strong>Pellentesque risus mi</strong>.
+      </Message>
     </div>
   );
 };
