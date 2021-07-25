@@ -1,0 +1,19 @@
+
+
+.navbar{ 
+    margin-bottom: 60px;
+}
+
+.form-field{
+    width: 700px;
+    margin: auto;
+
+}
+
+.form-field div{
+
+    padding-bottom: 10px;
+}
+.form-field label {
+    text-align: center;
+}
