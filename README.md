@@ -219,7 +219,7 @@ When finished, update your `Navbar` component to use the `CoolButton` component 
 
 ### Iteration 5 | Bonus
 
-Update the `CoolButton` component so that we can style it dynamically through props.
+Update the `CoolButton` component so that it can be styled dynamically through props.
 
 You should convert the component's props into Bulma class names and set them as the button's `className`.
 
