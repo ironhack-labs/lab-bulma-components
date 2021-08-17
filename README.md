@@ -284,17 +284,6 @@ Which should be visually displayed in the following way:
 <br>
 
 ### Iteration 6 | Bonus
-
-Before continuing, ask for feedback from one of your teachers. They can give you a feedback about what you've done.
-
-Then, you can:
-
-- Refactor your code
-- Create a `Container` component (for the class "container")
-- Create a `Message` component (see the following explanation)
-
-#### Message Component
-
 As a bonus task, create a `Message` component. You can find the documentation on Bulma's website: https://bulma.io/documentation/components/message/.
 
 The component will be used like this:
