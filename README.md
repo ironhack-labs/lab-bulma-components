@@ -1,57 +1,48 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# LAB | React Material UI
+# LAB | React Bulma Components
 
 ## Introduction
 
 Do you know [Bulma](https://bulma.io/), a very nice alternative to Bootstrap as a CSS framework? We are going to create a simple website with Bulma and React!
 
-<br>
-
-## Requirements
+## Setup
 
 - Fork this repo
 - Clone this repo
+- Open the LAB and start:
 
-<br>
+  ```bash
+  $ cd lab-bulma-components
+  $ npm install
+  $ npm start
+  ```
 
 ## Submission
 
-- Upon completion, run the following commands
+- Upon completion, run the following commands:
 
-  ```
+  ```bash
   git add .
   git commit -m "done"
   git push origin master
   ```
 
-- Create Pull Request so your TAs can check up your work.
-
-  <br>
+- Create a Pull Request so that your TAs can check your work.
 
 ## Getting Started
 
-1. After forking and cloning, open the project in VS Code.
+Clean the `App.js` component so that it has the following structure:
 
-2. In the terminal, navigate to the root folder of the LAB.
+```jsx
+// src/App.js
+import "./App.css";
 
-3. Create a new React app _in the current directory_:
-
-   ```bash
-   $ npx create-react-app .
-   ```
-
-4. Clean the `App.js` a bit so that it has the following structure:
-
-   ```jsx
-   // src/App.js
-   import "./App.css";
-
-   function App() {
-     return <div className="App"></div>;
-   }
-   export default App;
-   ```
+function App() {
+  return <div className="App"></div>;
+}
+export default App;
+```
 
 <br>
 
@@ -205,7 +196,7 @@ The above should render the following content in the DOM:
 
 Which should be visually displayed in the following way:
 
-![CoolButton content - Example](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-bulma-buttons.png)
+![CoolButton content - Example](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-bulma-buttons-1.png)
 
 If the `isSuccess` prop was passed you need to _convert_ it into a className for the button. You can check Bulma's documentation for the list of _button_ class names: https://bulma.io/documentation/elements/button.
 
@@ -257,8 +248,6 @@ Use the following object of values which maps props names to Bulma class names.
 }
 ```
 
-###
-
 When finished, the component will be used like this:
 
 ```jsx
@@ -284,6 +273,7 @@ Which should be visually displayed in the following way:
 <br>
 
 ### Iteration 6 | Bonus
+
 As a bonus task, create a `Message` component. You can find the documentation on Bulma's website: https://bulma.io/documentation/components/message/.
 
 The component will be used like this:
