@@ -44,8 +44,6 @@ function App() {
 export default App;
 ```
 
-<br>
-
 ### Bulma installation
 
 To get Bulma, install the npm package:
@@ -59,8 +57,6 @@ You will have to import Bulma CSS in every component that will use it. You can d
 ```javascript
 import "bulma/css/bulma.css";
 ```
-
-<br>
 
 ## Instructions
 
