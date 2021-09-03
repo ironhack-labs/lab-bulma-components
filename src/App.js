@@ -1,13 +1,12 @@
 import React from "react";
-/* import Navbar from "./navbar/Navbar";
-import FormField from "./formField/FormField";
-import CoolButton from "./coolButton/CoolButton"; */
+import Message from "./message/Message";
 import Signup from "./signup/Signup";
 
 const App = () => {
   return (
-    <main>
+    <main className="container">
       <Signup />
+      <Message title = "Hello World"/> 
     </main>
   );
 };
