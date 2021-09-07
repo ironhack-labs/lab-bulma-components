@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    background-color: #f5f5f5;
+}
+
+.login-button {
+    background-color: #55acee;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.login-span {
+    width:100%;
+    text-align:center;
+}
