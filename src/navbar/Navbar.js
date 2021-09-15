@@ -2,7 +2,6 @@ import React from 'react';
 import 'bulma/css/bulma.min.css';
 
 
-
 class Navbar extends React.Component {
     render() {
         return (
