@@ -1,32 +1,33 @@
 import React from 'react';
+import CoolButton from '../coolbutton/CoolButton';
 import 'bulma/css/bulma.min.css';
 
 
 class Navbar extends React.Component {
     render() {
         return (
-            <nav class="navbar is-transparent">
-                <div class="navbar-brand">
-                    <a class="navbar-item" href="https://bulma.io">
+            <nav className="navbar is-transparent">
+                <div className="navbar-brand">
+                    <a className="navbar-item" href="https://bulma.io">
                     <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
                     </a>
                 </div>
     
                 <div id="navbarExampleTransparentExample" class="navbar-menu">
-                    <div class="navbar-start">
-                        <a class="navbar-item" href="https://bulma.io/">
+                    <div className="navbar-start">
+                        <a className="navbar-item" href="https://bulma.io/">
                         Home
                         </a>
                     </div>
     
-                    <div class="navbar-end">
-                        <div class="navbar-item">
-                            <div class="field is-grouped">
-                                <p class="control">
-                                    <a class="button is-info">Login</a>
+                    <div className="navbar-end">
+                        <div className="navbar-item">
+                            <div className="field is-grouped">
+                                <p className="control">
+                                    <CoolButton className="button is-rounded my-class is-danger is-small">Log In</CoolButton>
                                 </p>
-                                <p class="control">
-                                    <a class="button is-primary">Signup</a>
+                                <p className="control">
+                                    <CoolButton className="button is-small is-success">Sign Up</CoolButton>
                                 </p>
                             </div>
                         </div>
