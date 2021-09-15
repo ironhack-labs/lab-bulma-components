@@ -1,19 +1,13 @@
 import React from 'react';
 import 'bulma/css/bulma.min.css';
-import Navbar from './navbar/Navbar.js';
-import FormField from './formfield/FormField.js';
-import CoolButton from './coolbutton/CoolButton.js';
+import Signup from './signup/Signup.js';
 
 const App = () => {
   return (
     <main>
-      <Navbar />
-      <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-      <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
-      
-      
+      <Signup />
     </main>
-)
+  )
 };
 
 export default App;

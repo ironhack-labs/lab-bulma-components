@@ -10,8 +10,7 @@ const FormField = props => {
             </div>
         </div>
     );
-  };
-
+};
 
 
 export default FormField;
