@@ -12,19 +12,11 @@ function Navbar() {
             height="28"
           />
         </a>
-        <div
-          class="navbar-burger"
-          data-target="navbarExampleTransparentExample"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
       </div>
 
       <div id="navbarExampleTransparentExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item" href="https://bulma.io/">
+          <a class="navbar-item" href="/">
             Home
           </a>
         </div>
