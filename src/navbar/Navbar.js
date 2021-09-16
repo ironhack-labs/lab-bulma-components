@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import CoolButton from '../coolbutton/CoolButton';
 import 'bulma/css/bulma.min.css';
 
 
-class Navbar extends React.Component {
+class Navbar extends Component {
     render() {
         return (
             <nav className="navbar is-transparent">
@@ -24,10 +24,10 @@ class Navbar extends React.Component {
                         <div className="navbar-item">
                             <div className="field is-grouped">
                                 <p className="control">
-                                    <CoolButton className="button is-rounded my-class is-danger is-small">Log In</CoolButton>
+                                    <CoolButton isSmall isDanger>Log In</CoolButton>
                                 </p>
                                 <p className="control">
-                                    <CoolButton className="button is-small is-success">Sign Up</CoolButton>
+                                    <CoolButton isSmall isSuccess>Sign Up</CoolButton>
                                 </p>
                             </div>
                         </div>

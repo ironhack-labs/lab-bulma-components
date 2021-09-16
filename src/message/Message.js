@@ -1,19 +1,26 @@
 import React, { Component } from 'react';
 import 'bulma/css/bulma.min.css';
+import './Message.css';
 
 
-class FormField extends Component {
+class Message extends Component {
     render() {
-        return (
-            <div className='field column is-half'>
-                <label className='label'>{this.props.label}</label>
-                <div className="control">
-                    <input className="input" type={this.props.type} placeholder={this.props.placeholder} />
+        return this.props.isInfo ?(
+            <article class="message is-info">
+                <div class="message-header">
+                    <p>{this.props.title}</p>
+                    <button class="delete" aria-label="delete"></button>
                 </div>
-            </div>
-        );
+                <div class="message-body">{this.props.children}</div>
+            </article>
+        ) : (
+            <div></div>
+        )
     }
 }
+
+
+
 
 
 // const FormField = (props) => {
@@ -34,4 +41,4 @@ class FormField extends Component {
 
 
 
-export default FormField;
+export default Message;
