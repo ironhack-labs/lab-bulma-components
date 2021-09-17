@@ -1,6 +1,7 @@
 import React from "react";
 
 function CoolButton(props) {
+  console.log(props);
   if (props.isPrimary) {
     props.className.join(" is-primary");
   }
@@ -10,7 +11,7 @@ function CoolButton(props) {
   }
 
   if (props.isDanger) {
-    props.className, join(" is-danger");
+    props.className.join(" is-danger");
   }
 
   return <button className={props.className}>{props.children}</button>;
