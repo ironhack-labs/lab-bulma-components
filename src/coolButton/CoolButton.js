@@ -1,20 +1,15 @@
 import React from "react";
 
 function CoolButton(props) {
-  console.log(props);
-  if (props.isPrimary) {
-    props.className.join(" is-primary");
-  }
-
-  if (props.isSuccess) {
-    props.className.join(" is-success");
-  }
-
-  if (props.isDanger) {
-    props.className.join(" is-danger");
-  }
-
-  return <button className={props.className}>{props.children}</button>;
+  return (
+    <button
+      className={`${props.className} ${props.isPrimary ? "is-primary" : ""} ${
+        props.isSuccess ? "is-success" : ""
+      } ${props.isDanger ? "is-danger" : ""}`}
+    >
+      {props.children}
+    </button>
+  );
 }
 
 export default CoolButton;
