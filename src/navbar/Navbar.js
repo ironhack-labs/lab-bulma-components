@@ -24,10 +24,10 @@ class Navbar extends Component {
                         <div className="navbar-item">
                             <div className="field is-grouped">
                                 <p className="control">
-                                    <CoolButton isSmall isDanger>Log In</CoolButton>
+                                    <CoolButton isSmall isDanger isRounded>Log In</CoolButton>
                                 </p>
                                 <p className="control">
-                                    <CoolButton isSmall isSuccess>Sign Up</CoolButton>
+                                    <CoolButton isSmall isSuccess isRounden>Sign Up</CoolButton>
                                 </p>
                             </div>
                         </div>
