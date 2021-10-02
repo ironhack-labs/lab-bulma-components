@@ -94,7 +94,7 @@ class Navbar extends React.Component {
                     data-social-action="tweet"
                     data-social-target="https://bulma.io"
                     target="_blank"
-                    href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms"
+                    href="/"
                   >
                     <span class="icon">
                       <i class="fab fa-twitter"></i>
@@ -103,10 +103,7 @@ class Navbar extends React.Component {
                   </a>
                 </p>
                 <p class="control">
-                  <a
-                    class="button is-primary"
-                    href="https://github.com/jgthms/bulma/releases/download/0.9.3/bulma-0.9.3.zip"
-                  >
+                  <a class="button is-primary" href="/">
                     <span class="icon">
                       <i class="fas fa-download"></i>
                     </span>
