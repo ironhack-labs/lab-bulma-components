@@ -1,12 +1,14 @@
 import React from "react";
-import Navbar from "./navbar/Navbar";
-import FormField from "./formfield/FormField";
-import CoolButton from "./coolbutton/CoolButton";
-import Signup from "./signup/Signup";
-const App = () => {
+import "bulma/css/bulma.css";
+import Navbar from "../navbar/Navbar";
+import FormField from "../formfield/FormField";
+import CoolButton from "../coolbutton/CoolButton";
+
+function Signup(props) {
+  console.log(props);
   return (
-    <>
-      <Navbar />
+    <div>
+      <Navbar></Navbar>
       <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
       <FormField
         label="Email"
@@ -17,12 +19,8 @@ const App = () => {
       <CoolButton isSmall isDanger className="is-rounded my-class">
         Button 1
       </CoolButton>
-      <CoolButton isSmall isSuccess>
-        Button 2
-      </CoolButton>
-      <Signup />
-    </>
+    </div>
   );
-};
+}
 
-export default App;
+export default Signup;

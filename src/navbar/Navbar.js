@@ -1,5 +1,6 @@
 import "bulma/css/bulma.css";
 import React from "react";
+import CoolButton from "../coolbutton/CoolButton";
 
 function Navbar() {
   return (
