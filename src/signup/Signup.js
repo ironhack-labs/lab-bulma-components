@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "./navbar/Navbar";
-import FormField from "./formfield/FormField";
-import CoolButton from "./coolbutton/CoolButton";
-import Signup from "./signup/Signup";
+import "bulma/css/bulma.css";
+import Navbar from "../navbar/Navbar";
+import FormField from "../formfield/FormField";
+import CoolButton from "../coolbutton/CoolButton";
 
-const App = () => {
+function Signup(props) {
   return (
     <>
       <Navbar />
@@ -25,16 +25,11 @@ const App = () => {
       <div>
         <CoolButton
           className="button is-danger is-rounded is-small"
-          buttontext="Button 1"
-        />
-        <CoolButton
-          className="button is-small is-success"
-          buttontext="Button 2"
+          buttontext="Submit"
         />
       </div>
-      <Signup />
     </>
   );
-};
+}
 
-export default App;
+export default Signup;
