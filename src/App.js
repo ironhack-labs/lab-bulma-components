@@ -1,7 +1,12 @@
 import React from 'react';
+import Nav from './navbar/navbar.js';
 
 const App = () => {
-  return <h1>Bulma</h1>;
+  return (
+    <div className="App">
+      <Nav />
+    </div>
+  );
 };
 
 export default App;
