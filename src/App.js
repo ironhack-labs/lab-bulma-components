@@ -1,10 +1,14 @@
 import React from 'react';
-import Nav from './navbar/Navbar.js';
+import Signup from './signup/Signup.js';
+import Message from './message/Message.js';
 
 const App = () => {
   return (
     <div className="App">
-      <Nav />
+      <Signup />
+      <Message className="is-info" title="Hello World">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>.
+      </Message>
     </div>
   );
 };
