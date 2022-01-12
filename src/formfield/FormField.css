@@ -1,0 +1,10 @@
+.field {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    
+}
+
+.label, .input {
+    width: 500px;
+}
