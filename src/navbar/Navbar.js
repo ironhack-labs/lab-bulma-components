@@ -1,6 +1,6 @@
-import React from "react";
 import 'bulma/css/bulma.css';
 import './Navbar.css'
+import React from "react";
 
 
 function Navbar(){
@@ -29,7 +29,7 @@ function Navbar(){
                         <div class="navbar-item">
                             <div class="field is-grouped">
                                 <p class="control">
-                                    <a class="bd-tw-button button" href='#'>
+                                    <a class="bd-tw-button button button-blue" href='#'>
                                     <span>Login</span>
                                     </a>
                                 </p>

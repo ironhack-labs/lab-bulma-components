@@ -1,0 +1,13 @@
+img {
+    margin: 0 auto; 
+}
+
+nav {  
+    width: 100vw;
+    margin: 10px;
+}
+
+.button-blue {
+    background-color: rgb(94, 158, 241);
+    color: white;
+}
