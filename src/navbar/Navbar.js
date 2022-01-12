@@ -1,6 +1,7 @@
 import 'bulma/css/bulma.css';
 import './Navbar.css'
 import React from "react";
+import CoolButton from '../coolbutton/CoolButton';
 
 
 function Navbar(){
@@ -28,16 +29,11 @@ function Navbar(){
                     <div class="navbar-end">
                         <div class="navbar-item">
                             <div class="field is-grouped">
-                                <p class="control">
-                                    <a class="bd-tw-button button button-blue" href='#'>
-                                    <span>Login</span>
-                                    </a>
-                                </p>
-                                <p class="control">
-                                    <a class="button is-primary" href="#">
-                                    <span>SignUp</span>
-                                    </a>
-                                </p>
+                                <div class="control">
+                                    <CoolButton class="button">
+                                    </CoolButton>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -49,3 +45,4 @@ function Navbar(){
 }
 
 export default Navbar;
+

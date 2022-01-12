@@ -9,12 +9,14 @@ import CoolButton from './coolbutton/CoolButton';
 const App = () => {
   return (
     <div>
-    <Navbar/>
-    <div>
-    <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
-    <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com"/>
-    </div>
-      
+      <Navbar/>
+      <div>
+      <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
+      <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com"/>
+      </div>
+      <div>
+      <CoolButton className="button"></CoolButton>
+      </div>  
     </div>
   )
   
@@ -22,6 +24,3 @@ const App = () => {
 
 export default App;
 
-/*
-<CoolButton isSmall isDanger  className="cool-button is-rounded my-class">Button 1</CoolButton>
-    <CoolButton isSmall isSuccess>Button 2</CoolButton>  */
