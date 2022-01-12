@@ -10,7 +10,7 @@ const Signup = () => {
           <Nav />
           <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
           <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
-          <FormField label="Password" type="password" placeholder="*******" />
+          <FormField label="Password" type="password" placeholder="Your password" />
           <CoolButton className="is-medium is-link">Submit</CoolButton>
         </>
     );
