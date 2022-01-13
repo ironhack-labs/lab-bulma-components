@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "bulma/css/bulma.css";
 import "./CoolButton.css"
-export const CoolButton = (props) => {
+const CoolButton = (props) => {
     return (
         <div>
          <button className={props.className}>{props.text}</button>
