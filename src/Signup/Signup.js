@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "../Navbar/Navbar.js";
-import FormField from "../FormField/FormField.js";
+import FormField from "../Formfield/FormField.js";
 import "bulma/css/bulma.css";
 import CoolButton from "../CoolButton/CoolButton.js";
 import '../Formfield/FormField.css'
