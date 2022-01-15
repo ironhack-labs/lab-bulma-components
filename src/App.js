@@ -1,5 +1,6 @@
 import NavBar from "./navbar/Navbar.js";
 import FormField from "./formfield/Formfield.js";
+import CoolButton from "./coolButton/CoolButton.js";
 // import './App.css';
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
 
       <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
       <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
+
+      <CoolButton className="button is-rounded my-class is-danger is-small">Button 1</CoolButton>
+      <CoolButton className="button is-small is-success">Button 2</CoolButton>
 
       <header className="App-header">
         <p>
