@@ -16,7 +16,7 @@ function Signup() {
             <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
             <FormField label="Password" type="password" placeholder="Best a Passphrase." />
 
-            <CoolButton className="button is-small is-success">Signup</CoolButton>
+            <CoolButton isSmall isSuccess>Signup</CoolButton>
         </div>
     )
 }
