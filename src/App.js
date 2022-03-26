@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CoolButton from "./components/CoolButton";
+import FormField from "./components/FormField";
+import Navbar from "./components/Navbar";
+import SignupForm from "./components/SignupForm";
+
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  return <div className="App">
+    <Navbar />
+    <SignupForm />
+    <CoolButton isInfo>
+button 1
+    </CoolButton>
 
+    <CoolButton isSuccess>
+button 2
+    </CoolButton>
+
+  </div>;
+}
 export default App;
